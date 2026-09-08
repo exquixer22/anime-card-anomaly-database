@@ -169,3 +169,18 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   white-space:nowrap;
   flex-shrink:0;
 }
+
+
+/* Modal Off-field indicator: below description, aligned to the right */
+.modal-offfield-row{
+  display:flex;
+  justify-content:flex-end;
+  margin-top:8px;
+}
+
+.modal-offfield-row .ability-offfield{
+  color:#8c9add;
+  font-size:.72rem;
+  font-weight:bold;
+  white-space:nowrap;
+}

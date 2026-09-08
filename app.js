@@ -167,7 +167,7 @@ function renderCards() {
         <div class="ability">
           <h4>${esc(c.abilityName)}</h4>
           ${c.hasOffFieldEffects
-            ? '<span class="ability-offfield">Off-field</span>'
+            ? '<span class="ability-offfield">OFF-FIELD</span>'
             : ''}
         </div>
 
@@ -216,11 +216,9 @@ function renderModalCard(c, rarity) {
         ${formatAbilityDescription(c.abilityDescription)}
       </div>
 
-      <p class="offfield">
-        ${c.hasOffFieldEffects
-          ? "✓ Has Off-Field Effects"
-          : "✕ No Off-Field Effects"}
-      </p>
+      ${c.hasOffFieldEffects
+        ? '<div class="modal-offfield-row"><span class="ability-offfield">OFF-FIELD</span></div>'
+        : ''}
     </div>
   `;
 

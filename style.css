@@ -8,16 +8,22 @@ main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.pag
 .hero{margin-bottom:20px}.hero h2{margin-bottom:7px}.hero p{color:#b8c0d0}
 .controls{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.controls input,.controls select{background:#1b1f2b;color:#fff;border:1px solid #353c50;padding:11px 12px;border-radius:8px}.controls input{flex:1;min-width:230px}
 .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
-.card{background:#1a1e2a;border:1px solid #30374a;border-radius:12px;padding:16px;cursor:pointer;transition:transform .15s,border-color .15s}
-.card:hover{transform:translateY(-3px);border-color:#8c76df}
+.card{background:#1a1e2a;border:2px solid #30374a;border-radius:12px;padding:16px;cursor:pointer;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-3px)}
+.card-Classic{border-color:#808080}
+.card-Scarlet{border-color:#730000}
+.card-Holographic{border-color:#b79bb2}
+.card-Astral{border-color:#ad5094}
+.card-Anomaly{border-color:#430728}
 .badge{display:inline-block;padding:5px 8px;border-radius:99px;background:#30374a;font-size:.75rem;margin-right:5px}
-.rarity-Classic{background:#5d6675}.rarity-Scarlet{background:#9f3038}.rarity-Holographic{background:#7350a6}.rarity-Astral{background:#b88932}.rarity-Anomaly{background:#8c3b8c}
-.card h3{margin:12px 0 4px;font-size:1.25rem}.subtitle{color:#aeb6c9;margin:0 0 12px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.stat{background:#12151d;border-radius:8px;padding:9px;text-align:center}.stat b{display:block;font-size:.76rem;color:#aeb6c9;margin-bottom:4px}
+.rarity-Classic{background:#808080}.rarity-Scarlet{background:#730000}.rarity-Holographic{background:#b79bb2}.rarity-Astral{background:#ad5094}.rarity-Anomaly{background:#430728}
+.card h3{margin:12px 0 4px;font-size:1.25rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.stat{background:#12151d;border-radius:8px;padding:9px;text-align:center}
+.stat b{display:block;font-size:.76rem;margin-bottom:4px;color:inherit}
+.health-stat{color:#4acc2c}.attack-stat{color:#ff0051}.speed-stat{color:#03def7}
 .odds{color:#ffd978;margin:10px 0}.ability{background:#12151d;border-radius:8px;padding:12px}.ability h4{margin:0}.offfield{color:#8fdaa0;font-weight:bold;margin-top:10px}
-.card-footer{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}
-.card-footer .odds,.card-footer .offfield{margin:0}
-.card-footer .offfield{text-align:right;font-size:.5em}
+.card-footer{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}.card-footer .odds,.card-footer .offfield{margin:0}.card-footer .offfield{text-align:right;font-size:.5em}
 .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.info-grid article,.about{background:#1a1e2a;border:1px solid #30374a;border-radius:12px;padding:18px}.info-grid h3{margin-top:0}.note{color:#ffd978}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;padding:20px;z-index:10}.modal.hidden{display:none}
 .modal-box{position:relative;max-width:720px;width:100%;max-height:85vh;overflow:auto;background:#1a1e2a;border:1px solid #414a63;border-radius:14px;padding:28px}

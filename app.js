@@ -10,9 +10,18 @@ fetch('cards.json').then(r=>r.json()).then(data=>{
 
 function fmt(n){return Number(n).toLocaleString('en-US');}
 function rarityClass(r){return 'rarity-'+String(r).replace(/[^a-zA-Z]/g,'');}
+function cardRarityClass(r){return 'card-'+String(r).replace(/[^a-zA-Z]/g,'');}
 
 function populateFilters(){
   rarityOrder.forEach(v=>$('#rarityFilter').insertAdjacentHTML('beforeend',`<option value="${v}">${v}</option>`));
+}
+
+function statsHtml(c){
+  return `<div class="stats">
+    <div class="stat health-stat"><b>HEALTH</b>${fmt(c.health)}</div>
+    <div class="stat attack-stat"><b>ATTACK</b>${fmt(c.attack)}</div>
+    <div class="stat speed-stat"><b>SPEED</b>${fmt(c.speed)}</div>
+  </div>`;
 }
 
 function renderCards(){
@@ -29,20 +38,11 @@ function renderCards(){
 
   $('#count').textContent=`Showing ${filtered.length} of ${cards.length} cards`;
   $('#cardGrid').innerHTML=filtered.map((c,i)=>`
-    <article class="card" data-index="${i}">
+    <article class="card ${cardRarityClass(c.rarity)}" data-index="${i}">
       <span class="badge ${rarityClass(c.rarity)}">${esc(c.rarity)}</span>
       <h3>${esc(c.characterName)}</h3>
-
-      <div class="stats">
-        <div class="stat"><b>❤️ HEALTH</b>${fmt(c.health)}</div>
-        <div class="stat"><b>⚔ ATTACK</b>${fmt(c.attack)}</div>
-        <div class="stat"><b>⚡ SPEED</b>${fmt(c.speed)}</div>
-      </div>
-
-      <div class="ability">
-        <h4>${esc(c.abilityName)}</h4>
-      </div>
-
+      ${statsHtml(c)}
+      <div class="ability"><h4>${esc(c.abilityName)}</h4></div>
       <div class="card-footer">
         <p class="odds">🎲 Odds: ${esc(c.odds)}</p>
         <p class="offfield">${c.hasOffFieldEffects?'✓ Has Off-Field Effects':'✕ No Off-Field Effects'}</p>
@@ -57,11 +57,7 @@ function openCard(index){
   $('#modalContent').innerHTML=`
     <span class="badge ${rarityClass(c.rarity)}">${esc(c.rarity)}</span>
     <h2>${esc(c.characterName)}</h2>
-    <div class="stats">
-      <div class="stat"><b>❤️ HEALTH</b>${fmt(c.health)}</div>
-      <div class="stat"><b>⚔ ATTACK</b>${fmt(c.attack)}</div>
-      <div class="stat"><b>⚡ SPEED</b>${fmt(c.speed)}</div>
-    </div>
+    ${statsHtml(c)}
     <p class="odds">🎲 <strong>Odds:</strong> ${esc(c.odds)}</p>
     <hr>
     <h3>${esc(c.abilityName)}</h3>

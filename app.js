@@ -44,26 +44,52 @@ function statsHtml(stats) {
 function formatAbilityDescription(text) {
   let safe = esc(text);
 
-  // Paragraph spacing used by multi-sentence abilities.
+  // Match the screenshot spacing for separate recurring/raid effects.
   safe = safe.replace(
-    /\.\s+(?=Every\s+\d+\s+Global\s+Turns)/i,
+    /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
     ".</p><p>"
   );
 
-  // Exact highlighted phrases from uploaded card screenshots.
+  // Exact phrase colors from the uploaded card screenshots.
   safe = safe.replace(
     /(\b50%\s+of\s+this\s+card&#039;s\s+damage\b)/gi,
     '<span class="ability-card-damage">$1</span>'
   );
 
+  // Slime: the complete phrase "10% less damage" is gold.
+  safe = safe.replace(
+    /(\b\d+(?:\.\d+)?%\s+less\s+damage\b)/gi,
+    '<span class="ability-less-damage">$1</span>'
+  );
+
+  // Hole: the complete capped amount phrase is green.
+  safe = safe.replace(
+    /(\b100%\s+of\s+this\s+card&#039;s\s+maximum\s+HP\b)/gi,
+    '<span class="ability-max-hp">$1</span>'
+  );
+
+  // Hole: HP and SPEED have different colors.
+  safe = safe.replace(
+    /(\bHP\b)(\s+and\s+)(\bSPEED\b)/gi,
+    '<span class="ability-hp">$1</span>$2<span class="ability-speed">$3</span>'
+  );
+
+  // Hole: the reduction amount is purple.
+  safe = safe.replace(
+    /(\bby\s+)(10%)(?=\.)/i,
+    '$1<span class="ability-reduction">$2</span>'
+  );
+
+  // Demon: only "10% HP" is green.
+  safe = safe.replace(
+    /(\b\d+(?:\.\d+)?%\s+HP\b)/gi,
+    '<span class="ability-hp-percent">$1</span>'
+  );
+
+  // Marine / Living Artillery / World Champion / Blue Cat formatting.
   safe = safe.replace(
     /(\b\d+\s+shots?\b)/gi,
     '<span class="ability-shots">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\b\d+\s+Global\s+Turns\b)/gi,
-    '<span class="ability-global">$1</span>'
   );
 
   safe = safe.replace(
@@ -86,9 +112,16 @@ function formatAbilityDescription(text) {
     '<span class="ability-attack">$1</span>'
   );
 
+  // Any "# turn(s)" or "# Global Turn(s)" is always light gray.
   safe = safe.replace(
-    /(\bSPEED\b)/g,
-    '<span class="ability-speed">$1</span>'
+    /(\b\d+\s+(?:Global\s+)?Turns?\b)/gi,
+    '<span class="ability-turn">$1</span>'
+  );
+
+  // Standalone SPEED remains cyan (e.g. Ball of Feathers).
+  safe = safe.replace(
+    /(?<!>)\bSPEED\b(?!<)/g,
+    '<span class="ability-speed">SPEED</span>'
   );
 
   return `<p>${safe}</p>`;
@@ -99,7 +132,7 @@ function renderCards() {
   const offField = $("#offFieldFilter").value;
 
   // Front page displays one Classic card per character.
-  // Cards are always ordered by odds: 1/2, 1/3, 1/5 ... then rarer cards.
+  // Cards are always ordered by odds: higher odds first (1/2, 1/3, 1/5...).
   const filtered = cards
     .filter(c => {
       const text = [

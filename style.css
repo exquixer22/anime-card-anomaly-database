@@ -140,3 +140,11 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-speed{
   color:#72c7ff;
 }
+
+/* Additional exact ability colors: Slime, Demon, and Hole */
+#modalContent .ability-less-damage{color:#e5b86b;}
+#modalContent .ability-hp-percent{color:#8fdaa0;}
+#modalContent .ability-hp{color:#8fdaa0;}
+#modalContent .ability-reduction{color:#d38bd9;}
+#modalContent .ability-max-hp{color:#8fdaa0;}
+#modalContent .ability-turn{color:#c8c9d4;}

@@ -80,5 +80,47 @@
         "odds": "1/4,000,000"
       }
     }
+  },
+  {
+    "characterName": "Slime",
+    "abilityName": "Slime Body",
+    "abilityDescription": "Takes 10% less damage.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 100,
+        "attack": 200,
+        "speed": 50,
+        "odds": "1/10"
+      }
+    }
+  },
+  {
+    "characterName": "Demon",
+    "abilityName": "Demon Body",
+    "abilityDescription": "Restores 10% HP every 2 turns.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 1130,
+        "attack": 226,
+        "speed": 56,
+        "odds": "1/15"
+      }
+    }
+  },
+  {
+    "characterName": "Hole",
+    "abilityName": "Spiritual Pressure",
+    "abilityDescription": "On entry, reduces the opposing card's HP and SPEED by 10%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 1233,
+        "attack": 247,
+        "speed": 60,
+        "odds": "1/20"
+      }
+    }
   }
 ]

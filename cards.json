@@ -5,7 +5,7 @@
     "health": 145719,
     "attack": 29145,
     "speed": 5859,
-    "odds": "1 / 4,000,000",
+    "odds": "1/4,000,000",
     "abilityName": "Living Artillery",
     "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
     "hasOffFieldEffects": true

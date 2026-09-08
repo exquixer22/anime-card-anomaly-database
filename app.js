@@ -44,7 +44,7 @@ function renderCards(){
       ${statsHtml(c)}
       <div class="ability"><h4>${esc(c.abilityName)}</h4></div>
       <div class="card-footer">
-        <p class="odds">🎲 Odds: ${esc(c.odds)}</p>
+        <p class="odds">${esc(c.odds)}</p>
         <p class="offfield">${c.hasOffFieldEffects?'✓ Has Off-Field Effects':'✕ No Off-Field Effects'}</p>
       </div>
     </article>`).join('')||'<p>No cards found.</p>';
@@ -58,10 +58,10 @@ function openCard(index){
     <span class="badge ${rarityClass(c.rarity)}">${esc(c.rarity)}</span>
     <h2>${esc(c.characterName)}</h2>
     ${statsHtml(c)}
-    <p class="odds">🎲 <strong>Odds:</strong> ${esc(c.odds)}</p>
+    <p class="odds">${esc(c.odds)}</p>
     <hr>
     <h3>${esc(c.abilityName)}</h3>
-    <p>${esc(c.abilityDescription)}</p>
+    ${formatAbilityDescription(c.abilityDescription)}
     <p class="offfield">${c.hasOffFieldEffects?'✓ Has Off-Field Effects':'✕ No Off-Field Effects'}</p>`;
   $('#modal').classList.remove('hidden');
 }

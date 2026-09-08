@@ -64,7 +64,7 @@
   {
     "characterName": "Remote Warlord",
     "abilityName": "Living Artillery",
-    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 global turns, fires 2 missiles at random enemies, each dealing 100% damage.",
     "hasOffFieldEffects": true,
     "rarities": {
       "Classic": {

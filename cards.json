@@ -8,7 +8,7 @@
       "Classic": {
         "health": 36432,
         "attack": 7287,
-        "speed": 1868,
+        "speed": 1488,
         "odds": "1/100,000"
       },
       "Scarlet": {
@@ -26,7 +26,7 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
-        "health": 22210,
+        "health": 22010,
         "attack": 4403,
         "speed": 896,
         "odds": "1/75,000"

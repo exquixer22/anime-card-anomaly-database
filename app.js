@@ -112,6 +112,47 @@ function formatAbilityDescription(text) {
     '<span class="ability-attack">$1</span>'
   );
 
+  // Pusu Pusu: Burn is orange.
+  safe = safe.replace(
+    /(\bBurn\b)/gi,
+    '<span class="ability-burn">$1</span>'
+  );
+
+  // Cyber K.O.K.O: Kokoverclock is purple.
+  safe = safe.replace(
+    /(\bKokoverclock\b)/gi,
+    '<span class="ability-kokoverclock">$1</span>'
+  );
+
+  // Cyber K.O.K.O: the complete "250% of its Attack" phrase is orange.
+  safe = safe.replace(
+    /(\b250%\s+of\s+its\s+Attack\b)/gi,
+    '<span class="ability-cyber-attack">$1</span>'
+  );
+
+  // The Cyclist: SPEED is cyan and "damage dealt" is orange.
+  safe = safe.replace(
+    /(\bdamage\s+dealt\b)/gi,
+    '<span class="ability-damage">$1</span>'
+  );
+
+  // Knucklehead ninja: "Evades" is cyan.
+  safe = safe.replace(
+    /(\bEvades\b)/gi,
+    '<span class="ability-evade">$1</span>'
+  );
+
+  // Eldergrove: Shield is cyan; the percentage + maximum HP phrases are green.
+  safe = safe.replace(
+    /(\bShield\b)/gi,
+    '<span class="ability-shield">$1</span>'
+  );
+
+  safe = safe.replace(
+    /(\b(?:25|10)%\s+of\s+maximum\s+HP\b)/gi,
+    '<span class="ability-max-hp">$1</span>'
+  );
+
   // Any "# turn(s)" or "# Global Turn(s)" is always light gray.
   safe = safe.replace(
     /(\b\d+\s+(?:Global\s+)?Turns?\b)/gi,

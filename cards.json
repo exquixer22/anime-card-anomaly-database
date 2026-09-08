@@ -64,7 +64,7 @@
   {
     "characterName": "Remote Warlord",
     "abilityName": "Living Artillery",
-    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 global turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
     "hasOffFieldEffects": true,
     "rarities": {
       "Classic": {
@@ -88,13 +88,12 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
-        "health": 100,
+        "health": 1000,
         "attack": 200,
         "speed": 50,
         "odds": "1/10"
       }
-    },
-    "health": 1000
+    }
   },
   {
     "characterName": "Demon",
@@ -121,6 +120,90 @@
         "attack": 247,
         "speed": 60,
         "odds": "1/20"
+      }
+    }
+  },
+  {
+    "characterName": "Pusu Pusu",
+    "abilityName": "BOOM",
+    "abilityDescription": "On death, applies Burn to the opposing card for 3 turns.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 1392,
+        "attack": 279,
+        "speed": 66,
+        "odds": "1/30"
+      }
+    }
+  },
+  {
+    "characterName": "Cyber K.O.K.O",
+    "abilityName": "KOKOVERCLOCK",
+    "abilityDescription": "At the start of battle, every allied Koko gains Kokoverclock. When a marked Koko dies, it deals 250% of its Attack to the active enemy. Each Koko can trigger this only once.",
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "health": 4872,
+        "attack": 975,
+        "speed": 225,
+        "odds": "1/50"
+      }
+    }
+  },
+  {
+    "characterName": "Koko",
+    "abilityName": "CUTE SPROUT",
+    "abilityDescription": "Why would you even defeat something this cute?",
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "health": 4060,
+        "attack": 813,
+        "speed": 188,
+        "odds": "1/50"
+      }
+    }
+  },
+  {
+    "characterName": "The Cyclist",
+    "abilityName": "Justice Crash",
+    "abilityDescription": "On entry, immediately attacks and adds its SPEED to the damage dealt.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 1624,
+        "attack": 325,
+        "speed": 75,
+        "odds": "1/50"
+      }
+    }
+  },
+  {
+    "characterName": "Knucklehead ninja",
+    "abilityName": "Body Replacement",
+    "abilityDescription": "Evades the first incoming attack and the first attack that would be fatal.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 2000,
+        "attack": 400,
+        "speed": 90,
+        "odds": "1/100"
+      }
+    }
+  },
+  {
+    "characterName": "Eldergrove",
+    "abilityName": "Ancient Roots",
+    "abilityDescription": "On entry, gains a Shield equal to 25% of maximum HP. Every 3 turns, restores 10% of maximum HP.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 5650,
+        "attack": 1130,
+        "speed": 253,
+        "odds": "1/150"
       }
     }
   }

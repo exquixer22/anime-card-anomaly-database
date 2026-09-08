@@ -184,3 +184,23 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   font-weight:bold;
   white-space:nowrap;
 }
+
+
+/* Exact ability colors for Pusu Pusu and Cyber K.O.K.O */
+#modalContent .ability-burn{
+  color:#f0a06d;
+}
+#modalContent .ability-kokoverclock{
+  color:#c8a5e8;
+}
+#modalContent .ability-cyber-attack{
+  color:#ef9b79;
+}
+
+/* Exact ability colors for The Cyclist, Knucklehead ninja, and Eldergrove */
+#modalContent .ability-evade{
+  color:#79d9e8;
+}
+#modalContent .ability-shield{
+  color:#72c7ff;
+}

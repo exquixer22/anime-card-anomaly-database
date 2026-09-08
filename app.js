@@ -52,6 +52,19 @@ function renderCards(){
   document.querySelectorAll('.card').forEach(el=>el.onclick=()=>openCard(Number(el.dataset.index)));
 }
 
+function formatAbilityDescription(text){
+  let safe = esc(text);
+
+  // Separate recurring Global Turn effects into a new paragraph.
+  safe = safe.replace(/\.\s*(Every\s+\d+\s+Global Turns)/i, '.</p><p>$1');
+
+  // Highlight damage percentages and shot/missile counts.
+  safe = safe.replace(/(\d+(?:\.\d+)?%)/g, '<span class="ability-accent">$1</span>');
+  safe = safe.replace(/(\d+)(?=\s+(?:shots?|missiles?))/gi, '<span class="ability-accent">$1</span>');
+
+  return `<div class="ability-description"><p>${safe}</p></div>`;
+}
+
 function openCard(index){
   const c=cards[index]; if(!c)return;
   $('#modalContent').innerHTML=`

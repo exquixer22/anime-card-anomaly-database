@@ -14,10 +14,14 @@ main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.pag
 .rarity-Classic{background:#5d6675}.rarity-Scarlet{background:#9f3038}.rarity-Holographic{background:#7350a6}.rarity-Astral{background:#b88932}.rarity-Anomaly{background:#8c3b8c}
 .card h3{margin:12px 0 4px;font-size:1.25rem}.subtitle{color:#aeb6c9;margin:0 0 12px}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.stat{background:#12151d;border-radius:8px;padding:9px;text-align:center}.stat b{display:block;font-size:.76rem;color:#aeb6c9;margin-bottom:4px}
-.odds{color:#ffd978;margin:10px 0}.ability{background:#12151d;border-radius:8px;padding:12px}.ability h4{margin:0 0 7px}.offfield{color:#8fdaa0;font-weight:bold;margin-top:10px}
+.odds{color:#ffd978;margin:10px 0}.ability{background:#12151d;border-radius:8px;padding:12px}.ability h4{margin:0}.offfield{color:#8fdaa0;font-weight:bold;margin-top:10px}
+.card-footer{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}
+.card-footer .odds,.card-footer .offfield{margin:0}
+.card-footer .offfield{text-align:right;font-size:.5em}
 .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.info-grid article,.about{background:#1a1e2a;border:1px solid #30374a;border-radius:12px;padding:18px}.info-grid h3{margin-top:0}.note{color:#ffd978}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;padding:20px;z-index:10}.modal.hidden{display:none}
 .modal-box{position:relative;max-width:720px;width:100%;max-height:85vh;overflow:auto;background:#1a1e2a;border:1px solid #414a63;border-radius:14px;padding:28px}
 .close{position:absolute;right:12px;top:8px;border:0;background:none;color:#fff;font-size:2rem;cursor:pointer}
 footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39}code{background:#10131a;padding:3px 6px;border-radius:4px}
 @media(max-width:600px){header{align-items:flex-start}.stats{grid-template-columns:1fr}}
+@media(max-width:500px){.card-footer{flex-direction:column;align-items:flex-start}.card-footer .offfield{text-align:left}}

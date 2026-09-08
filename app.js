@@ -32,14 +32,21 @@ function renderCards(){
     <article class="card" data-index="${i}">
       <span class="badge ${rarityClass(c.rarity)}">${esc(c.rarity)}</span>
       <h3>${esc(c.characterName)}</h3>
+
       <div class="stats">
         <div class="stat"><b>❤️ HEALTH</b>${fmt(c.health)}</div>
         <div class="stat"><b>⚔ ATTACK</b>${fmt(c.attack)}</div>
         <div class="stat"><b>⚡ SPEED</b>${fmt(c.speed)}</div>
       </div>
-      <p class="odds">🎲 Odds: ${esc(c.odds)}</p>
-      <div class="ability"><h4>${esc(c.abilityName)}</h4><p>${esc(short(c.abilityDescription,150))}</p></div>
-      ${c.hasOffFieldEffects?'<p class="offfield">✓ Has Off-Field Effects</p>':''}
+
+      <div class="ability">
+        <h4>${esc(c.abilityName)}</h4>
+      </div>
+
+      <div class="card-footer">
+        <p class="odds">🎲 Odds: ${esc(c.odds)}</p>
+        <p class="offfield">${c.hasOffFieldEffects?'✓ Has Off-Field Effects':'✕ No Off-Field Effects'}</p>
+      </div>
     </article>`).join('')||'<p>No cards found.</p>';
 
   document.querySelectorAll('.card').forEach(el=>el.onclick=()=>openCard(Number(el.dataset.index)));
@@ -63,7 +70,6 @@ function openCard(index){
   $('#modal').classList.remove('hidden');
 }
 
-function short(s,n){return s.length>n?s.slice(0,n-1)+'…':s;}
 function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));}
 
 $('#search').addEventListener('input',renderCards);

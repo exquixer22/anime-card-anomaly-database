@@ -31,30 +31,25 @@ main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.pag
 footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39}code{background:#10131a;padding:3px 6px;border-radius:4px}
 @media(max-width:600px){header{align-items:flex-start}.stats{grid-template-columns:1fr}}
 
-/* Card detail ability description — styled to match the in-game text more closely */
-.modal-box hr{
+
+/* Popup ability description formatting */
+#modalContent .ability-description{
+  color:#e8e8e8;
+  font-size:1rem;
+  line-height:1.38;
+  letter-spacing:.01em;
+}
+#modalContent .ability-description p{
+  margin:0 0 16px;
+}
+#modalContent .ability-description p:last-child{
+  margin-bottom:0;
+}
+#modalContent .ability-accent{
+  color:#f0a06d;
+}
+#modalContent hr{
   border:0;
   border-top:1px solid #9aa0ad;
   margin:14px 0 16px;
 }
-.modal-box h3{
-  margin:0 0 12px;
-}
-.ability-description{
-  color:#e8e8e8;
-  font-size:1rem;
-  line-height:1.35;
-  letter-spacing:.01em;
-}
-.ability-description p{
-  margin:0 0 16px;
-}
-.ability-description p:last-child{
-  margin-bottom:0;
-}
-.ability-accent{
-  color:#f0a06d;
-}
-
-/* Ensure the detail popup is visible whenever the hidden class is removed. */
-.modal:not(.hidden){display:flex;}

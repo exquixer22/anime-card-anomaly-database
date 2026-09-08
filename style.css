@@ -53,3 +53,27 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   border-top:1px solid #9aa0ad;
   margin:14px 0 16px;
 }
+
+
+/* In-game-style ability text colors */
+#modalContent .ability-action{
+  color:#f2b84b;
+}
+#modalContent .ability-global{
+  color:#c8c9d4;
+}
+#modalContent .ability-damage{
+  color:#ef9b79;
+}
+
+
+/* Exact phrase coloring based on the Living Artillery screenshot */
+#modalContent .ability-shots{
+  color:#f2b84b;
+}
+#modalContent .ability-global{
+  color:#c8c9d4;
+}
+#modalContent .ability-damage{
+  color:#ef9b79;
+}

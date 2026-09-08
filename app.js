@@ -37,22 +37,27 @@ function statsHtml(c) {
 function formatAbilityDescription(text) {
   let safe = esc(text);
 
-  // Separate the "Every X Global Turns" effect into its own paragraph.
+  // Separate recurring Global Turn effects into their own paragraph.
   safe = safe.replace(
-    /\. +(?=Every \d+ Global Turns)/i,
+    /\.\s+(?=Every\s+\d+\s+Global\s+Turns)/i,
     ".</p><p>"
   );
 
-  // Highlight percentages.
+  // Match the screenshot's colored phrases exactly:
+  // "6 shots", "150% damage", "2 Global Turns", "100% damage"
   safe = safe.replace(
-    /(\d+(?:\.\d+)?%)/g,
-    '<span class="ability-accent">$1</span>'
+    /(\b\d+\s+shots?\b)/gi,
+    '<span class="ability-shots">$1</span>'
   );
 
-  // Highlight shot and missile counts.
   safe = safe.replace(
-    /(\d+)(?=\s+(?:shots?|missiles?))/gi,
-    '<span class="ability-accent">$1</span>'
+    /(\b\d+\s+Global\s+Turns\b)/gi,
+    '<span class="ability-global">$1</span>'
+  );
+
+  safe = safe.replace(
+    /(\b\d+(?:\.\d+)?%\s+damage\b)/gi,
+    '<span class="ability-damage">$1</span>'
   );
 
   return `<p>${safe}</p>`;

@@ -66,9 +66,9 @@ function formatAbilityDescription(text) {
     '<span class="ability-chance">$1</span>'
   );
 
-  // "dodge" is cyan.
+  // Both "dodge" and "dodges" are cyan.
   safe = safe.replace(
-    /(\bdodge\b)/gi,
+    /(\bdodges?\b)/gi,
     '<span class="ability-dodge">$1</span>'
   );
 

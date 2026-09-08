@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Card: Anomaly Database</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>🎴 Anime Card: Anomaly</h1>
+    <p>Community Card Database</p>
+  </div>
+  <nav>
+    <button class="nav-btn active" data-page="cards">Cards</button>
+    <button class="nav-btn" data-page="mechanics">Mechanics</button>
+    <button class="nav-btn" data-page="about">About</button>
+  </nav>
+</header>
+
+<main>
+  <section id="cards" class="page active">
+    <div class="hero">
+      <h2>Card Database</h2>
+      <p>Browse cards, abilities, and battle information.</p>
+    </div>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search cards or abilities...">
+      <select id="rarityFilter">
+        <option value="">All rarities</option>
+      </select>
+      <select id="typeFilter">
+        <option value="">All ability types</option>
+      </select>
+    </div>
+
+    <p id="count"></p>
+    <div id="cardGrid" class="card-grid"></div>
+  </section>
+
+  <section id="mechanics" class="page">
+    <div class="hero"><h2>Battle Mechanics</h2></div>
+    <div class="info-grid">
+      <article>
+        <h3>🎴 Team Formation</h3>
+        <ul>
+          <li>A team consists of 5 cards.</li>
+          <li>Only 1 card is active on the field at a time.</li>
+          <li>The remaining 4 cards stay on the bench.</li>
+          <li>You choose the placement order from first to last.</li>
+          <li>When the active card is defeated, the next card in the bench order replaces it.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>🌐 Global Turn</h3>
+        <p>Based on current observations, a Global Turn refers to an overall battle cycle involving both fielded cards completing their actions, including applicable off-field effects.</p>
+        <p class="note">Status: Observed / needs further testing.</p>
+      </article>
+      <article>
+        <h3>🪑 Field & Bench</h3>
+        <p><strong>Field:</strong> The currently active card.</p>
+        <p><strong>Bench:</strong> The four waiting cards. Some abilities can affect battle while the card remains off-field.</p>
+      </article>
+      <article>
+        <h3>⚠️ Accuracy Policy</h3>
+        <p>Mechanics are marked as confirmed, observed, or unconfirmed as more information becomes available.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="page">
+    <div class="hero"><h2>About This Database</h2></div>
+    <article class="about">
+      <p>This is a fan-made, community-maintained database for the Roblox game <strong>Anime Card: Anomaly</strong>.</p>
+      <p>The goal is to document cards, abilities, rarities, battle mechanics, and eventually team synergies.</p>
+      <p>Version 1 currently contains sample entries that can be expanded by editing <code>cards.json</code>.</p>
+    </article>
+  </section>
+</main>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    <button id="closeModal" class="close">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<footer>Fan-made database • Not affiliated with Roblox or the game developers</footer>
+<script src="app.js"></script>
+</body>
+</html>

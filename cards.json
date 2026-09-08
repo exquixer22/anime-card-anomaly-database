@@ -1,24 +1,42 @@
 [
   {
     "characterName": "Remote Warlord",
-    "rarity": "Scarlet",
-    "health": 145719,
-    "attack": 29145,
-    "speed": 5859,
-    "odds": "1/4,000,000",
     "abilityName": "Living Artillery",
     "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
-    "hasOffFieldEffects": true
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "health": 36432,
+        "attack": 7287,
+        "speed": 1868,
+        "odds": "1/100,000"
+      },
+      "Scarlet": {
+        "health": 145719,
+        "attack": 29145,
+        "speed": 5859,
+        "odds": "1/4,000,000"
+      }
+    }
   },
   {
     "characterName": "World Champion",
-    "rarity": "Holographic",
-    "health": 352146,
-    "attack": 70430,
-    "speed": 14102,
-    "odds": "1 / 750,000,000",
     "abilityName": "Lucky Human",
     "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
-    "hasOffFieldEffects": false
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 22210,
+        "attack": 4403,
+        "speed": 896,
+        "odds": "1/75,000"
+      },
+      "Holographic": {
+        "health": 352146,
+        "attack": 70430,
+        "speed": 14102,
+        "odds": "1/750,000,000"
+      }
+    }
   }
 ]

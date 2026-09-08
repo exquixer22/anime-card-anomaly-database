@@ -89,3 +89,45 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-attack{
   color:#f0787d;
 }
+
+
+/* Rarity selector in card details */
+.rarity-toggle-row{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:14px;
+}
+.rarity-toggle{
+  background:#12151d;
+  color:#eef0f5;
+  border:2px solid #30374a;
+  border-radius:8px;
+  padding:8px 12px;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:.82rem;
+}
+.rarity-toggle:hover{
+  filter:brightness(1.15);
+}
+.rarity-toggle.active{
+  background:#222738;
+  box-shadow:0 0 0 1px rgba(255,255,255,.08) inset;
+}
+.rarity-toggle.card-Classic{border-color:#808080}
+.rarity-toggle.card-Scarlet{border-color:#730000}
+.rarity-toggle.card-Holographic{border-color:#b79bb2}
+.rarity-toggle.card-Astral{border-color:#ad5094}
+.rarity-toggle.card-Anomaly{border-color:#430728}
+
+.modal-card{
+  border:2px solid #30374a;
+  border-radius:10px;
+  padding:16px;
+}
+.modal-card.card-Classic{border-color:#808080}
+.modal-card.card-Scarlet{border-color:#730000}
+.modal-card.card-Holographic{border-color:#b79bb2}
+.modal-card.card-Astral{border-color:#ad5094}
+.modal-card.card-Anomaly{border-color:#430728}

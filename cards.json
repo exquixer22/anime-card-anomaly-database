@@ -9,5 +9,16 @@
     "abilityName": "Living Artillery",
     "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
     "hasOffFieldEffects": true
+  },
+  {
+    "characterName": "World Champion",
+    "rarity": "Holographic",
+    "health": 352146,
+    "attack": 70430,
+    "speed": 14102,
+    "odds": "1 / 750,000,000",
+    "abilityName": "Lucky Human",
+    "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
+    "hasOffFieldEffects": false
   }
 ]

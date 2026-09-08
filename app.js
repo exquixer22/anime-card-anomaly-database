@@ -43,8 +43,7 @@ function formatAbilityDescription(text) {
     ".</p><p>"
   );
 
-  // Match the screenshot's colored phrases exactly:
-  // "6 shots", "150% damage", "2 Global Turns", "100% damage"
+  // Living Artillery formatting from the screenshot.
   safe = safe.replace(
     /(\b\d+\s+shots?\b)/gi,
     '<span class="ability-shots">$1</span>'
@@ -58,6 +57,25 @@ function formatAbilityDescription(text) {
   safe = safe.replace(
     /(\b\d+(?:\.\d+)?%\s+damage\b)/gi,
     '<span class="ability-damage">$1</span>'
+  );
+
+  // Lucky Human formatting from the screenshot.
+  // "30% chance" is gold.
+  safe = safe.replace(
+    /(\b\d+(?:\.\d+)?%\s+chance\b)/gi,
+    '<span class="ability-chance">$1</span>'
+  );
+
+  // "dodge" is cyan.
+  safe = safe.replace(
+    /(\bdodge\b)/gi,
+    '<span class="ability-dodge">$1</span>'
+  );
+
+  // "10% Attack" is red/pink.
+  safe = safe.replace(
+    /(\b\d+(?:\.\d+)?%\s+Attack\b)/gi,
+    '<span class="ability-attack">$1</span>'
   );
 
   return `<p>${safe}</p>`;

@@ -77,3 +77,15 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-damage{
   color:#ef9b79;
 }
+
+
+/* Lucky Human exact phrase colors based on the uploaded card screenshot */
+#modalContent .ability-chance{
+  color:#e5b86b;
+}
+#modalContent .ability-dodge{
+  color:#79d9e8;
+}
+#modalContent .ability-attack{
+  color:#f0787d;
+}

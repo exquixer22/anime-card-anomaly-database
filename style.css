@@ -131,3 +131,12 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 .modal-card.card-Holographic{border-color:#b79bb2}
 .modal-card.card-Astral{border-color:#ad5094}
 .modal-card.card-Anomaly{border-color:#430728}
+
+
+/* Additional exact phrase colors from uploaded card screenshots */
+#modalContent .ability-card-damage{
+  color:#ef9b79;
+}
+#modalContent .ability-speed{
+  color:#72c7ff;
+}

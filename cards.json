@@ -1,21 +1,43 @@
 [
   {
-    "characterName": "Remote Warlord",
-    "abilityName": "Living Artillery",
-    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
-    "hasOffFieldEffects": true,
+    "characterName": "Marine",
+    "abilityName": "Sword Skill",
+    "abilityDescription": "10% chance to slice the opponent, dealing 50% of this card's damage.",
+    "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
-        "health": 36432,
-        "attack": 7287,
-        "speed": 1488,
-        "odds": "1/100,000"
-      },
-      "Scarlet": {
-        "health": 145719,
-        "attack": 29145,
-        "speed": 5859,
-        "odds": "1/4,000,000"
+        "health": 617,
+        "attack": 124,
+        "speed": 35,
+        "odds": "1/2"
+      }
+    }
+  },
+  {
+    "characterName": "Blue Cat",
+    "abilityName": "Max Speed Dodge",
+    "abilityDescription": "10% chance to dodge an incoming attack.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 696,
+        "attack": 140,
+        "speed": 38,
+        "odds": "1/3"
+      }
+    }
+  },
+  {
+    "characterName": "Ball of Feathers",
+    "abilityName": "Light as a Feather",
+    "abilityDescription": "On entry, doubles its SPEED.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 812,
+        "attack": 163,
+        "speed": 43,
+        "odds": "1/5"
       }
     }
   },
@@ -36,6 +58,26 @@
         "attack": 70430,
         "speed": 14102,
         "odds": "1/750,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Remote Warlord",
+    "abilityName": "Living Artillery",
+    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "health": 36432,
+        "attack": 7287,
+        "speed": 1488,
+        "odds": "1/100,000"
+      },
+      "Scarlet": {
+        "health": 145719,
+        "attack": 29145,
+        "speed": 5859,
+        "odds": "1/4,000,000"
       }
     }
   }

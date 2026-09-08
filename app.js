@@ -24,6 +24,14 @@ function cardRarityClass(r) {
   return "card-" + String(r).replace(/[^a-zA-Z]/g, "");
 }
 
+function oddsDenominator(odds) {
+  try {
+    return Number(String(odds).split("/")[1].replace(/,/g, "").trim());
+  } catch {
+    return Infinity;
+  }
+}
+
 function statsHtml(stats) {
   return `
     <div class="stats">
@@ -36,9 +44,16 @@ function statsHtml(stats) {
 function formatAbilityDescription(text) {
   let safe = esc(text);
 
+  // Paragraph spacing used by multi-sentence abilities.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns)/i,
     ".</p><p>"
+  );
+
+  // Exact highlighted phrases from uploaded card screenshots.
+  safe = safe.replace(
+    /(\b50%\s+of\s+this\s+card&#039;s\s+damage\b)/gi,
+    '<span class="ability-card-damage">$1</span>'
   );
 
   safe = safe.replace(
@@ -71,6 +86,11 @@ function formatAbilityDescription(text) {
     '<span class="ability-attack">$1</span>'
   );
 
+  safe = safe.replace(
+    /(\bSPEED\b)/g,
+    '<span class="ability-speed">$1</span>'
+  );
+
   return `<p>${safe}</p>`;
 }
 
@@ -78,18 +98,24 @@ function renderCards() {
   const q = $("#search").value.toLowerCase().trim();
   const offField = $("#offFieldFilter").value;
 
-  // The front page intentionally displays only the Classic version of each character.
-  const filtered = cards.filter(c => {
-    const text = [
-      c.characterName,
-      c.abilityName,
-      c.abilityDescription
-    ].join(" ").toLowerCase();
+  // Front page displays one Classic card per character.
+  // Cards are always ordered by odds: 1/2, 1/3, 1/5 ... then rarer cards.
+  const filtered = cards
+    .filter(c => {
+      const text = [
+        c.characterName,
+        c.abilityName,
+        c.abilityDescription
+      ].join(" ").toLowerCase();
 
-    return (!q || text.includes(q)) &&
-      (!offField || String(c.hasOffFieldEffects) === offField) &&
-      c.rarities && c.rarities.Classic;
-  });
+      return (!q || text.includes(q)) &&
+        (!offField || String(c.hasOffFieldEffects) === offField) &&
+        c.rarities && c.rarities.Classic;
+    })
+    .sort((a, b) =>
+      oddsDenominator(a.rarities.Classic.odds) -
+      oddsDenominator(b.rarities.Classic.odds)
+    );
 
   $("#count").textContent =
     `Showing ${filtered.length} of ${filtered.length} Classic cards`;

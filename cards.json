@@ -93,7 +93,8 @@
         "speed": 50,
         "odds": "1/10"
       }
-    }
+    },
+    "health": 1000
   },
   {
     "characterName": "Demon",

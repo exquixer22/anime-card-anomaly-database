@@ -148,3 +148,24 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-reduction{color:#d38bd9;}
 #modalContent .ability-max-hp{color:#8fdaa0;}
 #modalContent .ability-turn{color:#c8c9d4;}
+
+
+/* Front card ability header: ability name on the left, Off-field on the right */
+.card .ability{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.card .ability h4{
+  min-width:0;
+}
+
+.card .ability-offfield{
+  color:#8c9add;
+  font-size:.72rem;
+  font-weight:bold;
+  white-space:nowrap;
+  flex-shrink:0;
+}

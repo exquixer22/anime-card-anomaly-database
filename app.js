@@ -166,15 +166,13 @@ function renderCards() {
 
         <div class="ability">
           <h4>${esc(c.abilityName)}</h4>
+          ${c.hasOffFieldEffects
+            ? '<span class="ability-offfield">Off-field</span>'
+            : ''}
         </div>
 
         <div class="card-footer">
           <p class="odds">${esc(stats.odds)}</p>
-          <p class="offfield">
-            ${c.hasOffFieldEffects
-              ? "✓ Has Off-Field Effects"
-              : "✕ No Off-Field Effects"}
-          </p>
         </div>
       </article>`;
   }).join("") || "<p>No cards found.</p>";

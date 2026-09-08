@@ -1,30 +1,13 @@
 [
   {
-    "id": "177/263",
-    "name": "Scarlet",
-    "title": "Remote Warlord",
-    "rarity": "Unknown",
-    "ability": "Living Artillery",
-    "abilityType": "OFF-FIELD",
-    "description": "On entry, immediately fires 6 shots at enemies, each dealing 150% damage. Every 2 global turns, fires 2 missiles at random enemies, each dealing 100% damage.",
-    "stats": {
-      "level": "145.19",
-      "attack": "23.19",
-      "speed": "5.859"
-    }
-  },
-  {
-    "id": "Unknown",
-    "name": "Featherboard",
-    "title": "Unknown",
-    "rarity": "Unknown",
-    "ability": "Overclock",
-    "abilityType": "Unknown",
-    "description": "After 3 turns, enters Overheat Mode. Further details can be added after verification.",
-    "stats": {
-      "level": "Unknown",
-      "attack": "Unknown",
-      "speed": "Unknown"
-    }
+    "characterName": "Remote Warlord",
+    "rarity": "Scarlet",
+    "health": 145719,
+    "attack": 29145,
+    "speed": 5859,
+    "odds": "1 / 4,000,000",
+    "abilityName": "Living Artillery",
+    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "hasOffFieldEffects": true
   }
 ]

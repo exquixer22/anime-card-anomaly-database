@@ -58,14 +58,22 @@ function oddsDenominator(odds) {
   }
 }
 
-function statsHtml(stats) {
-  // Support cards do not have Health, Attack, or Speed.
-  if (
+function isSupportCard(stats) {
+  return (
     stats.health === undefined || stats.health === null ||
     stats.attack === undefined || stats.attack === null ||
     stats.speed === undefined || stats.speed === null
-  ) {
-    return "";
+  );
+}
+
+function statsHtml(stats, reserveSpace = false) {
+  // Support cards do not have Health, Attack, or Speed.
+  const hasStats = !isSupportCard(stats);
+
+  if (!hasStats) {
+    // On the front page, reserve the same space as a normal stat row so the
+    // ability and odds align with regular cards. The details modal stays compact.
+    return reserveSpace ? '<div class="stats stats-placeholder" aria-hidden="true"></div>' : "";
   }
 
   return `
@@ -271,12 +279,12 @@ function renderCards() {
     return `
       <article class="card ${cardBorderClass("Classic")}" data-index="${originalIndex}">
         <div class="card-meta">
-          <span class="badge ${borderClass("Classic")}">Classic</span>
+          <span class="badge ${borderClass("Classic")}">${isSupportCard(stats) ? "Support" : "Classic"}</span>
           ${obtainBadgeHtml(c.obtain)}
         </div>
         <h3>${esc(c.characterName)}</h3>
 
-        ${statsHtml(stats)}
+        ${statsHtml(stats, true)}
 
         <div class="ability">
           <h4>${esc(c.abilityName)}</h4>
@@ -316,7 +324,7 @@ function renderModalCard(c, border) {
 
     <div id="modalCard" class="modal-card ${cardBorderClass(border)}">
       <div class="card-meta">
-        <span class="badge ${borderClass(border)}">${esc(border)}</span>
+        <span class="badge ${borderClass(border)}">${isSupportCard(stats) ? "Support" : esc(border)}</span>
         ${obtainBadgeHtml(c.obtain)}
       </div>
       <h2>${esc(c.characterName)}</h2>

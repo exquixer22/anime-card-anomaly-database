@@ -279,22 +279,27 @@ function formatAbilityDescription(text, cardName = "") {
   mark(/\bATTACK\b/g, "ability-attack");
   mark(/\bSPEED\b/g, "ability-speed");
 
-  // Lucky Clown: chance is orange/peach; dodge is blue.
-  mark(/\b20%\s+chance\b/gi, "ability-chance");
-  mark(/\bdodge\b/gi, "ability-dodge");
-
   // Bloomera — Spring Pollen.
-  // Match the original card exactly:
-  // only the first "Spring Pollen" (in the first sentence) is green.
-  // The second "Spring Pollen" remains white.
-  // The entire "20% dodge chance" phrase is cyan and "50%" is green.
+  // This must run BEFORE the general 20% chance/dodge rules below.
+  // mark() protects matches with tokens, so running the general rules first
+  // would split "20% dodge chance" into separate pieces.
   if (cardName === "Bloomera") {
+    // Only the first occurrence shown in the first sentence is green.
     mark(
       /\bSpring\s+Pollen\b(?=\s+across\s+the\s+allied\s+team)/gi,
       "ability-max-hp"
     );
+    // The whole phrase is one cyan span.
     mark(/20%\s+dodge\s+chance/gi, "ability-speed");
     mark(/50%/g, "ability-max-hp");
+  }
+
+  // Lucky Clown: chance is orange/peach; dodge is blue.
+  // Skip these generic rules for Bloomera because its exact phrase above
+  // has already been assigned as one cyan span.
+  if (cardName !== "Bloomera") {
+    mark(/\b20%\s+chance\b/gi, "ability-chance");
+    mark(/\bdodge\b/gi, "ability-dodge");
   }
 
   // Coward Goblin.

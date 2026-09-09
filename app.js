@@ -44,11 +44,64 @@ const obtainColors = {
   "Launch Celebration": "#E040FB"
 };
 
+const sourceLabels = {
+  "Base Pack": "Base",
+  "Manhwa Pack": "Manhwa",
+  "Isekai Pack": "Isekai",
+  "Boss": "Boss",
+  "Raid": "Raid",
+  "Rain Weather": "Rain",
+  "Snow Weather": "Snow",
+  "Storm Weather": "Storm",
+  "Blood Moon Weather": "Blood Moon",
+  "Black Out Weather": "Black Out",
+  "Solar Wrath Weather": "Solar Wrath",
+  "Spooky Weather": "Spooky",
+  "Ink Fall Weather": "Ink Fall",
+  "Time Madness Weather": "Time Madness",
+  "Sylvan Anomaly": "Sylvan",
+  "Cyber Anomaly": "Cyber",
+  "Launch Celebration": "Event",
+  "Event": "Event"
+};
+
+const sourceIcons = {
+  "Base Pack": "pack",
+  "Manhwa Pack": "pack",
+  "Isekai Pack": "pack",
+  "Boss": "boss",
+  "Raid": "raid",
+  "Rain Weather": "weather",
+  "Snow Weather": "weather",
+  "Storm Weather": "weather",
+  "Blood Moon Weather": "weather",
+  "Black Out Weather": "weather",
+  "Solar Wrath Weather": "weather",
+  "Spooky Weather": "weather",
+  "Ink Fall Weather": "weather",
+  "Time Madness Weather": "weather",
+  "Sylvan Anomaly": "anomaly",
+  "Cyber Anomaly": "anomaly",
+  "Launch Celebration": "event",
+  "Event": "event"
+};
+
+function sourceLabel(source) {
+  return sourceLabels[source] || source || "";
+}
+
+function sourceIconHtml(source) {
+  const icon = sourceIcons[source];
+  return icon
+    ? `<img class="source-icon" src="assets/source-icons/${icon}.png" alt="" aria-hidden="true">`
+    : "";
+}
+
 function obtainBadgeHtml(obtain) {
   if (!obtain) return "";
   const color = obtainColors[obtain] || "#778892";
   const fallbackClass = obtainColors[obtain] ? "" : " obtain-color-missing";
-  return `<span class="obtain-badge${fallbackClass}" style="--obtain-color:${esc(color)}">${esc(obtain)}</span>`;
+  return `<span class="obtain-badge${fallbackClass}" style="--obtain-color:${esc(color)}">${sourceIconHtml(obtain)}<span>${esc(sourceLabel(obtain))}</span></span>`;
 }
 
 function oddsDenominator(odds) {
@@ -688,9 +741,42 @@ $("#offFieldFilter").addEventListener("change", () => {
   resetToFirstPage();
   renderCards();
 });
-$("#sourceFilter").addEventListener("change", () => {
+const sourceFilterButton = $("#sourceFilterButton");
+const sourceFilterMenu = $("#sourceFilterMenu");
+
+function closeSourceFilter() {
+  sourceFilterMenu.classList.add("hidden");
+  sourceFilterButton.setAttribute("aria-expanded", "false");
+}
+
+function setSourceFilter(value) {
+  $("#sourceFilter").value = value;
+  const selected = sourceFilterMenu.querySelector(`[data-source="${CSS.escape(value)}"]`);
+  const selectedLabel = selected
+    ? selected.querySelector(".source-filter-item-label")?.textContent
+    : "All Sources";
+  sourceFilterButton.querySelector(".source-filter-selected").textContent = selectedLabel || "All Sources";
+  sourceFilterMenu.querySelectorAll(".source-filter-item").forEach(item => {
+    item.classList.toggle("selected", item.dataset.source === value);
+  });
+  closeSourceFilter();
   resetToFirstPage();
   renderCards();
+}
+
+sourceFilterButton.addEventListener("click", event => {
+  event.stopPropagation();
+  const willOpen = sourceFilterMenu.classList.contains("hidden");
+  sourceFilterMenu.classList.toggle("hidden", !willOpen);
+  sourceFilterButton.setAttribute("aria-expanded", String(willOpen));
+});
+
+sourceFilterMenu.querySelectorAll(".source-filter-item").forEach(item => {
+  item.addEventListener("click", () => setSourceFilter(item.dataset.source));
+});
+
+document.addEventListener("click", event => {
+  if (!event.target.closest(".source-filter-wrap")) closeSourceFilter();
 });
 
 document.querySelectorAll(".sort-stat").forEach(button => {

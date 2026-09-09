@@ -32,26 +32,87 @@
         <option value="true">Off-field only</option>
         <option value="false">No off-field effects</option>
       </select>
-      <select id="sourceFilter" aria-label="Filter cards by source">
+      <select id="sourceFilter" class="source-filter-native" aria-hidden="true" tabindex="-1">
         <option value="">All Sources</option>
-        <option value="Base Pack">Base Pack</option>
-        <option value="Manhwa Pack">Manhwa Pack</option>
-        <option value="Isekai Pack">Isekai Pack</option>
+        <option value="Base Pack">Base</option>
+        <option value="Manhwa Pack">Manhwa</option>
+        <option value="Isekai Pack">Isekai</option>
         <option value="Boss">Boss</option>
         <option value="Raid">Raid</option>
-        <option value="Rain Weather">Rain Weather</option>
-        <option value="Snow Weather">Snow Weather</option>
-        <option value="Storm Weather">Storm Weather</option>
-        <option value="Blood Moon Weather">Blood Moon Weather</option>
-        <option value="Black Out Weather">Black Out Weather</option>
-        <option value="Solar Wrath Weather">Solar Wrath Weather</option>
-        <option value="Spooky Weather">Spooky Weather</option>
-        <option value="Ink Fall Weather">Ink Fall Weather</option>
-        <option value="Time Madness Weather">Time Madness Weather</option>
-        <option value="Sylvan Anomaly">Sylvan Anomaly</option>
-        <option value="Cyber Anomaly">Cyber Anomaly</option>
-        <option value="Launch Celebration">Launch Celebration</option>
+        <option value="Rain Weather">Rain</option>
+        <option value="Snow Weather">Snow</option>
+        <option value="Storm Weather">Storm</option>
+        <option value="Blood Moon Weather">Blood Moon</option>
+        <option value="Black Out Weather">Black Out</option>
+        <option value="Solar Wrath Weather">Solar Wrath</option>
+        <option value="Spooky Weather">Spooky</option>
+        <option value="Ink Fall Weather">Ink Fall</option>
+        <option value="Time Madness Weather">Time Madness</option>
+        <option value="Sylvan Anomaly">Sylvan</option>
+        <option value="Cyber Anomaly">Cyber</option>
+        <option value="Launch Celebration">Event</option>
       </select>
+      <div class="source-filter-wrap">
+        <button id="sourceFilterButton" class="source-filter-button" type="button" aria-haspopup="listbox" aria-expanded="false">
+          <span class="source-filter-selected">All Sources</span><span class="source-filter-chevron">⌄</span>
+        </button>
+        <div id="sourceFilterMenu" class="source-filter-menu hidden" role="listbox">
+          <button type="button" class="source-filter-item selected" data-source="">
+            <span class="source-filter-empty-icon" aria-hidden="true"></span><span class="source-filter-item-label">All Sources</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Base Pack">
+            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Base</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Manhwa Pack">
+            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Manhwa</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Isekai Pack">
+            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Isekai</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Boss">
+            <img class="source-icon" src="assets/source-icons/boss.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Boss</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Raid">
+            <img class="source-icon" src="assets/source-icons/raid.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Raid</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Rain Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Rain</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Snow Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Snow</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Storm Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Storm</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Blood Moon Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Blood Moon</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Black Out Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Black Out</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Solar Wrath Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Solar Wrath</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Spooky Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Spooky</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Ink Fall Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Ink Fall</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Time Madness Weather">
+            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Time Madness</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Sylvan Anomaly">
+            <img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Sylvan</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Cyber Anomaly">
+            <img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Cyber</span>
+          </button>
+          <button type="button" class="source-filter-item" data-source="Launch Celebration">
+            <img class="source-icon" src="assets/source-icons/event.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Event</span>
+          </button>
+        </div>
+      </div>
     </div>
     <div class="sort-row">
       <div class="sort-controls" aria-label="Sort cards by stat">

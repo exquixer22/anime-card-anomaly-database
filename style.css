@@ -246,3 +246,61 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .card-meta{
   margin-bottom:8px;
 }
+
+
+/* Stat sorting controls */
+.sort-controls{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
+  margin-left:auto;
+}
+.sort-label{
+  color:#b8c0d0;
+  font-size:.9rem;
+  font-weight:bold;
+}
+.sort-stat{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  background:#1b1f2b;
+  color:#cfd5e3;
+  border:1px solid #353c50;
+  padding:8px 10px;
+  border-radius:8px;
+  cursor:pointer;
+  font:inherit;
+  font-size:.85rem;
+  transition:background .15s,border-color .15s,color .15s;
+}
+.sort-stat:hover{
+  background:#222738;
+  border-color:#56627e;
+}
+.sort-stat.active{
+  background:#252c3c;
+  border-color:#7a88a6;
+  color:#fff;
+}
+.sort-arrow{
+  color:#8ea1c7;
+  font-weight:bold;
+  min-width:12px;
+  text-align:center;
+}
+.sort-stat.active .sort-arrow{
+  color:#ffd978;
+}
+.card-count{
+  margin:18px 0 0;
+  color:#b8c0d0;
+  font-size:.9rem;
+}
+@media(max-width:700px){
+  .sort-controls{
+    width:100%;
+    margin-left:0;
+  }
+}

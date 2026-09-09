@@ -241,10 +241,37 @@ function formatAbilityDescription(text, cardName = "") {
 
   return `<p>${safe}</p>`;
 }
+let activeSort = {
+  stat: "odds",
+  direction: "desc"
+};
+
+function updateSortControls() {
+  document.querySelectorAll(".sort-stat").forEach(button => {
+    const stat = button.dataset.stat;
+    const arrow = button.querySelector(".sort-arrow");
+    const isActive = activeSort.stat === stat;
+
+    button.classList.toggle("active", isActive);
+
+    if (!isActive) {
+      arrow.textContent = "↕";
+      button.setAttribute("aria-label", `Sort by ${stat}`);
+      return;
+    }
+
+    const isAscending = activeSort.direction === "asc";
+    arrow.textContent = isAscending ? "↑" : "↓";
+    button.setAttribute(
+      "aria-label",
+      `Sort by ${stat}: ${isAscending ? "lowest first" : "highest first"}`
+    );
+  });
+}
+
 function renderCards() {
   const q = $("#search").value.toLowerCase().trim();
   const offField = $("#offFieldFilter").value;
-  const sortBy = $("#sortBy").value;
 
   // Front page displays one Classic card per character.
   const filtered = cards
@@ -269,30 +296,17 @@ function renderCards() {
         (oddsDenominator(aStats.odds) - oddsDenominator(bStats.odds)) ||
         a.characterName.localeCompare(b.characterName);
 
-      // Default: highest probability first (1/2, 1/3, 1/5, ...).
-      if (sortBy === "odds") return oddsTieBreak();
+      // Default ordering remains by odds until a stat is selected.
+      if (activeSort.stat === "odds") return oddsTieBreak();
 
-      // Support cards have no numeric stats, so always place them after
-      // normal cards when sorting by Health, Attack, or Speed.
+      // Support cards have no numeric stats, so keep them after normal cards.
       if (aIsSupport !== bIsSupport) return aIsSupport ? 1 : -1;
       if (aIsSupport && bIsSupport) return oddsTieBreak();
 
-      const sortConfig = {
-        healthHigh: { stat: "health", direction: "desc" },
-        healthLow: { stat: "health", direction: "asc" },
-        attackHigh: { stat: "attack", direction: "desc" },
-        attackLow: { stat: "attack", direction: "asc" },
-        speedHigh: { stat: "speed", direction: "desc" },
-        speedLow: { stat: "speed", direction: "asc" }
-      };
+      const aValue = Number(aStats[activeSort.stat]);
+      const bValue = Number(bStats[activeSort.stat]);
 
-      const config = sortConfig[sortBy];
-      if (!config) return oddsTieBreak();
-
-      const aValue = Number(aStats[config.stat]);
-      const bValue = Number(bStats[config.stat]);
-
-      const difference = config.direction === "desc"
+      const difference = activeSort.direction === "desc"
         ? bValue - aValue
         : aValue - bValue;
 
@@ -396,8 +410,29 @@ function openCard(index) {
 
 $("#search").addEventListener("input", renderCards);
 $("#offFieldFilter").addEventListener("change", renderCards);
-$("#sortBy").addEventListener("change", renderCards);
-$("#sortBy").onchange = renderCards;
+
+document.querySelectorAll(".sort-stat").forEach(button => {
+  button.addEventListener("click", () => {
+    const selectedStat = button.dataset.stat;
+
+    // Clicking the same stat toggles descending ↔ ascending.
+    // Clicking a new stat starts with highest-first.
+    if (activeSort.stat === selectedStat) {
+      activeSort.direction =
+        activeSort.direction === "desc" ? "asc" : "desc";
+    } else {
+      activeSort = {
+        stat: selectedStat,
+        direction: "desc"
+      };
+    }
+
+    updateSortControls();
+    renderCards();
+  });
+});
+
+updateSortControls();
 
 document.querySelectorAll(".nav-btn").forEach(b => {
   b.onclick = () => {

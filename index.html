@@ -32,18 +32,21 @@
         <option value="true">Has Off-Field Effects</option>
         <option value="false">No Off-Field Effects</option>
       </select>
-      <select id="sortBy" aria-label="Sort cards by stat">
-        <option value="odds">Sort by: Odds (Highest First)</option>
-        <option value="healthHigh">Health: Highest First</option>
-        <option value="healthLow">Health: Lowest First</option>
-        <option value="attackHigh">Attack: Highest First</option>
-        <option value="attackLow">Attack: Lowest First</option>
-        <option value="speedHigh">Speed: Highest First</option>
-        <option value="speedLow">Speed: Lowest First</option>
-      </select>
+      <div class="sort-controls" aria-label="Sort cards by stat">
+        <span class="sort-label">Sort:</span>
+        <button class="sort-stat" type="button" data-stat="health" aria-label="Sort by Health">
+          <span>Health</span><span class="sort-arrow">↕</span>
+        </button>
+        <button class="sort-stat" type="button" data-stat="attack" aria-label="Sort by Attack">
+          <span>Attack</span><span class="sort-arrow">↕</span>
+        </button>
+        <button class="sort-stat" type="button" data-stat="speed" aria-label="Sort by Speed">
+          <span>Speed</span><span class="sort-arrow">↕</span>
+        </button>
+      </div>
     </div>
-    <p id="count"></p>
     <div id="cardGrid" class="card-grid"></div>
+    <p id="count" class="card-count"></p>
   </section>
 
   <section id="mechanics" class="page">

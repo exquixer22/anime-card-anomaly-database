@@ -24,6 +24,32 @@ function cardBorderClass(r) {
   return "card-" + String(r).replace(/[^a-zA-Z]/g, "");
 }
 
+const obtainColors = {
+  "Base Pack": "#778892",
+  "Manhwa Pack": "#013478",
+  "Isekai Pack": "#7deaa8",
+  "Sylvan Anomaly": "#399069",
+  "Cyber Anomaly": "#729dce",
+  "Boss": "#5c0909",
+  "Raid": "#FFD700",
+  "Rain Weather": "#4A90B8",
+  "Snow Weather": "#D8F3FF",
+  "Time Madness Weather": "#8B5CF6",
+  "Ink Fall Weather": "#171A2B",
+  "Blood Moon Weather": "#8F1D2C",
+  "Solar Wrath Weather": "#FF7A00",
+  "Storm Weather": "#354052",
+  "Black Out Weather": "#080A0F",
+  "Launch Celebration": "#E040FB"
+};
+
+function obtainBadgeHtml(obtain) {
+  if (!obtain) return "";
+  const color = obtainColors[obtain] || "#778892";
+  const fallbackClass = obtainColors[obtain] ? "" : " obtain-color-missing";
+  return `<span class="obtain-badge${fallbackClass}" style="--obtain-color:${esc(color)}">${esc(obtain)}</span>`;
+}
+
 function oddsDenominator(odds) {
   try {
     return Number(String(odds).split("/")[1].replace(/,/g, "").trim());
@@ -236,7 +262,7 @@ function renderCards() {
     });
 
   $("#count").textContent =
-    `Showing ${filtered.length} of ${filtered.length} Classic cards`;
+    `Showing ${filtered.length} of ${filtered.length} Classic Border cards`;
 
   $("#cardGrid").innerHTML = filtered.map(c => {
     const originalIndex = cards.indexOf(c);
@@ -244,7 +270,10 @@ function renderCards() {
 
     return `
       <article class="card ${cardBorderClass("Classic")}" data-index="${originalIndex}">
-        <span class="badge ${borderClass("Classic")}">Classic</span>
+        <div class="card-meta">
+          <span class="badge ${borderClass("Classic")}">Classic</span>
+          ${obtainBadgeHtml(c.obtain)}
+        </div>
         <h3>${esc(c.characterName)}</h3>
 
         ${statsHtml(stats)}
@@ -286,7 +315,10 @@ function renderModalCard(c, border) {
     </div>
 
     <div id="modalCard" class="modal-card ${cardBorderClass(border)}">
-      <span class="badge ${borderClass(border)}">${esc(border)}</span>
+      <div class="card-meta">
+        <span class="badge ${borderClass(border)}">${esc(border)}</span>
+        ${obtainBadgeHtml(c.obtain)}
+      </div>
       <h2>${esc(c.characterName)}</h2>
 
       ${statsHtml(stats)}

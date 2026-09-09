@@ -1,0 +1,6 @@
+Anime Card Anomaly Database v39 - Obtain Methods
+===============================================
+Cards with Obtain values: 171
+Cards without Obtain values: 18
+Known Obtain values use the exact hex colors supplied by the user.
+Black Out Weather uses the supplied outline color (#080A0F).

@@ -11,7 +11,8 @@
         "attack": 124,
         "speed": 35
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Blue Cat",
@@ -25,7 +26,8 @@
         "attack": 140,
         "speed": 38
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Ball of feathers",
@@ -39,7 +41,8 @@
         "attack": 163,
         "speed": 43
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Slime",
@@ -53,7 +56,8 @@
         "attack": 200,
         "speed": 50
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Demon",
@@ -67,7 +71,8 @@
         "attack": 226,
         "speed": 56
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Hole",
@@ -81,7 +86,8 @@
         "attack": 247,
         "speed": 60
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Pusu Pusu",
@@ -95,7 +101,8 @@
         "attack": 279,
         "speed": 66
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Cyber K.O.K.O",
@@ -109,7 +116,8 @@
         "attack": 975,
         "speed": 225
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Koko",
@@ -123,7 +131,8 @@
         "attack": 813,
         "speed": 188
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "The cyclist",
@@ -137,7 +146,8 @@
         "attack": 325,
         "speed": 75
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Knucklehead ninja",
@@ -151,7 +161,8 @@
         "attack": 400,
         "speed": 90
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Eldergrove",
@@ -165,7 +176,8 @@
         "attack": 1130,
         "speed": 253
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Thunder Boy",
@@ -179,7 +191,8 @@
         "attack": 493,
         "speed": 109
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "FPLN-67",
@@ -193,7 +206,8 @@
         "attack": 1563,
         "speed": 345
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Young Hunter",
@@ -207,7 +221,8 @@
         "attack": 557,
         "speed": 122
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Skyroot",
@@ -221,7 +236,8 @@
         "attack": 1438,
         "speed": 313
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Chad of Conquerors",
@@ -235,7 +251,8 @@
         "attack": 650,
         "speed": 140
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "SPDR-06",
@@ -249,7 +266,8 @@
         "attack": 1950,
         "speed": 420
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Thornveil",
@@ -263,7 +281,8 @@
         "attack": 1798,
         "speed": 385
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "The fake",
@@ -277,7 +296,8 @@
         "attack": 742,
         "speed": 159
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Lucky Clown",
@@ -291,7 +311,8 @@
         "attack": 800,
         "speed": 170
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Bloomera",
@@ -305,7 +326,8 @@
         "attack": 2000,
         "speed": 425
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Coward Goblin",
@@ -319,7 +341,8 @@
         "attack": 800,
         "speed": 170
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Log",
@@ -330,7 +353,8 @@
       "Classic": {
         "odds": "1/1,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "SWRM-87",
@@ -344,7 +368,8 @@
         "attack": 2478,
         "speed": 528
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Ninja Traitor",
@@ -358,7 +383,8 @@
         "attack": 904,
         "speed": 191
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Legs Fighter",
@@ -372,7 +398,8 @@
         "attack": 986,
         "speed": 208
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Prince",
@@ -386,7 +413,8 @@
         "attack": 986,
         "speed": 208
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "M.KA-21",
@@ -400,7 +428,8 @@
         "attack": 3165,
         "speed": 663
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Fatherboard",
@@ -414,7 +443,8 @@
         "attack": 1114,
         "speed": 233
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Ice Admiral",
@@ -428,7 +458,8 @@
         "attack": 1641,
         "speed": 342
       }
-    }
+    },
+    "obtain": "Snow Weather"
   },
   {
     "characterName": "Electric Dragon",
@@ -442,7 +473,8 @@
         "attack": 1949,
         "speed": 405
       }
-    }
+    },
+    "obtain": "Storm Weather"
   },
   {
     "characterName": "Spearman",
@@ -456,7 +488,8 @@
         "attack": 1299,
         "speed": 270
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Sword",
@@ -467,7 +500,8 @@
       "Classic": {
         "odds": "1/5,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Princess of Rejection",
@@ -481,7 +515,8 @@
         "attack": 1372,
         "speed": 285
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Cat Thief",
@@ -495,7 +530,8 @@
         "attack": 1431,
         "speed": 297
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Lost Sworsman",
@@ -509,7 +545,8 @@
         "attack": 1438,
         "speed": 298
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Water Ninja",
@@ -523,7 +560,8 @@
         "attack": 1872,
         "speed": 388
       }
-    }
+    },
+    "obtain": "Rain Weather"
   },
   {
     "characterName": "Strongest Warrior",
@@ -537,7 +575,8 @@
         "attack": 1551,
         "speed": 321
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Armor",
@@ -548,7 +587,8 @@
       "Classic": {
         "odds": "1/10,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Green Cyborg",
@@ -562,7 +602,8 @@
         "attack": 4000,
         "speed": 660
       }
-    }
+    },
+    "obtain": "Boss"
   },
   {
     "characterName": "Malleable Man",
@@ -576,7 +617,8 @@
         "attack": 1600,
         "speed": 330
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Demon Slayer",
@@ -590,7 +632,8 @@
         "attack": 1732,
         "speed": 357
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Cursed Vessel",
@@ -604,7 +647,8 @@
         "attack": 1808,
         "speed": 372
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Shoes",
@@ -615,7 +659,8 @@
       "Classic": {
         "odds": "1/15,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Steel Proxy",
@@ -629,7 +674,8 @@
         "attack": 5424,
         "speed": 1116
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Copy Ninja",
@@ -643,7 +689,8 @@
         "attack": 1972,
         "speed": 405
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Crazy Wild Boar",
@@ -657,7 +704,8 @@
         "attack": 2029,
         "speed": 416
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Grumpy Princess",
@@ -671,7 +719,8 @@
         "attack": 2292,
         "speed": 469
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Forest Dryad",
@@ -685,7 +734,8 @@
         "attack": 5758,
         "speed": 1178
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Remote Warlord",
@@ -699,7 +749,8 @@
         "attack": 7287,
         "speed": 1488
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Water princess",
@@ -713,7 +764,8 @@
         "attack": 3125,
         "speed": 638
       }
-    }
+    },
+    "obtain": "Rain Weather"
   },
   {
     "characterName": "Awakened Prodigy",
@@ -727,7 +779,8 @@
         "attack": 2598,
         "speed": 530
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Golden Lion Spear",
@@ -741,7 +794,8 @@
         "attack": 2598,
         "speed": 530
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Ranger Officer",
@@ -755,7 +809,8 @@
         "attack": 2598,
         "speed": 530
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "World Champion",
@@ -769,7 +824,8 @@
         "attack": 4403,
         "speed": 896
       }
-    }
+    },
+    "obtain": "Launch Celebration"
   },
   {
     "characterName": "Blood girl",
@@ -783,7 +839,8 @@
         "attack": 6202,
         "speed": 1262
       }
-    }
+    },
+    "obtain": "Blood Moon Weather"
   },
   {
     "characterName": "Elf Leader",
@@ -797,7 +854,8 @@
         "attack": 8000,
         "speed": 1300
       }
-    }
+    },
+    "obtain": "Boss"
   },
   {
     "characterName": "God of thunder",
@@ -811,7 +869,8 @@
         "attack": 4800,
         "speed": 975
       }
-    }
+    },
+    "obtain": "Storm Weather"
   },
   {
     "characterName": "Masked Strategist",
@@ -825,7 +884,8 @@
         "attack": 9600,
         "speed": 1950
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Star Brawler",
@@ -839,7 +899,8 @@
         "attack": 3200,
         "speed": 650
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "The vampire",
@@ -853,7 +914,8 @@
         "attack": 8000,
         "speed": 1625
       }
-    }
+    },
+    "obtain": "Black Out Weather"
   },
   {
     "characterName": "Time Tyrant",
@@ -867,7 +929,8 @@
         "attack": 3200,
         "speed": 650
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Flower Girl",
@@ -881,7 +944,8 @@
         "attack": 3616,
         "speed": 734
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Regressing Knight",
@@ -895,7 +959,8 @@
         "attack": 3616,
         "speed": 734
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Ice General",
@@ -909,7 +974,8 @@
         "attack": 5043,
         "speed": 1022
       }
-    }
+    },
+    "obtain": "Snow Weather"
   },
   {
     "characterName": "Dragon Relic",
@@ -920,7 +986,8 @@
       "Classic": {
         "odds": "1/200,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Duel King",
@@ -934,7 +1001,8 @@
         "attack": 3943,
         "speed": 799
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Water Queen Magician",
@@ -948,7 +1016,8 @@
         "attack": 4929,
         "speed": 999
       }
-    }
+    },
+    "obtain": "Rain Weather"
   },
   {
     "characterName": "Iron General",
@@ -962,7 +1031,8 @@
         "attack": 12651,
         "speed": 2562
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Pile of bean",
@@ -973,7 +1043,8 @@
       "Classic": {
         "odds": "1/250,000"
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Red shadow",
@@ -987,7 +1058,8 @@
         "attack": 10543,
         "speed": 2135
       }
-    }
+    },
+    "obtain": "Black Out Weather"
   },
   {
     "characterName": "Undying Fox",
@@ -1001,7 +1073,8 @@
         "attack": 4455,
         "speed": 901
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Fast granny",
@@ -1029,7 +1102,8 @@
         "attack": 4858,
         "speed": 982
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Ghost Vanguard",
@@ -1043,7 +1117,8 @@
         "attack": 15099,
         "speed": 3051
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Big brother",
@@ -1057,7 +1132,8 @@
         "attack": 10390,
         "speed": 2098
       }
-    }
+    },
+    "obtain": "Blood Moon Weather"
   },
   {
     "characterName": "Cool Swordsman",
@@ -1071,7 +1147,8 @@
         "attack": 5195,
         "speed": 1049
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Dancing Blade",
@@ -1085,7 +1162,8 @@
         "attack": 5195,
         "speed": 1049
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Dual Swordsman",
@@ -1099,7 +1177,8 @@
         "attack": 5195,
         "speed": 1049
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #01",
@@ -1124,7 +1203,8 @@
         "attack": 16383,
         "speed": 3309
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Death Apple",
@@ -1135,7 +1215,8 @@
       "Classic": {
         "odds": "1/666,666"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "God of death",
@@ -1174,7 +1255,8 @@
         "attack": 5724,
         "speed": 1155
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Old elf",
@@ -1188,7 +1270,8 @@
         "attack": 22896,
         "speed": 4620
       }
-    }
+    },
+    "obtain": "Ink Fall Weather"
   },
   {
     "characterName": "Runaway Unit",
@@ -1202,7 +1285,8 @@
         "attack": 17247,
         "speed": 3480
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Vending Machine",
@@ -1216,7 +1300,8 @@
         "attack": 5934,
         "speed": 1197
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Powerful Secretary",
@@ -1230,7 +1315,8 @@
         "attack": 5985,
         "speed": 1207
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "White Ace",
@@ -1244,7 +1330,8 @@
         "attack": 18285,
         "speed": 3687
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Blind Captain",
@@ -1258,7 +1345,8 @@
         "attack": 6201,
         "speed": 1251
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Thunder Cat",
@@ -1272,7 +1360,8 @@
         "attack": 9302,
         "speed": 1877
       }
-    }
+    },
+    "obtain": "Storm Weather"
   },
   {
     "characterName": "Spirit Huntress",
@@ -1286,7 +1375,8 @@
         "attack": 6322,
         "speed": 1275
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Vase head",
@@ -1300,7 +1390,8 @@
         "attack": 19200,
         "speed": 3870
       }
-    }
+    },
+    "obtain": "Solar Wrath Weather"
   },
   {
     "characterName": "Blank Strategist",
@@ -1314,7 +1405,8 @@
         "attack": 6400,
         "speed": 1290
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Clockwork Reaper",
@@ -1328,7 +1420,8 @@
         "attack": 28800,
         "speed": 5805
       }
-    }
+    },
+    "obtain": "Time Madness Weather"
   },
   {
     "characterName": "First Child",
@@ -1342,7 +1435,8 @@
         "attack": 19200,
         "speed": 3870
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Greatest Developer",
@@ -1356,7 +1450,8 @@
         "attack": 6400,
         "speed": 1290
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #03",
@@ -1378,7 +1473,8 @@
       "Classic": {
         "odds": "1/1,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Purple Mage",
@@ -1392,7 +1488,8 @@
         "attack": 6400,
         "speed": 1290
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Silent Current",
@@ -1406,7 +1503,8 @@
         "attack": 8000,
         "speed": 1613
       }
-    }
+    },
+    "obtain": "Rain Weather"
   },
   {
     "characterName": "Tactical Support Drone",
@@ -1417,7 +1515,8 @@
       "Classic": {
         "odds": "1/1,000,000"
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Venom Warden",
@@ -1431,7 +1530,8 @@
         "attack": 16000,
         "speed": 2580
       }
-    }
+    },
+    "obtain": "Boss"
   },
   {
     "characterName": "Cold Woman",
@@ -1445,7 +1545,8 @@
         "attack": 9762,
         "speed": 1967
       }
-    }
+    },
+    "obtain": "Snow Weather"
   },
   {
     "characterName": "Small tornado",
@@ -1459,7 +1560,8 @@
         "attack": 11264,
         "speed": 2268
       }
-    }
+    },
+    "obtain": "Storm Weather"
   },
   {
     "characterName": "Despair Bear",
@@ -1473,7 +1575,8 @@
         "attack": 11828,
         "speed": 2381
       }
-    }
+    },
+    "obtain": "Launch Celebration"
   },
   {
     "characterName": "Magicless Swordsman",
@@ -1487,7 +1590,8 @@
         "attack": 7885,
         "speed": 1587
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #04",
@@ -1498,7 +1602,8 @@
       "Classic": {
         "odds": "1/2,000,000"
       }
-    }
+    },
+    "obtain": "Solar Wrath Weather"
   },
   {
     "characterName": "MISSING #05",
@@ -1523,7 +1628,8 @@
         "attack": 23655,
         "speed": 4761
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Implant",
@@ -1534,7 +1640,8 @@
       "Classic": {
         "odds": "1/2,077,000"
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Alien Hairpin",
@@ -1545,7 +1652,8 @@
       "Classic": {
         "odds": "1/2,500,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Pendragon's Wrath",
@@ -1559,7 +1667,8 @@
         "attack": 8631,
         "speed": 1737
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Crimson Heiress",
@@ -1573,7 +1682,8 @@
         "attack": 8909,
         "speed": 1792
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Snake Captain",
@@ -1587,7 +1697,8 @@
         "attack": 8909,
         "speed": 1792
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Third Child",
@@ -1601,7 +1712,8 @@
         "attack": 26727,
         "speed": 5376
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Wandering samurai",
@@ -1615,7 +1727,8 @@
         "attack": 35636,
         "speed": 7168
       }
-    }
+    },
+    "obtain": "Ink Fall Weather"
   },
   {
     "characterName": "Evolving Wheel",
@@ -1626,7 +1739,8 @@
       "Classic": {
         "odds": "1/3,500,000"
       }
-    }
+    },
+    "obtain": "Launch Celebration"
   },
   {
     "characterName": "Death Apostle",
@@ -1640,7 +1754,8 @@
         "attack": 9715,
         "speed": 1953
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Cursed Earth Spirit",
@@ -1654,7 +1769,8 @@
         "attack": 24995,
         "speed": 5025
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Chrome Butcher",
@@ -1668,7 +1784,8 @@
         "attack": 31170,
         "speed": 6264
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Grail of Wishes",
@@ -1679,7 +1796,8 @@
       "Classic": {
         "odds": "1/5,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Mana Breaker",
@@ -1693,7 +1811,8 @@
         "attack": 10390,
         "speed": 2088
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #06",
@@ -1729,7 +1848,8 @@
         "attack": 10390,
         "speed": 2088
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Blooming Man",
@@ -1743,7 +1863,8 @@
         "attack": 10976,
         "speed": 2206
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Cursed Sprinter",
@@ -1757,7 +1878,8 @@
         "attack": 11497,
         "speed": 2310
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "The Reader",
@@ -1771,7 +1893,8 @@
         "attack": 11497,
         "speed": 2310
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #08",
@@ -1782,7 +1905,8 @@
       "Classic": {
         "odds": "1/9,000,000"
       }
-    }
+    },
+    "obtain": "Snow Weather"
   },
   {
     "characterName": "Time Sovereign",
@@ -1796,7 +1920,8 @@
         "attack": 55805,
         "speed": 11210
       }
-    }
+    },
+    "obtain": "Time Madness Weather"
   },
   {
     "characterName": "Bald Hero",
@@ -1810,7 +1935,8 @@
         "attack": 12800,
         "speed": 2570
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Blood guardian",
@@ -1824,7 +1950,8 @@
         "attack": 25600,
         "speed": 5140
       }
-    }
+    },
+    "obtain": "Blood Moon Weather"
   },
   {
     "characterName": "Mercenary King",
@@ -1838,7 +1965,8 @@
         "attack": 12800,
         "speed": 2570
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Traitor Captain",
@@ -1852,7 +1980,8 @@
         "attack": 32000,
         "speed": 5140
       }
-    }
+    },
+    "obtain": "Boss"
   },
   {
     "characterName": "Ink sovereign",
@@ -1866,7 +1995,8 @@
         "attack": 55408,
         "speed": 11124
       }
-    }
+    },
+    "obtain": "Ink Fall Weather"
   },
   {
     "characterName": "MISSING #09",
@@ -1888,7 +2018,8 @@
       "Classic": {
         "odds": "1/14,000,000"
       }
-    }
+    },
+    "obtain": "Black Out Weather"
   },
   {
     "characterName": "Awakened Noble",
@@ -1902,7 +2033,8 @@
         "attack": 14462,
         "speed": 2903
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Blindfolded Unit",
@@ -1916,7 +2048,8 @@
         "attack": 43386,
         "speed": 8709
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Red Bike",
@@ -1927,7 +2060,8 @@
       "Classic": {
         "odds": "1/15,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #11",
@@ -1952,7 +2086,8 @@
         "attack": 63080,
         "speed": 12656
       }
-    }
+    },
+    "obtain": "Ink Fall Weather"
   },
   {
     "characterName": "Death Returner",
@@ -1966,7 +2101,8 @@
         "attack": 15770,
         "speed": 3164
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Frozen Sculptor",
@@ -1980,7 +2116,8 @@
         "attack": 15770,
         "speed": 3164
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #12",
@@ -1991,7 +2128,8 @@
       "Classic": {
         "odds": "1/20,000,000"
       }
-    }
+    },
+    "obtain": "Blood Moon Weather"
   },
   {
     "characterName": "Blood Fruit",
@@ -2002,7 +2140,8 @@
       "Classic": {
         "odds": "1/25,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Fate Priest",
@@ -2016,7 +2155,8 @@
         "attack": 75897,
         "speed": 15228
       }
-    }
+    },
+    "obtain": "Time Madness Weather"
   },
   {
     "characterName": "Paw Tyrant",
@@ -2030,7 +2170,8 @@
         "attack": 50598,
         "speed": 10152
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Chrome Berserker",
@@ -2044,7 +2185,8 @@
         "attack": 17261,
         "speed": 3463
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Devil Major",
@@ -2058,7 +2200,8 @@
         "attack": 17818,
         "speed": 3574
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "MISSING #13",
@@ -2069,7 +2212,8 @@
       "Classic": {
         "odds": "1/30,000,000"
       }
-    }
+    },
+    "obtain": "Solar Wrath Weather"
   },
   {
     "characterName": "Scarlet Knight",
@@ -2083,7 +2227,8 @@
         "attack": 17818,
         "speed": 3574
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #14",
@@ -2119,7 +2264,8 @@
         "attack": 18664,
         "speed": 3743
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #16",
@@ -2130,7 +2276,8 @@
       "Classic": {
         "odds": "1/40,000,000"
       }
-    }
+    },
+    "obtain": "Black Out Weather"
   },
   {
     "characterName": "Shield Guardian",
@@ -2144,7 +2291,8 @@
         "attack": 19995,
         "speed": 4009
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Chrono Assassin",
@@ -2158,7 +2306,8 @@
         "attack": 93506,
         "speed": 18747
       }
-    }
+    },
+    "obtain": "Time Madness Weather"
   },
   {
     "characterName": "Flame Devourer",
@@ -2172,7 +2321,8 @@
         "attack": 20779,
         "speed": 4166
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Master Hero",
@@ -2186,7 +2336,8 @@
         "attack": 20779,
         "speed": 4166
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #17",
@@ -2211,7 +2362,8 @@
         "attack": 20779,
         "speed": 4166
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Truck-Kun",
@@ -2222,7 +2374,8 @@
       "Classic": {
         "odds": "1/50,000,000"
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "MISSING #18",
@@ -2244,7 +2397,8 @@
       "Classic": {
         "odds": "1/67,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #19",
@@ -2269,7 +2423,8 @@
         "attack": 22994,
         "speed": 4609
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "MISSING #20",
@@ -2280,7 +2435,8 @@
       "Classic": {
         "odds": "1/76,000,000"
       }
-    }
+    },
+    "obtain": "Solar Wrath Weather"
   },
   {
     "characterName": "Ghost Hacker",
@@ -2294,7 +2450,8 @@
         "attack": 23664,
         "speed": 4743
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "Sword Dancer",
@@ -2308,7 +2465,8 @@
         "attack": 24549,
         "speed": 4920
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Blindfolded Sorcerer",
@@ -2322,7 +2480,8 @@
         "attack": 25600,
         "speed": 5130
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "King Slime",
@@ -2336,7 +2495,8 @@
         "attack": 51200,
         "speed": 5130
       }
-    }
+    },
+    "obtain": "Raid"
   },
   {
     "characterName": "Labyrinth Spider",
@@ -2350,7 +2510,8 @@
         "attack": 25600,
         "speed": 5130
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "MISSING #21",
@@ -2386,7 +2547,8 @@
         "attack": 25600,
         "speed": 5130
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "Soul Punisher",
@@ -2397,7 +2559,8 @@
       "Classic": {
         "odds": "1/100,000,000"
       }
-    }
+    },
+    "obtain": "Base Pack"
   },
   {
     "characterName": "MISSING #23",
@@ -2408,7 +2571,8 @@
       "Classic": {
         "odds": "1/250,000,000"
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #24",
@@ -2419,7 +2583,8 @@
       "Classic": {
         "odds": "1/250,000,000"
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "Quagmire Mage",
@@ -2433,7 +2598,8 @@
         "attack": 36334,
         "speed": 7277
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "The Irregular",
@@ -2447,7 +2613,8 @@
         "attack": 41558,
         "speed": 8322
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #25",
@@ -2458,7 +2625,8 @@
       "Classic": {
         "odds": "1/650,000,000"
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   },
   {
     "characterName": "MISSING #26",
@@ -2469,7 +2637,8 @@
       "Classic": {
         "odds": "1/850,000,000"
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #27",
@@ -2480,7 +2649,8 @@
       "Classic": {
         "odds": "1/1,000,000,000"
       }
-    }
+    },
+    "obtain": "Manhwa Pack"
   },
   {
     "characterName": "MISSING #28",
@@ -2502,6 +2672,7 @@
       "Classic": {
         "odds": "1/1,500,000,000"
       }
-    }
+    },
+    "obtain": "Isekai Pack"
   }
 ]

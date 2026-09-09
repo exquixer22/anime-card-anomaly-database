@@ -16,7 +16,7 @@ main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.pag
 .card-Astral{border-color:#ad5094}
 .card-Anomaly{border-color:#430728}
 .badge{display:inline-block;padding:5px 8px;border-radius:99px;background:#30374a;font-size:.75rem;margin-right:5px}
-.rarity-Classic{background:#808080}.rarity-Scarlet{background:#730000}.rarity-Holographic{background:#b79bb2}.rarity-Astral{background:#ad5094}.rarity-Anomaly{background:#430728}
+.border-Classic{background:#808080}.border-Scarlet{background:#730000}.border-Holographic{background:#b79bb2}.border-Astral{background:#ad5094}.border-Anomaly{background:#430728}
 .card h3{margin:12px 0 4px;font-size:1.25rem}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
 .stat{background:#12151d;border-radius:8px;padding:9px;text-align:center}
@@ -92,13 +92,13 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 
 
 /* Rarity selector in card details */
-.rarity-toggle-row{
+.border-toggle-row{
   display:flex;
   gap:8px;
   flex-wrap:wrap;
   margin-bottom:14px;
 }
-.rarity-toggle{
+.border-toggle{
   background:#12151d;
   color:#eef0f5;
   border:2px solid #30374a;
@@ -108,18 +108,18 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   font-weight:bold;
   font-size:.82rem;
 }
-.rarity-toggle:hover{
+.border-toggle:hover{
   filter:brightness(1.15);
 }
-.rarity-toggle.active{
+.border-toggle.active{
   background:#222738;
   box-shadow:0 0 0 1px rgba(255,255,255,.08) inset;
 }
-.rarity-toggle.card-Classic{border-color:#808080}
-.rarity-toggle.card-Scarlet{border-color:#730000}
-.rarity-toggle.card-Holographic{border-color:#b79bb2}
-.rarity-toggle.card-Astral{border-color:#ad5094}
-.rarity-toggle.card-Anomaly{border-color:#430728}
+.border-toggle.card-Classic{border-color:#808080}
+.border-toggle.card-Scarlet{border-color:#730000}
+.border-toggle.card-Holographic{border-color:#b79bb2}
+.border-toggle.card-Astral{border-color:#ad5094}
+.border-toggle.card-Anomaly{border-color:#430728}
 
 .modal-card{
   border:2px solid #30374a;
@@ -217,4 +217,31 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 /* Chad of Conquerors: ATTACK and 10% */
 #modalContent .ability-attack{
   color:#ff0051 !important;
+}
+
+/* Card border and obtain information */
+.card-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  min-height:28px;
+}
+.obtain-badge{
+  display:inline-block;
+  padding:5px 8px;
+  border:2px solid var(--obtain-color);
+  border-radius:99px;
+  background:#30374a;
+  color:#eef0f5;
+  font-size:.75rem;
+  font-weight:inherit;
+  line-height:1;
+  white-space:nowrap;
+}
+.obtain-color-missing{
+  border-style:dashed;
+}
+#modalContent .card-meta{
+  margin-bottom:8px;
 }

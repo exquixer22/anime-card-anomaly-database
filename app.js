@@ -112,7 +112,7 @@ function formatAbilityDescription(text) {
 
   // Young Hunter.
   markCustom(
-    /\bATTACK\b(\s+by\s+)50%/gi,
+    /\bATTACK\b(\s+by\s+)50%/g,
     (match, separator) =>
       `<span class="ability-attack">ATTACK</span>${separator}<span class="ability-attack">50%</span>`
   );
@@ -123,12 +123,12 @@ function formatAbilityDescription(text) {
 
   // Chad of Conquerors.
   markCustom(
-    /\bSPEED\b(\s+by\s+)30%/gi,
+    /\bSPEED\b(\s+by\s+)30%/g,
     (match, separator) =>
       `<span class="ability-speed">SPEED</span>${separator}<span class="ability-speed">30%</span>`
   );
   markCustom(
-    /\bATTACK\b(\s+by\s+)10%/gi,
+    /\bATTACK\b(\s+by\s+)10%/g,
     (match, separator) =>
       `<span class="ability-attack">ATTACK</span>${separator}<span class="ability-attack">10%</span>`
   );
@@ -141,9 +141,9 @@ function formatAbilityDescription(text) {
   mark(/\b20%\s+of\s+Thornveil&#039;s\s+ATTACK\b/gi, "ability-damage");
 
   // The Fake: HP is green, ATTACK is red, SPEED is blue.
-  mark(/\bHP\b/gi, "ability-hp");
-  mark(/\bATTACK\b/gi, "ability-attack");
-  mark(/\bSPEED\b/gi, "ability-speed");
+  mark(/\bHP\b/g, "ability-hp");
+  mark(/\bATTACK\b/g, "ability-attack");
+  mark(/\bSPEED\b/g, "ability-speed");
 
   // Lucky Clown: chance is orange/peach; dodge is blue.
   mark(/\b20%\s+chance\b/gi, "ability-chance");
@@ -179,10 +179,10 @@ function formatAbilityDescription(text) {
   mark(/\b\d+\s+(?:Global\s+)?Turns?\b/gi, "ability-turn");
 
   // Standalone SPEED remains cyan.
-  mark(/\bSPEED\b/gi, "ability-speed");
+  mark(/\bSPEED\b/g, "ability-speed");
 
   // Skyroot's remaining standalone ATTACK is red.
-  mark(/\bATTACK\b/gi, "ability-attack");
+  mark(/\bATTACK\b/g, "ability-attack");
 
   // Restore protected HTML only after all text matching is complete.
   safe = safe.replace(/\uE000(\d+)\uE001/g, (_, index) => protectedParts[Number(index)]);

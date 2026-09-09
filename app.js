@@ -256,7 +256,10 @@ function updateSortControls() {
 
     if (!isActive) {
       arrow.textContent = "↕";
-      button.setAttribute("aria-label", `Sort by ${stat}`);
+      button.setAttribute(
+        "aria-label",
+        `Sort by ${stat}. Click for highest first.`
+      );
       return;
     }
 
@@ -415,14 +418,20 @@ document.querySelectorAll(".sort-stat").forEach(button => {
   button.addEventListener("click", () => {
     const selectedStat = button.dataset.stat;
 
-    // Clicking the same stat toggles descending ↔ ascending.
-    // Clicking a new stat starts with highest-first.
-    if (activeSort.stat === selectedStat) {
-      activeSort.direction =
-        activeSort.direction === "desc" ? "asc" : "desc";
-    } else {
+    // Three-click cycle for each stat:
+    // 1st click: highest first ↓
+    // 2nd click: lowest first ↑
+    // 3rd click: reset to the original odds order ↕
+    if (activeSort.stat !== selectedStat) {
       activeSort = {
         stat: selectedStat,
+        direction: "desc"
+      };
+    } else if (activeSort.direction === "desc") {
+      activeSort.direction = "asc";
+    } else {
+      activeSort = {
+        stat: "odds",
         direction: "desc"
       };
     }

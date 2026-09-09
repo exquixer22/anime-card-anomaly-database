@@ -304,3 +304,14 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
     margin-left:0;
   }
 }
+
+/* Sorting row positioned below the search/filter controls */
+.sort-row{
+  display:flex;
+  align-items:center;
+  min-height:42px;
+  margin:12px 0 16px;
+}
+.sort-row .sort-controls{
+  margin-left:0;
+}

@@ -248,5 +248,47 @@
         "odds": "1/300"
       }
     }
+  },
+  {
+    "characterName": "Skyroot",
+    "abilityName": "CANOPY DIVE",
+    "abilityDescription": "On entry, strikes the 2 enemies with the highest ATTACK for 250% total damage each.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 7183,
+        "attack": 1438,
+        "speed": 313,
+        "odds": "1/333"
+      }
+    }
+  },
+  {
+    "characterName": "Chad of Conquerors",
+    "abilityName": "CONQUEROR'S PRESENCE",
+    "abilityDescription": "On entry, increases all allies' SPEED by 30% and their ATTACK by 10%.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 3247,
+        "attack": 650,
+        "speed": 140,
+        "odds": "1/500"
+      }
+    }
+  },
+  {
+    "characterName": "SPDR-06",
+    "abilityName": "SPIDER ROBOT",
+    "abilityDescription": "On an enemy entry, deals 200% damage to that enemy. The first time SPDR-06 would be defeated, it survives at 1 HP.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 9741,
+        "attack": 1950,
+        "speed": 420,
+        "odds": "1/500"
+      }
+    }
   }
 ]

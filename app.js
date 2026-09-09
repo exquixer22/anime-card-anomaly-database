@@ -181,6 +181,39 @@ function formatAbilityDescription(text) {
     '<span class="ability-attack">$1</span>$2<span class="ability-attack">$3</span>'
   );
 
+  // Skyroot: "2 enemies" and "250% total damage" are orange/gold; ATTACK is red.
+  safe = safe.replace(
+    /(\b2\s+enemies\b)/gi,
+    '<span class="ability-fighter-attacks">$1</span>'
+  );
+
+  safe = safe.replace(
+    /(\b250%\s+total\s+damage\b)/gi,
+    '<span class="ability-damage">$1</span>'
+  );
+
+  // Chad of Conquerors: SPEED + 30% are cyan; ATTACK + 10% are red.
+  safe = safe.replace(
+    /(\bSPEED\b)(\s+by\s+)(30%)/gi,
+    '<span class="ability-speed">$1</span>$2<span class="ability-speed">$3</span>'
+  );
+
+  safe = safe.replace(
+    /(\bATTACK\b)(\s+by\s+)(10%)/gi,
+    '<span class="ability-attack">$1</span>$2<span class="ability-attack">$3</span>'
+  );
+
+  // SPDR-06: "200% damage" is orange/peach and "survives at 1 HP" is green.
+  safe = safe.replace(
+    /(\b200%\s+damage\b)/gi,
+    '<span class="ability-damage">$1</span>'
+  );
+
+  safe = safe.replace(
+    /(\bsurvives\s+at\s+1\s+HP\b)/gi,
+    '<span class="ability-max-hp">$1</span>'
+  );
+
   // Any "# turn(s)" or "# Global Turn(s)" is always light gray.
   safe = safe.replace(
     /(\b\d+\s+(?:Global\s+)?Turns?\b)/gi,
@@ -214,10 +247,15 @@ function renderCards() {
         (!offField || String(c.hasOffFieldEffects) === offField) &&
         c.rarities && c.rarities.Classic;
     })
-    .sort((a, b) =>
-      oddsDenominator(a.rarities.Classic.odds) -
-      oddsDenominator(b.rarities.Classic.odds)
-    );
+    .sort((a, b) => {
+      const oddsDifference =
+        oddsDenominator(a.rarities.Classic.odds) -
+        oddsDenominator(b.rarities.Classic.odds);
+
+      // If odds are the same, sort alphabetically by character name.
+      return oddsDifference ||
+        a.characterName.localeCompare(b.characterName);
+    });
 
   $("#count").textContent =
     `Showing ${filtered.length} of ${filtered.length} Classic cards`;

@@ -1088,7 +1088,8 @@
         "attack": 16261,
         "speed": 3290
       }
-    }
+    },
+    "obtain": "Spooky Weather"
   },
   {
     "characterName": "The Substitute",
@@ -1230,7 +1231,8 @@
         "attack": 19828,
         "speed": 4001
       }
-    }
+    },
+    "obtain": "Spooky Weather"
   },
   {
     "characterName": "MISSING #02",
@@ -1823,7 +1825,8 @@
       "Classic": {
         "odds": "1/5,000,000"
       }
-    }
+    },
+    "obtain": "Spooky Weather"
   },
   {
     "characterName": "MISSING #07",
@@ -2007,7 +2010,8 @@
       "Classic": {
         "odds": "1/13,000,000"
       }
-    }
+    },
+    "obtain": "Spooky Weather"
   },
   {
     "characterName": "MISSING #10",

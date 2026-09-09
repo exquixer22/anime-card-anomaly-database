@@ -39,6 +39,7 @@ const obtainColors = {
   "Blood Moon Weather": "#8F1D2C",
   "Solar Wrath Weather": "#FF7A00",
   "Storm Weather": "#354052",
+  "Spooky Weather": "#100D18",
   "Black Out Weather": "#080A0F",
   "Launch Celebration": "#E040FB"
 };

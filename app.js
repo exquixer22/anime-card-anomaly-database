@@ -310,7 +310,7 @@ function formatAbilityDescription(text, cardName = "") {
     markOccurrence(/\bevade\b/gi, "ability-dodge", 1);
     mark(/\bcounterattacks\b/gi, "ability-damage");
     // 150% uses the same orange/peach shade as Cursed Vines.
-    mark(/\b150%\b/gi, "ability-damage");
+    mark(/150%/g, "ability-damage");
   }
 
   // Log: the entire phrase is blue.

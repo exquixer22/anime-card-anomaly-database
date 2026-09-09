@@ -212,3 +212,9 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-fighter-attacks{
   color:#e5b86b;
 }
+
+
+/* Chad of Conquerors: ATTACK and 10% */
+#modalContent .ability-attack{
+  color:#ff0051 !important;
+}

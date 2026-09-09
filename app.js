@@ -188,19 +188,32 @@ function formatAbilityDescription(text) {
   );
 
   safe = safe.replace(
+    /(\bATTACK\b)/gi,
+    '<span class="ability-attack">$1</span>'
+  );
+
+  safe = safe.replace(
     /(\b250%\s+total\s+damage\b)/gi,
     '<span class="ability-damage">$1</span>'
   );
 
-  // Chad of Conquerors: SPEED + 30% are cyan; ATTACK + 10% are red.
+  // Chad of Conquerors: SPEED and 30% are blue; ATTACK and 10% are red.
+  // Match the exact words/values independently so intervening words do not break coloring.
   safe = safe.replace(
-    /(\bSPEED\b)(\s+by\s+)(30%)/gi,
-    '<span class="ability-speed">$1</span>$2<span class="ability-speed">$3</span>'
+    /(\bSPEED\b)/gi,
+    '<span class="ability-speed">$1</span>'
   );
-
   safe = safe.replace(
-    /(\bATTACK\b)(\s+by\s+)(10%)/gi,
-    '<span class="ability-attack">$1</span>$2<span class="ability-attack">$3</span>'
+    /(\b30%\b)/g,
+    '<span class="ability-speed">$1</span>'
+  );
+  safe = safe.replace(
+    /(\bATTACK\b)/gi,
+    '<span class="ability-attack">$1</span>'
+  );
+  safe = safe.replace(
+    /(\b10%\b)/g,
+    '<span class="ability-attack">$1</span>'
   );
 
   // SPDR-06: "200% damage" is orange/peach and "survives at 1 HP" is green.

@@ -350,7 +350,7 @@
   {
     "characterName": "Coward Goblin",
     "abilityName": "LUCKY GOBLIN",
-    "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 10% of its base ATTACK.",
+    "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 150% of its base ATTACK.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {

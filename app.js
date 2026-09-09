@@ -50,7 +50,7 @@ function statsHtml(stats) {
     </div>`;
 }
 
-function formatAbilityDescription(text) {
+function formatAbilityDescription(text, cardName = "") {
   let safe = esc(text);
 
   // Keep highlighted text protected while applying multiple color rules.
@@ -70,6 +70,20 @@ function formatAbilityDescription(text) {
     safe = safe.replace(regex, (...args) => {
       const token = `\uE000${protectedParts.length}\uE001`;
       protectedParts.push(renderer(...args));
+      return token;
+    });
+  }
+
+  // Colors only a specific occurrence of a match.
+  // Example: the first "evade" can be cyan while a later "evade" stays white.
+  function markOccurrence(regex, className, occurrence = 1) {
+    let count = 0;
+    safe = safe.replace(regex, (...args) => {
+      count += 1;
+      if (count !== occurrence) return args[0];
+
+      const token = `\uE000${protectedParts.length}\uE001`;
+      protectedParts.push(`<span class="${className}">${args[0]}</span>`);
       return token;
     });
   }
@@ -155,10 +169,14 @@ function formatAbilityDescription(text) {
   mark(/\b50%\b/gi, "ability-max-hp");
 
   // Coward Goblin.
-  mark(/\b30%\s+chance\b/gi, "ability-chance");
-  mark(/\bevade\b/gi, "ability-dodge");
-  mark(/\bcounterattacks\b/gi, "ability-damage");
-  mark(/\b10%\b/gi, "ability-damage");
+  // The screenshot colors only the FIRST "evade" (cyan).
+  // The later "evade" in "After a successful evade" remains white.
+  if (cardName === "Coward Goblin") {
+    mark(/\b30%\s+chance\b/gi, "ability-chance");
+    markOccurrence(/\bevade\b/gi, "ability-dodge", 1);
+    mark(/\bcounterattacks\b/gi, "ability-damage");
+    mark(/\b150%\b/gi, "ability-damage");
+  }
 
   // Log: the entire phrase is blue.
   mark(/\b10%\s+chance\s+to\s+dodge\b/gi, "ability-speed");
@@ -280,7 +298,7 @@ function renderModalCard(c, rarity) {
       <h3>${esc(c.abilityName)}</h3>
 
       <div class="ability-description">
-        ${formatAbilityDescription(c.abilityDescription)}
+        ${formatAbilityDescription(c.abilityDescription, c.name)}
       </div>
 
       ${c.hasOffFieldEffects

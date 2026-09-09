@@ -137,7 +137,7 @@
   {
     "characterName": "The cyclist",
     "abilityName": "Justice Crash",
-    "abilityDescription": "",
+    "abilityDescription": "On entry, immediately attacks and adds its SPEED to the damage dealt.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -287,7 +287,7 @@
   {
     "characterName": "The fake",
     "abilityName": "Engine",
-    "abilityDescription": "",
+    "abilityDescription": "On entry, reduces the opposing card's HP, ATTACK, and SPEED by 15%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -359,7 +359,7 @@
   {
     "characterName": "SWRM-87",
     "abilityName": "Swarm Carrier",
-    "abilityDescription": "",
+    "abilityDescription": "Every 3 turns, deploys 1 S.Mini-87 directly before S.Mini-87. On death, deploys 5 S.Mini-87 at once. Each S.Mini-87 inherits 15% of SWRM-87's current stats.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -374,7 +374,7 @@
   {
     "characterName": "Ninja Traitor",
     "abilityName": "Special Eye",
-    "abilityDescription": "",
+    "abilityDescription": "Has a 20% chance to dodge each incoming attack. Each attack has a 20% chance to deal 200% total damage.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -389,7 +389,7 @@
   {
     "characterName": "Legs Fighter",
     "abilityName": "Women Lover",
-    "abilityDescription": "",
+    "abilityDescription": "Cannot deal damage to female cards. Gains 50% ATTACK for each fallen female ally.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -404,7 +404,7 @@
   {
     "characterName": "Prince",
     "abilityName": "Warrior Pride",
-    "abilityDescription": "",
+    "abilityDescription": "Increases all stats by 10% for every 20% ATTACK difference between Prince and the opposing card, up to 100%.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -419,7 +419,7 @@
   {
     "characterName": "M.KA-21",
     "abilityName": "Big Mecha",
-    "abilityDescription": "",
+    "abilityDescription": "At the end of every turn, gains +10% max HP, Attack, and Speed, up to +100%.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -434,7 +434,7 @@
   {
     "characterName": "Fatherboard",
     "abilityName": "Overclock",
-    "abilityDescription": "",
+    "abilityDescription": "After 3 turns, enters Overheat Mode. While in Overheat Mode, deals 30% more damage, but lose 10% of its current HP each turn. If Fatherboard dies during Overheat Mode, deals damage equal to 70% of maximum HP.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

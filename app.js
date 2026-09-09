@@ -196,6 +196,56 @@ function formatAbilityDescription(text, cardName = "") {
     );
   }
 
+  // New ability descriptions — paragraph breaks matched to the original cards.
+
+  // The Fake — Engine.
+  if (cardName === "The fake") {
+    safe = safe.replace(
+      /(opposing\s+card&#039;s\s+HP,\s+ATTACK,\s+and\s+SPEED\s+by\s+15%\.)\s+(?=In\s+raids,)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // SWRM-87 — Swarm Carrier.
+  if (cardName === "SWRM-87") {
+    safe = safe.replace(
+      /(directly\s+before\s+S\.Mini-87\.)\s+(?=On\s+death,)/i,
+      "$1</p><p>"
+    );
+    safe = safe.replace(
+      /(deploys\s+5\s+S\.Mini-87\s+at\s+once\.)\s+(?=Each\s+S\.Mini-87)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Ninja Traitor — Special Eye.
+  if (cardName === "Ninja Traitor") {
+    safe = safe.replace(
+      /(incoming\s+attack\.)\s+(?=Each\s+attack\s+has)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Legs Fighter — Women Lover.
+  if (cardName === "Legs Fighter") {
+    safe = safe.replace(
+      /(female\s+cards\.)\s+(?=Gains\s+50%)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Fatherboard — Overclock.
+  if (cardName === "Fatherboard") {
+    safe = safe.replace(
+      /(enters\s+Overheat\s+Mode\.)\s+(?=While\s+in\s+Overheat\s+Mode,)/i,
+      "$1</p><p>"
+    );
+    safe = safe.replace(
+      /(current\s+HP\s+each\s+turn\.)\s+(?=If\s+Fatherboard\s+dies)/i,
+      "$1</p><p>"
+    );
+  }
+
   // Existing general formatting for recurring/raid effects.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
@@ -273,6 +323,57 @@ function formatAbilityDescription(text, cardName = "") {
 
   // Thornveil: the entire phrase is orange/peach.
   mark(/\b20%\s+of\s+Thornveil&#039;s\s+ATTACK\b/gi, "ability-damage");
+
+  // New ability descriptions — exact screenshot color assignments.
+
+  // The fake — Engine.
+  // First HP is green; the later "HP" in "HP reduction" remains white.
+  if (cardName === "The fake") {
+    markOccurrence(/\bHP\b/g, "ability-hp", 1);
+    mark(/\bATTACK\b/g, "ability-attack");
+    mark(/\bSPEED\b/g, "ability-speed");
+    mark(/15%/g, "ability-reduction");
+    markCustom(/\bHP\s+reduction\b/g, match => match);
+  }
+
+  // SWRM-87 — Swarm Carrier.
+  if (cardName === "SWRM-87") {
+    mark(/\b5\s+S\.Mini-87\b/g, "ability-kokoverclock");
+    mark(/15%\s+of\s+SWRM-87&#039;s\s+current\s+stats/gi, "ability-max-hp");
+  }
+
+  // Ninja Traitor — Special Eye.
+  if (cardName === "Ninja Traitor") {
+    mark(/\b20%\s+chance\b/gi, "ability-chance");
+    mark(/\bdodge\b/gi, "ability-chance");
+    mark(/200%\s+total\s+damage/gi, "ability-damage");
+  }
+
+  // Legs Fighter — Women Lover.
+  if (cardName === "Legs Fighter") {
+    mark(/\bfemale\s+cards\b/gi, "ability-kokoverclock");
+    mark(/50%\s+ATTACK/gi, "ability-attack");
+  }
+
+  // Prince — Warrior Pride.
+  if (cardName === "Prince") {
+    mark(/\b10%\b/g, "ability-max-hp");
+    mark(/20%\s+ATTACK\s+difference/gi, "ability-attack");
+    mark(/\b100%\b/g, "ability-max-hp");
+  }
+
+  // M.KA-21 — Big Mecha.
+  if (cardName === "M.KA-21") {
+    mark(/\+10%\s+max\s+HP,\s+Attack,\s+and\s+Speed/gi, "ability-max-hp");
+  }
+
+  // Fatherboard — Overclock.
+  if (cardName === "Fatherboard") {
+    mark(/\bOverheat\s+Mode\b/gi, "ability-kokoverclock");
+    mark(/30%\s+more\s+damage/gi, "ability-damage");
+    mark(/10%\s+of\s+its\s+current\s+HP/gi, "ability-max-hp");
+    mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
+  }
 
   // The Fake: HP is green, ATTACK is red, SPEED is blue.
   mark(/\bHP\b/g, "ability-hp");

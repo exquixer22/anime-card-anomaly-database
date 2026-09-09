@@ -145,6 +145,57 @@ function formatAbilityDescription(text, cardName = "") {
     );
   }
 
+  // Individual paragraph breaks based on the original card descriptions.
+  // Each rule targets a specific card so other abilities keep their intended spacing.
+
+  // FPLN-67 — Fighter Jet.
+  if (cardName === "FPLN-67") {
+    safe = safe.replace(
+      /(doubles\s+its\s+Speed\.)\s+(?=Performs)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Young Hunter — Rock.
+  if (cardName === "Young Hunter") {
+    safe = safe.replace(
+      /(Attacks\s+once\s+every\s+2\s+turns\.)\s+(?=Each\s+time)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // SPDR-06 — Spider Robot.
+  if (cardName === "SPDR-06") {
+    safe = safe.replace(
+      /(deals\s+200%\s+damage\s+to\s+that\s+enemy\.)\s+(?=The\s+first\s+time)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Lucky Clown — Clown Luck.
+  if (cardName === "Lucky Clown") {
+    safe = safe.replace(
+      /(Has\s+a\s+20%\s+chance\s+to\s+dodge\s+an\s+incoming\s+attack\.)\s+(?=After\s+attacking)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Bloomera — Spring Pollen.
+  if (cardName === "Bloomera") {
+    safe = safe.replace(
+      /(allied\s+team\s+for\s+7\s+turns\.)\s+(?=While\s+Spring\s+Pollen)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Coward Goblin — Lucky Goblin.
+  if (cardName === "Coward Goblin") {
+    safe = safe.replace(
+      /(Has\s+a\s+30%\s+chance\s+to\s+evade\s+the\s+incoming\s+attack\.)\s+(?=After\s+a\s+successful\s+evade)/i,
+      "$1</p><p>"
+    );
+  }
+
   // Existing general formatting for recurring/raid effects.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
@@ -244,6 +295,7 @@ function formatAbilityDescription(text, cardName = "") {
     mark(/\b30%\s+chance\b/gi, "ability-chance");
     markOccurrence(/\bevade\b/gi, "ability-dodge", 1);
     mark(/\bcounterattacks\b/gi, "ability-damage");
+    // 150% uses the same orange/peach shade as Cursed Vines.
     mark(/\b150%\b/gi, "ability-damage");
   }
 

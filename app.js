@@ -123,7 +123,29 @@ function formatAbilityDescription(text, cardName = "") {
     });
   }
 
-  // Match the screenshot spacing for separate recurring/raid effects.
+  // Match paragraph spacing from the original card descriptions.
+  // Paragraph breaks are assigned individually so we do not accidentally
+  // insert breaks into abilities that should remain as one paragraph.
+
+  // Cyber K.O.K.O — Kokoverclock:
+  // Break after: "At the start of battle, every allied Koko gains Kokoverclock."
+  if (cardName === "Cyber K.O.K.O") {
+    safe = safe.replace(
+      /(Kokoverclock\.)\s+/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Eldergrove — Ancient Roots:
+  // Break after: "On entry, gains a Shield equal to 25% of maximum HP."
+  if (cardName === "Eldergrove") {
+    safe = safe.replace(
+      /(maximum\s+HP\.)\s+(?=Every\s+3\s+turns)/i,
+      "$1</p><p>"
+    );
+  }
+
+  // Existing general formatting for recurring/raid effects.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
     ".</p><p>"

@@ -33,6 +33,15 @@ function oddsDenominator(odds) {
 }
 
 function statsHtml(stats) {
+  // Support cards do not have Health, Attack, or Speed.
+  if (
+    stats.health === undefined || stats.health === null ||
+    stats.attack === undefined || stats.attack === null ||
+    stats.speed === undefined || stats.speed === null
+  ) {
+    return "";
+  }
+
   return `
     <div class="stats">
       <div class="stat health-stat"><b>HEALTH</b>${fmt(stats.health)}</div>
@@ -127,6 +136,32 @@ function formatAbilityDescription(text) {
   // SPDR-06.
   mark(/\b200%\s+damage\b/gi, "ability-damage");
   mark(/\bsurvives\s+at\s+1\s+HP\b/gi, "ability-max-hp");
+
+  // Thornveil: the entire phrase is orange/peach.
+  mark(/\b20%\s+of\s+Thornveil&#039;s\s+ATTACK\b/gi, "ability-damage");
+
+  // The Fake: HP is green, ATTACK is red, SPEED is blue.
+  mark(/\bHP\b/gi, "ability-hp");
+  mark(/\bATTACK\b/gi, "ability-attack");
+  mark(/\bSPEED\b/gi, "ability-speed");
+
+  // Lucky Clown: chance is orange/peach; dodge is blue.
+  mark(/\b20%\s+chance\b/gi, "ability-chance");
+  mark(/\bdodge\b/gi, "ability-dodge");
+
+  // Bloomera.
+  mark(/\bSpring\s+Pollen\b/gi, "ability-max-hp");
+  mark(/\b20%\s+dodge\s+chance\b/gi, "ability-speed");
+  mark(/\b50%\b/gi, "ability-max-hp");
+
+  // Coward Goblin.
+  mark(/\b30%\s+chance\b/gi, "ability-chance");
+  mark(/\bevade\b/gi, "ability-dodge");
+  mark(/\bcounterattacks\b/gi, "ability-damage");
+  mark(/\b10%\b/gi, "ability-damage");
+
+  // Log: the entire phrase is blue.
+  mark(/\b10%\s+chance\s+to\s+dodge\b/gi, "ability-speed");
 
   // General screenshot formatting.
   mark(/\b\d+\s+shots?\b/gi, "ability-shots");

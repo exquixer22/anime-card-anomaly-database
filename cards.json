@@ -290,5 +290,87 @@
         "odds": "1/500"
       }
     }
+  },
+  {
+    "characterName": "Thornveil",
+    "abilityName": "CURSED VINES",
+    "abilityDescription": "When hit, deals 20% of Thornveil's ATTACK back to the attacker.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 8983,
+        "attack": 1789,
+        "speed": 385,
+        "odds": "1/700"
+      }
+    }
+  },
+  {
+    "characterName": "The Fake",
+    "abilityName": "ENGINE",
+    "abilityDescription": "On entry, reduces the opposing card's HP, ATTACK, and SPEED by 15%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 3708,
+        "attack": 742,
+        "speed": 59,
+        "odds": "1/777"
+      }
+    }
+  },
+  {
+    "characterName": "Lucky Clown",
+    "abilityName": "CLOWN LUCK",
+    "abilityDescription": "Has a 20% chance to dodge an incoming attack. After attacking, has a 20% chance to attack again.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 3999,
+        "attack": 800,
+        "speed": 170,
+        "odds": "1/999"
+      }
+    }
+  },
+  {
+    "characterName": "Bloomera",
+    "abilityName": "SPRING POLLEN",
+    "abilityDescription": "On entry, Bloomera spreads Spring Pollen across the allied team for 7 turns. While Spring Pollen is active, all allies gain 20% dodge chance, and all healing they receive is increased by 50%.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 10000,
+        "attack": 2000,
+        "speed": 425,
+        "odds": "1/1,000"
+      }
+    }
+  },
+  {
+    "characterName": "Coward Goblin",
+    "abilityName": "LUCKY GOBLIN",
+    "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 10% of its base ATTACK.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 4000,
+        "attack": 800,
+        "speed": 170,
+        "odds": "1/1,000"
+      }
+    }
+  },
+  {
+    "characterName": "Log",
+    "abilityName": "REPLACEMENT",
+    "abilityDescription": "Grants the supported card a 10% chance to dodge incoming attacks.",
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000"
+      }
+    },
+    "isSupportCard": true
   }
 ]

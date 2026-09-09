@@ -242,10 +242,62 @@ function formatAbilityDescription(text, cardName = "") {
 
   return `<p>${safe}</p>`;
 }
+const CARDS_PER_PAGE = 16;
+let currentPage = 1;
+let lastPageCount = 1;
+
 let activeSort = {
   stat: "odds",
   direction: "desc"
 };
+
+function resetToFirstPage() {
+  currentPage = 1;
+}
+
+function renderPagination(totalItems) {
+  const pagination = $("#pagination");
+  const totalPages = Math.max(1, Math.ceil(totalItems / CARDS_PER_PAGE));
+  lastPageCount = totalPages;
+
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  // Keep the control compact like the reference screenshot:
+  // first five pages, an ellipsis when needed, and the last page.
+  const pages = [];
+  if (totalPages <= 6) {
+    for (let page = 1; page <= totalPages; page++) pages.push(page);
+  } else {
+    for (let page = 1; page <= Math.min(5, totalPages); page++) pages.push(page);
+    if (totalPages > 6) pages.push("ellipsis");
+    pages.push(totalPages);
+  }
+
+  pagination.innerHTML = `
+    <button class="page-btn page-prev" type="button" ${currentPage === 1 ? "disabled" : ""}>Prev</button>
+    ${pages.map(page => {
+      if (page === "ellipsis") {
+        return '<span class="page-ellipsis" aria-hidden="true">…</span>';
+      }
+      return `<button class="page-btn page-number ${page === currentPage ? "active" : ""}"
+        type="button" data-page="${page}" ${page === currentPage ? 'aria-current="page"' : ""}>${page}</button>`;
+    }).join("")}
+    <button class="page-btn page-next" type="button" ${currentPage === totalPages ? "disabled" : ""}>Next</button>
+  `;
+
+  const goToPage = page => {
+    currentPage = Math.min(Math.max(page, 1), lastPageCount);
+    renderCards();
+    // Keep navigation convenient when the list is long.
+    $("#cardGrid").scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  pagination.querySelector(".page-prev").onclick = () => goToPage(currentPage - 1);
+  pagination.querySelector(".page-next").onclick = () => goToPage(currentPage + 1);
+  pagination.querySelectorAll("[data-page]").forEach(button => {
+    button.onclick = () => goToPage(Number(button.dataset.page));
+  });
+}
 
 function updateSortControls() {
   document.querySelectorAll(".sort-stat").forEach(button => {
@@ -319,10 +371,13 @@ function renderCards() {
       return difference || oddsTieBreak();
     });
 
-  $("#count").textContent =
-    `Showing ${filtered.length} of ${filtered.length} Classic Border cards`;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / CARDS_PER_PAGE));
+  if (currentPage > totalPages) currentPage = totalPages;
 
-  $("#cardGrid").innerHTML = filtered.map(c => {
+  const startIndex = (currentPage - 1) * CARDS_PER_PAGE;
+  const pageCards = filtered.slice(startIndex, startIndex + CARDS_PER_PAGE);
+
+  $("#cardGrid").innerHTML = pageCards.map(c => {
     const originalIndex = cards.indexOf(c);
     const stats = c.borders.Classic;
 
@@ -352,8 +407,18 @@ function renderCards() {
   document.querySelectorAll(".card").forEach(el => {
     el.onclick = () => openCard(Number(el.dataset.index));
   });
-}
 
+  renderPagination(filtered.length);
+
+  if (filtered.length) {
+    const showingStart = startIndex + 1;
+    const showingEnd = Math.min(startIndex + CARDS_PER_PAGE, filtered.length);
+    $("#count").textContent =
+      `Showing ${showingStart}–${showingEnd} of ${filtered.length} Classic Border cards`;
+  } else {
+    $("#count").textContent = "Showing 0 cards";
+  }
+}
 function availableBorders(c) {
   return borderOrder.filter(r => c.borders && c.borders[r]);
 }
@@ -414,9 +479,18 @@ function openCard(index) {
   $("#modal").classList.remove("hidden");
 }
 
-$("#search").addEventListener("input", renderCards);
-$("#offFieldFilter").addEventListener("change", renderCards);
-$("#sourceFilter").addEventListener("change", renderCards);
+$("#search").addEventListener("input", () => {
+  resetToFirstPage();
+  renderCards();
+});
+$("#offFieldFilter").addEventListener("change", () => {
+  resetToFirstPage();
+  renderCards();
+});
+$("#sourceFilter").addEventListener("change", () => {
+  resetToFirstPage();
+  renderCards();
+});
 
 document.querySelectorAll(".sort-stat").forEach(button => {
   button.addEventListener("click", () => {
@@ -444,6 +518,7 @@ document.querySelectorAll(".sort-stat").forEach(button => {
     }
 
     updateSortControls();
+    resetToFirstPage();
     renderCards();
   });
 });

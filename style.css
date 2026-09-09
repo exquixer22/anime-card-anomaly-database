@@ -7,7 +7,11 @@ nav{display:flex;gap:8px}.nav-btn{border:1px solid #343b50;background:#222738;co
 main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.page.active{display:block}
 .hero{margin-bottom:20px}.hero h2{margin-bottom:7px}.hero p{color:#b8c0d0}
 .controls{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.controls input,.controls select{background:#1b1f2b;color:#fff;border:1px solid #353c50;padding:11px 12px;border-radius:8px}.controls input{flex:1;min-width:230px}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+}
 .card{background:#1a1e2a;border:2px solid #30374a;border-radius:12px;padding:16px;cursor:pointer;transition:transform .15s,border-color .15s}
 .card:hover{transform:translateY(-3px)}
 .card-Classic{border-color:#808080}
@@ -325,4 +329,73 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   #sourceFilter{
     min-width:150px;
   }
+}
+
+
+/* Pagination: 16 cards per page (4 × 4 on desktop) */
+.pagination{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:28px 0 0;
+}
+.page-btn{
+  min-width:52px;
+  height:56px;
+  padding:0 18px;
+  border:0;
+  border-radius:4px;
+  background:#181b22;
+  color:#b8c0d0;
+  font:inherit;
+  font-size:1rem;
+  font-weight:700;
+  cursor:pointer;
+  transition:filter .15s,transform .15s,background .15s;
+}
+.page-btn:hover:not(:disabled){
+  filter:brightness(1.2);
+  transform:translateY(-1px);
+}
+.page-btn:disabled{
+  opacity:.38;
+  cursor:not-allowed;
+}
+.page-number.active{
+  background:#242a38;
+  color:#dce2ef;
+  box-shadow:inset 0 0 0 1px #30394b;
+}
+.page-next{
+  min-width:112px;
+  background:#ff9f12;
+  color:#111318;
+  font-size:1.1rem;
+}
+.page-ellipsis{
+  min-width:24px;
+  text-align:center;
+  color:#8891a5;
+  font-size:1.15rem;
+  font-weight:bold;
+}
+.card-count{
+  text-align:center;
+  margin:14px 0 0;
+}
+
+/* Responsive layout */
+@media(max-width:1050px){
+  .card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:760px){
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:500px){
+  .card-grid{grid-template-columns:1fr}
+  .pagination{gap:7px}
+  .page-btn{height:48px;min-width:46px;padding:0 12px}
+  .page-next{min-width:90px}
 }

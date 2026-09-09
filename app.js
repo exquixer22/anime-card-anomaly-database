@@ -244,9 +244,9 @@ function formatAbilityDescription(text, cardName = "") {
 function renderCards() {
   const q = $("#search").value.toLowerCase().trim();
   const offField = $("#offFieldFilter").value;
+  const sortBy = $("#sortBy").value;
 
   // Front page displays one Classic card per character.
-  // Cards are always ordered by odds: higher odds first (1/2, 1/3, 1/5...).
   const filtered = cards
     .filter(c => {
       const text = [
@@ -260,12 +260,43 @@ function renderCards() {
         c.borders && c.borders.Classic;
     })
     .sort((a, b) => {
-      const oddsDifference =
-        oddsDenominator(a.borders.Classic.odds) -
-        oddsDenominator(b.borders.Classic.odds);
+      const aStats = a.borders.Classic;
+      const bStats = b.borders.Classic;
 
-      // If odds are the same, sort alphabetically by character name.
-      return oddsDifference ||
+      // Odds are the default order: 1/2, 1/3, 1/5, etc.
+      if (sortBy === "odds") {
+        const oddsDifference =
+          oddsDenominator(aStats.odds) -
+          oddsDenominator(bStats.odds);
+
+        return oddsDifference ||
+          a.characterName.localeCompare(b.characterName);
+      }
+
+      const [stat, direction] = sortBy.split("-");
+      const aIsSupport = isSupportCard(aStats);
+      const bIsSupport = isSupportCard(bStats);
+
+      // Support cards have no stats, so keep them after cards with stats.
+      if (aIsSupport !== bIsSupport) return aIsSupport ? 1 : -1;
+
+      // If both are support cards, keep their normal odds/name ordering.
+      if (aIsSupport && bIsSupport) {
+        return (
+          oddsDenominator(aStats.odds) -
+          oddsDenominator(bStats.odds)
+        ) || a.characterName.localeCompare(b.characterName);
+      }
+
+      const aValue = Number(aStats[stat]) || 0;
+      const bValue = Number(bStats[stat]) || 0;
+      const difference = direction === "desc"
+        ? bValue - aValue
+        : aValue - bValue;
+
+      // Ties are ordered by odds, then alphabetically.
+      return difference ||
+        (oddsDenominator(aStats.odds) - oddsDenominator(bStats.odds)) ||
         a.characterName.localeCompare(b.characterName);
     });
 
@@ -366,6 +397,7 @@ function openCard(index) {
 
 $("#search").addEventListener("input", renderCards);
 $("#offFieldFilter").addEventListener("change", renderCards);
+$("#sortBy").addEventListener("change", renderCards);
 
 document.querySelectorAll(".nav-btn").forEach(b => {
   b.onclick = () => {

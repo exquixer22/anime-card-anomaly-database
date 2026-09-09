@@ -206,5 +206,47 @@
         "odds": "1/150"
       }
     }
+  },
+  {
+    "characterName": "Thunder Boy",
+    "abilityName": "THUNDER STRIKE",
+    "abilityDescription": "Every turn, has a 30% chance to Stun the opposing card for 1 turn.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 2465,
+        "attack": 493,
+        "speed": 109,
+        "odds": "1/200"
+      }
+    }
+  },
+  {
+    "characterName": "FPLN-67",
+    "abilityName": "FIGHTER JET",
+    "abilityDescription": "On entry, doubles its Speed. Performs 2 separate attacks against random enemies.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 7812,
+        "attack": 1562,
+        "speed": 345,
+        "odds": "1/240"
+      }
+    }
+  },
+  {
+    "characterName": "Young Hunter",
+    "abilityName": "ROCK",
+    "abilityDescription": "Attacks once every 2 turns. Each time Young Hunter hits an enemy, increases his ATTACK by 50%.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "health": 2784,
+        "attack": 557,
+        "speed": 122,
+        "odds": "1/300"
+      }
+    }
   }
 ]

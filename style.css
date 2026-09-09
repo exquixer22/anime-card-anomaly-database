@@ -204,3 +204,11 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalContent .ability-shield{
   color:#72c7ff;
 }
+
+/* Additional exact ability colors */
+#modalContent .ability-stun{
+  color:#f2d46f;
+}
+#modalContent .ability-fighter-attacks{
+  color:#e5b86b;
+}

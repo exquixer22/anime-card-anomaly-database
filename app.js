@@ -153,6 +153,34 @@ function formatAbilityDescription(text) {
     '<span class="ability-max-hp">$1</span>'
   );
 
+  // Thunder Boy: chance is gold and Stun is yellow.
+  safe = safe.replace(
+    /(\b20%\s+chance\b)/gi,
+    '<span class="ability-chance">$1</span>'
+  );
+  safe = safe.replace(
+    /(\bStun\b)/gi,
+    '<span class="ability-stun">$1</span>'
+  );
+
+  // FPLN-67: "doubles its Speed" is cyan.
+  safe = safe.replace(
+    /(\bdoubles\s+its\s+Speed\b)/gi,
+    '<span class="ability-speed">$1</span>'
+  );
+
+  // FPLN-67: "2 separate attacks" is orange/gold.
+  safe = safe.replace(
+    /(\b2\s+separate\s+attacks\b)/gi,
+    '<span class="ability-fighter-attacks">$1</span>'
+  );
+
+  // Young Hunter: only ATTACK and 50% are pink/red; "by" remains the normal color.
+  safe = safe.replace(
+    /(\bATTACK\b)(\s+by\s+)(50%)/gi,
+    '<span class="ability-attack">$1</span>$2<span class="ability-attack">$3</span>'
+  );
+
   // Any "# turn(s)" or "# Global Turn(s)" is always light gray.
   safe = safe.replace(
     /(\b\d+\s+(?:Global\s+)?Turns?\b)/gi,

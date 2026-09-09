@@ -262,42 +262,41 @@ function renderCards() {
     .sort((a, b) => {
       const aStats = a.borders.Classic;
       const bStats = b.borders.Classic;
-
-      // Odds are the default order: 1/2, 1/3, 1/5, etc.
-      if (sortBy === "odds") {
-        const oddsDifference =
-          oddsDenominator(aStats.odds) -
-          oddsDenominator(bStats.odds);
-
-        return oddsDifference ||
-          a.characterName.localeCompare(b.characterName);
-      }
-
-      const [stat, direction] = sortBy.split("-");
       const aIsSupport = isSupportCard(aStats);
       const bIsSupport = isSupportCard(bStats);
 
-      // Support cards have no stats, so keep them after cards with stats.
+      const oddsTieBreak = () =>
+        (oddsDenominator(aStats.odds) - oddsDenominator(bStats.odds)) ||
+        a.characterName.localeCompare(b.characterName);
+
+      // Default: highest probability first (1/2, 1/3, 1/5, ...).
+      if (sortBy === "odds") return oddsTieBreak();
+
+      // Support cards have no numeric stats, so always place them after
+      // normal cards when sorting by Health, Attack, or Speed.
       if (aIsSupport !== bIsSupport) return aIsSupport ? 1 : -1;
+      if (aIsSupport && bIsSupport) return oddsTieBreak();
 
-      // If both are support cards, keep their normal odds/name ordering.
-      if (aIsSupport && bIsSupport) {
-        return (
-          oddsDenominator(aStats.odds) -
-          oddsDenominator(bStats.odds)
-        ) || a.characterName.localeCompare(b.characterName);
-      }
+      const sortConfig = {
+        healthHigh: { stat: "health", direction: "desc" },
+        healthLow: { stat: "health", direction: "asc" },
+        attackHigh: { stat: "attack", direction: "desc" },
+        attackLow: { stat: "attack", direction: "asc" },
+        speedHigh: { stat: "speed", direction: "desc" },
+        speedLow: { stat: "speed", direction: "asc" }
+      };
 
-      const aValue = Number(aStats[stat]) || 0;
-      const bValue = Number(bStats[stat]) || 0;
-      const difference = direction === "desc"
+      const config = sortConfig[sortBy];
+      if (!config) return oddsTieBreak();
+
+      const aValue = Number(aStats[config.stat]);
+      const bValue = Number(bStats[config.stat]);
+
+      const difference = config.direction === "desc"
         ? bValue - aValue
         : aValue - bValue;
 
-      // Ties are ordered by odds, then alphabetically.
-      return difference ||
-        (oddsDenominator(aStats.odds) - oddsDenominator(bStats.odds)) ||
-        a.characterName.localeCompare(b.characterName);
+      return difference || oddsTieBreak();
     });
 
   $("#count").textContent =
@@ -398,6 +397,7 @@ function openCard(index) {
 $("#search").addEventListener("input", renderCards);
 $("#offFieldFilter").addEventListener("change", renderCards);
 $("#sortBy").addEventListener("change", renderCards);
+$("#sortBy").onchange = renderCards;
 
 document.querySelectorAll(".nav-btn").forEach(b => {
   b.onclick = () => {

@@ -232,9 +232,9 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   padding:5px 8px;
   border:2px solid var(--obtain-color);
   border-radius:99px;
-  background:#30374a;
+  background:var(--obtain-color);
   color:#eef0f5;
-  font-size:.75rem;
+  font-size:.375rem;
   font-weight:inherit;
   line-height:1;
   white-space:nowrap;

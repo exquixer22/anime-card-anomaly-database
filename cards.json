@@ -32,7 +32,7 @@
   {
     "characterName": "Ball of feathers",
     "abilityName": "Light as a Feather",
-    "abilityDescription": "",
+    "abilityDescription": "On entry, doubles its SPEED.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

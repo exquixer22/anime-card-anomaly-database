@@ -134,15 +134,22 @@ function formatAbilityDescription(text, cardName = "") {
   mark(/\b\d+(?:\.\d+)?%\s+less\s+damage\b/gi, "ability-less-damage");
   mark(/\b100%\s+of\s+this\s+card&#039;s\s+maximum\s+HP\b/gi, "ability-max-hp");
 
-  // Hole: HP and SPEED use different colors.
-  markCustom(
-    /\bHP\b(\s+and\s+)\bSPEED\b/gi,
-    (match, separator) =>
-      `<span class="ability-hp">HP</span>${separator}<span class="ability-speed">SPEED</span>`
-  );
+  // Spiritual Pressure (Hole): colors are assigned by exact occurrence.
+  // First paragraph: HP is green, SPEED is cyan, and 10% is purple.
+  // Second paragraph: the first HP in "HP reduction" stays white.
+  // The ending phrase "100% of this card's maximum HP" is green.
+  if (cardName === "Hole") {
+    markCustom(
+      /\bHP\b(\s+and\s+)\bSPEED\b/gi,
+      (match, separator) =>
+        `<span class="ability-hp">HP</span>${separator}<span class="ability-speed">SPEED</span>`
+    );
 
-  // Hole: "by 10%" is purple.
-  mark(/\bby\s+10%(?=\.)/gi, "ability-reduction");
+    mark(/\b10%(?=\.)/g, "ability-reduction");
+
+    // Protect this exact white occurrence from the later general HP rule.
+    markCustom(/\bHP\s+reduction\b/g, match => match);
+  }
 
   // Demon: only "10% HP" is green.
   mark(/\b\d+(?:\.\d+)?%\s+HP\b/gi, "ability-hp-percent");
@@ -156,8 +163,13 @@ function formatAbilityDescription(text, cardName = "") {
   mark(/\bShield\b/gi, "ability-shield");
 
   // FPLN-67.
-  mark(/\bdoubles\s+its\s+Speed\b/gi, "ability-speed");
-  mark(/\b2\s+separate\s+attacks\b/gi, "ability-fighter-attacks");
+  if (cardName === "FPLN-67") {
+    mark(/\bdoubles\s+its\s+Speed\b/gi, "ability-speed");
+    mark(/\b2\s+separate\s+attacks\b/gi, "ability-fighter-attacks");
+  }
+
+  // Light as a Feather (Ball of feathers): only SPEED is cyan.
+  // The rest of the sentence remains white.
 
   // Young Hunter.
   markCustom(

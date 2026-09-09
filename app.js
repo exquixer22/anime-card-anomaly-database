@@ -283,10 +283,19 @@ function formatAbilityDescription(text, cardName = "") {
   mark(/\b20%\s+chance\b/gi, "ability-chance");
   mark(/\bdodge\b/gi, "ability-dodge");
 
-  // Bloomera.
-  mark(/\bSpring\s+Pollen\b/gi, "ability-max-hp");
-  mark(/\b20%\s+dodge\s+chance\b/gi, "ability-speed");
-  mark(/\b50%\b/gi, "ability-max-hp");
+  // Bloomera — Spring Pollen.
+  // Match the original card exactly:
+  // only the first "Spring Pollen" (in the first sentence) is green.
+  // The second "Spring Pollen" remains white.
+  // The entire "20% dodge chance" phrase is cyan and "50%" is green.
+  if (cardName === "Bloomera") {
+    mark(
+      /\bSpring\s+Pollen\b(?=\s+across\s+the\s+allied\s+team)/gi,
+      "ability-max-hp"
+    );
+    mark(/20%\s+dodge\s+chance/gi, "ability-speed");
+    mark(/50%/g, "ability-max-hp");
+  }
 
   // Coward Goblin.
   // The screenshot colors only the FIRST "evade" (cyan).

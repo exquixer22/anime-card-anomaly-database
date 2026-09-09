@@ -248,187 +248,21 @@ let activeSort = {
 
 function updateSortControls() {
   document.querySelectorAll(".sort-stat").forEach(button => {
-    const stat = button.dataset.stat;
-    const arrow = button.querySelector(".sort-arrow");
-    const isActive = activeSort.stat === stat;
-
-    button.classList.toggle("active", isActive);
-
-    if (!isActive) {
-      arrow.textContent = "↕";
-      button.setAttribute(
-        "aria-label",
-        `Sort by ${stat}. Click for highest first.`
-      );
-      return;
-    }
-
-    const isAscending = activeSort.direction === "asc";
-    arrow.textContent = isAscending ? "↑" : "↓";
-    button.setAttribute(
-      "aria-label",
-      `Sort by ${stat}: ${isAscending ? "lowest first" : "highest first"}`
-    );
-  });
-}
-
-function renderCards() {
-  const q = $("#search").value.toLowerCase().trim();
-  const offField = $("#offFieldFilter").value;
-
-  // Front page displays one Classic card per character.
-  const filtered = cards
-    .filter(c => {
-      const text = [
-        c.characterName,
-        c.abilityName,
-        c.abilityDescription
-      ].join(" ").toLowerCase();
-
-      return (!q || text.includes(q)) &&
-        (!offField || String(c.hasOffFieldEffects) === offField) &&
-        c.borders && c.borders.Classic;
-    })
-    .sort((a, b) => {
-      const aStats = a.borders.Classic;
-      const bStats = b.borders.Classic;
-      const aIsSupport = isSupportCard(aStats);
-      const bIsSupport = isSupportCard(bStats);
-
-      const oddsTieBreak = () =>
-        (oddsDenominator(aStats.odds) - oddsDenominator(bStats.odds)) ||
-        a.characterName.localeCompare(b.characterName);
-
-      // Default ordering remains by odds until a stat is selected.
-      if (activeSort.stat === "odds") return oddsTieBreak();
-
-      // Support cards have no numeric stats, so keep them after normal cards.
-      if (aIsSupport !== bIsSupport) return aIsSupport ? 1 : -1;
-      if (aIsSupport && bIsSupport) return oddsTieBreak();
-
-      const aValue = Number(aStats[activeSort.stat]);
-      const bValue = Number(bStats[activeSort.stat]);
-
-      const difference = activeSort.direction === "desc"
-        ? bValue - aValue
-        : aValue - bValue;
-
-      return difference || oddsTieBreak();
-    });
-
-  $("#count").textContent =
-    `Showing ${filtered.length} of ${filtered.length} Classic Border cards`;
-
-  $("#cardGrid").innerHTML = filtered.map(c => {
-    const originalIndex = cards.indexOf(c);
-    const stats = c.borders.Classic;
-
-    return `
-      <article class="card ${cardBorderClass("Classic")}" data-index="${originalIndex}">
-        <div class="card-meta">
-          <span class="badge ${borderClass("Classic")}">${isSupportCard(stats) ? "Support" : "Classic"}</span>
-          ${obtainBadgeHtml(c.obtain)}
-        </div>
-        <h3>${esc(c.characterName)}</h3>
-
-        ${statsHtml(stats, true)}
-
-        <div class="ability">
-          <h4>${esc(c.abilityName)}</h4>
-          ${c.hasOffFieldEffects
-            ? '<span class="ability-offfield">OFF-FIELD</span>'
-            : ''}
-        </div>
-
-        <div class="card-footer">
-          <p class="odds">${esc(stats.odds)}</p>
-        </div>
-      </article>`;
-  }).join("") || "<p>No cards found.</p>";
-
-  document.querySelectorAll(".card").forEach(el => {
-    el.onclick = () => openCard(Number(el.dataset.index));
-  });
-}
-
-function availableBorders(c) {
-  return borderOrder.filter(r => c.borders && c.borders[r]);
-}
-
-function renderModalCard(c, border) {
-  const stats = c.borders[border];
-  if (!stats) return;
-
-  const borderButtons = availableBorders(c).map(r => `
-    <button class="border-toggle ${r === border ? "active" : ""} ${cardBorderClass(r)}"
-      data-border="${esc(r)}">${esc(r)}</button>
-  `).join("");
-
-  $("#modalContent").innerHTML = `
-    <div class="border-toggle-row">
-      ${borderButtons}
-    </div>
-
-    <div id="modalCard" class="modal-card ${cardBorderClass(border)}">
-      <div class="card-meta">
-        <span class="badge ${borderClass(border)}">${isSupportCard(stats) ? "Support" : esc(border)}</span>
-        ${obtainBadgeHtml(c.obtain)}
-      </div>
-      <h2>${esc(c.characterName)}</h2>
-
-      ${statsHtml(stats)}
-
-      <p class="odds">${esc(stats.odds)}</p>
-
-      <hr>
-
-      <h3>${esc(c.abilityName)}</h3>
-
-      <div class="ability-description">
-        ${formatAbilityDescription(c.abilityDescription, c.characterName)}
-      </div>
-
-      ${c.hasOffFieldEffects
-        ? '<div class="modal-offfield-row"><span class="ability-offfield">OFF-FIELD</span></div>'
-        : ''}
-    </div>
-  `;
-
-  document.querySelectorAll(".border-toggle").forEach(button => {
-    button.onclick = () => renderModalCard(c, button.dataset.border);
-  });
-}
-
-function openCard(index) {
-  const c = cards[index];
-  if (!c) return;
-
-  const firstBorder = c.borders.Classic
-    ? "Classic"
-    : availableBorders(c)[0];
-
-  renderModalCard(c, firstBorder);
-  $("#modal").classList.remove("hidden");
-}
-
-$("#search").addEventListener("input", renderCards);
-$("#offFieldFilter").addEventListener("change", renderCards);
-
-document.querySelectorAll(".sort-stat").forEach(button => {
   button.addEventListener("click", () => {
     const selectedStat = button.dataset.stat;
 
-    // Three-click cycle for each stat:
-    // 1st click: highest first ↓
-    // 2nd click: lowest first ↑
-    // 3rd click: reset to the original odds order ↕
+    // Three-state cycle:
+    // default/original odds → highest ↓ → lowest ↑ → original odds ↕
     if (activeSort.stat !== selectedStat) {
       activeSort = {
         stat: selectedStat,
         direction: "desc"
       };
     } else if (activeSort.direction === "desc") {
-      activeSort.direction = "asc";
+      activeSort = {
+        stat: selectedStat,
+        direction: "asc"
+      };
     } else {
       activeSort = {
         stat: "odds",

@@ -310,7 +310,8 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   display:flex;
   align-items:center;
   min-height:42px;
-  margin:12px 0 16px;
+  /* Equal vertical spacing above and below the sorting controls */
+  margin:16px 0;
 }
 .sort-row .sort-controls{
   margin-left:0;

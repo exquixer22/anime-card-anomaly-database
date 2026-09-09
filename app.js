@@ -1,6 +1,6 @@
 let cards = [];
 const $ = s => document.querySelector(s);
-const rarityOrder = ["Classic", "Scarlet", "Holographic", "Astral", "Anomaly"];
+const borderOrder = ["Classic", "Scarlet", "Holographic", "Astral", "Anomaly"];
 
 function fmt(n) {
   return Number(n).toLocaleString("en-US");
@@ -16,11 +16,11 @@ function esc(v) {
   }[m]));
 }
 
-function rarityClass(r) {
-  return "rarity-" + String(r).replace(/[^a-zA-Z]/g, "");
+function borderClass(r) {
+  return "border-" + String(r).replace(/[^a-zA-Z]/g, "");
 }
 
-function cardRarityClass(r) {
+function cardBorderClass(r) {
   return "card-" + String(r).replace(/[^a-zA-Z]/g, "");
 }
 
@@ -223,12 +223,12 @@ function renderCards() {
 
       return (!q || text.includes(q)) &&
         (!offField || String(c.hasOffFieldEffects) === offField) &&
-        c.rarities && c.rarities.Classic;
+        c.borders && c.borders.Classic;
     })
     .sort((a, b) => {
       const oddsDifference =
-        oddsDenominator(a.rarities.Classic.odds) -
-        oddsDenominator(b.rarities.Classic.odds);
+        oddsDenominator(a.borders.Classic.odds) -
+        oddsDenominator(b.borders.Classic.odds);
 
       // If odds are the same, sort alphabetically by character name.
       return oddsDifference ||
@@ -240,11 +240,11 @@ function renderCards() {
 
   $("#cardGrid").innerHTML = filtered.map(c => {
     const originalIndex = cards.indexOf(c);
-    const stats = c.rarities.Classic;
+    const stats = c.borders.Classic;
 
     return `
-      <article class="card ${cardRarityClass("Classic")}" data-index="${originalIndex}">
-        <span class="badge ${rarityClass("Classic")}">Classic</span>
+      <article class="card ${cardBorderClass("Classic")}" data-index="${originalIndex}">
+        <span class="badge ${borderClass("Classic")}">Classic</span>
         <h3>${esc(c.characterName)}</h3>
 
         ${statsHtml(stats)}
@@ -267,26 +267,26 @@ function renderCards() {
   });
 }
 
-function availableRarities(c) {
-  return rarityOrder.filter(r => c.rarities && c.rarities[r]);
+function availableBorders(c) {
+  return borderOrder.filter(r => c.borders && c.borders[r]);
 }
 
-function renderModalCard(c, rarity) {
-  const stats = c.rarities[rarity];
+function renderModalCard(c, border) {
+  const stats = c.borders[border];
   if (!stats) return;
 
-  const rarityButtons = availableRarities(c).map(r => `
-    <button class="rarity-toggle ${r === rarity ? "active" : ""} ${cardRarityClass(r)}"
-      data-rarity="${esc(r)}">${esc(r)}</button>
+  const borderButtons = availableBorders(c).map(r => `
+    <button class="border-toggle ${r === border ? "active" : ""} ${cardBorderClass(r)}"
+      data-border="${esc(r)}">${esc(r)}</button>
   `).join("");
 
   $("#modalContent").innerHTML = `
-    <div class="rarity-toggle-row">
-      ${rarityButtons}
+    <div class="border-toggle-row">
+      ${borderButtons}
     </div>
 
-    <div id="modalCard" class="modal-card ${cardRarityClass(rarity)}">
-      <span class="badge ${rarityClass(rarity)}">${esc(rarity)}</span>
+    <div id="modalCard" class="modal-card ${cardBorderClass(border)}">
+      <span class="badge ${borderClass(border)}">${esc(border)}</span>
       <h2>${esc(c.characterName)}</h2>
 
       ${statsHtml(stats)}
@@ -307,8 +307,8 @@ function renderModalCard(c, rarity) {
     </div>
   `;
 
-  document.querySelectorAll(".rarity-toggle").forEach(button => {
-    button.onclick = () => renderModalCard(c, button.dataset.rarity);
+  document.querySelectorAll(".border-toggle").forEach(button => {
+    button.onclick = () => renderModalCard(c, button.dataset.border);
   });
 }
 
@@ -316,11 +316,11 @@ function openCard(index) {
   const c = cards[index];
   if (!c) return;
 
-  const firstRarity = c.rarities.Classic
+  const firstBorder = c.borders.Classic
     ? "Classic"
-    : availableRarities(c)[0];
+    : availableBorders(c)[0];
 
-  renderModalCard(c, firstRarity);
+  renderModalCard(c, firstBorder);
   $("#modal").classList.remove("hidden");
 }
 

@@ -4,7 +4,7 @@
     "abilityName": "Sword Skill",
     "abilityDescription": "10% chance to slice the opponent, dealing 50% of this card's damage.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2",
         "health": 617,
@@ -18,7 +18,7 @@
     "abilityName": "Max Speed Dodge",
     "abilityDescription": "10% chance to dodge an incoming attack.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3",
         "health": 696,
@@ -32,7 +32,7 @@
     "abilityName": "Light as a Feather",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5",
         "health": 812,
@@ -46,7 +46,7 @@
     "abilityName": "Slime Body",
     "abilityDescription": "Takes 10% less damage.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10",
         "health": 1000,
@@ -60,7 +60,7 @@
     "abilityName": "Demon Body",
     "abilityDescription": "Restores 10% HP every 2 turns.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20",
         "health": 1130,
@@ -74,7 +74,7 @@
     "abilityName": "Spiritual Pressure",
     "abilityDescription": "On entry, reduces the opposing card's HP and SPEED by 10%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20",
         "health": 1233,
@@ -88,7 +88,7 @@
     "abilityName": "Boom",
     "abilityDescription": "On death, applies Burn to the opposing card for 3 turns.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20",
         "health": 1392,
@@ -102,7 +102,7 @@
     "abilityName": "Kokoverclock",
     "abilityDescription": "At the start of battle, every allied Koko gains Kokoverclock. When a marked Koko dies, it deals 250% of its Attack to the active enemy. Each Koko can trigger this only once.",
     "hasOffFieldEffects": true,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50",
         "health": 4872,
@@ -116,7 +116,7 @@
     "abilityName": "Cute Sprout",
     "abilityDescription": "Why would you even defeat something this cute?",
     "hasOffFieldEffects": true,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50",
         "health": 4060,
@@ -130,7 +130,7 @@
     "abilityName": "Justice Crash",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50",
         "health": 1624,
@@ -144,7 +144,7 @@
     "abilityName": "Body Replacement",
     "abilityDescription": "Evades the first incoming attack and the first attack that would be fatal.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100",
         "health": 2000,
@@ -158,7 +158,7 @@
     "abilityName": "Ancient Roots",
     "abilityDescription": "On entry, gains a Shield equal to 25% of maximum HP. Every 3 turns, restores 10% of maximum HP.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/150",
         "health": 5650,
@@ -172,7 +172,7 @@
     "abilityName": "Thunder Strike",
     "abilityDescription": "Every turn, has a 30% chance to Stun the opposing card for 1 turn.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/200",
         "health": 2465,
@@ -186,7 +186,7 @@
     "abilityName": "Fighter Jet",
     "abilityDescription": "On entry, doubles its Speed. Performs 2 separate attacks against random enemies.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/240",
         "health": 7812,
@@ -200,7 +200,7 @@
     "abilityName": "Rock",
     "abilityDescription": "Attacks once every 2 turns. Each time Young Hunter hits an enemy, increases his ATTACK by 50%.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/300",
         "health": 2784,
@@ -214,7 +214,7 @@
     "abilityName": "Canopy Dive",
     "abilityDescription": "On entry, strikes the 2 enemies with the highest ATTACK for 250% total damage each.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/333",
         "health": 7183,
@@ -228,7 +228,7 @@
     "abilityName": "Conqueror's Presence",
     "abilityDescription": "On entry, increases all allies' SPEED by 30% and their ATTACK by 10%.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500",
         "health": 3247,
@@ -242,7 +242,7 @@
     "abilityName": "Spider Robot",
     "abilityDescription": "On an enemy entry, deals 200% damage to that enemy. The first time SPDR-06 would be defeated, it survives at 1 HP.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500",
         "health": 9741,
@@ -256,7 +256,7 @@
     "abilityName": "Cursed Vines",
     "abilityDescription": "When hit, deals 20% of Thornveil's ATTACK back to the attacker.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/700",
         "health": 8983,
@@ -270,7 +270,7 @@
     "abilityName": "Engine",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/777",
         "health": 3708,
@@ -284,7 +284,7 @@
     "abilityName": "Clown Luck",
     "abilityDescription": "Has a 20% chance to dodge an incoming attack. After attacking, has a 20% chance to attack again.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/999",
         "health": 3999,
@@ -298,7 +298,7 @@
     "abilityName": "Spring Pollen",
     "abilityDescription": "On entry, Bloomera spreads Spring Pollen across the allied team for 7 turns. While Spring Pollen is active, all allies gain 20% dodge chance, and all healing they receive is increased by 50%.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000",
         "health": 10000,
@@ -312,7 +312,7 @@
     "abilityName": "Lucky Goblin",
     "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 150% of its base ATTACK.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000",
         "health": 4000,
@@ -326,7 +326,7 @@
     "abilityName": "Replacement",
     "abilityDescription": "Grants the supported card a 10% chance to dodge incoming attacks.",
     "hasOffFieldEffects": true,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000"
       }
@@ -337,7 +337,7 @@
     "abilityName": "Swarm Carrier",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,111",
         "health": 12387,
@@ -351,7 +351,7 @@
     "abilityName": "Special Eye",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,500",
         "health": 4520,
@@ -365,7 +365,7 @@
     "abilityName": "Women Lover",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000",
         "health": 4929,
@@ -379,7 +379,7 @@
     "abilityName": "Warrior Pride",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000",
         "health": 4929,
@@ -393,7 +393,7 @@
     "abilityName": "Big Mecha",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,500",
         "health": 15813,
@@ -407,7 +407,7 @@
     "abilityName": "Overclock",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,000",
         "health": 5568,
@@ -421,7 +421,7 @@
     "abilityName": "Ice Age",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/4,000",
         "health": 8198,
@@ -435,7 +435,7 @@
     "abilityName": "Thunder Stroke",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000",
         "health": 9741,
@@ -449,7 +449,7 @@
     "abilityName": "Lance",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000",
         "health": 6494,
@@ -463,7 +463,7 @@
     "abilityName": "Attack Boost",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000"
       }
@@ -474,7 +474,7 @@
     "abilityName": "Healing",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/6,000",
         "health": 6860,
@@ -488,7 +488,7 @@
     "abilityName": "Steal",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/6,900",
         "health": 7155,
@@ -502,7 +502,7 @@
     "abilityName": "Cutting Endurance",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/7,000",
         "health": 7186,
@@ -516,7 +516,7 @@
     "abilityName": "Water Manipulation",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/8,000",
         "health": 9352,
@@ -530,7 +530,7 @@
     "abilityName": "Super Warrior",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/9,001",
         "health": 7751,
@@ -544,7 +544,7 @@
     "abilityName": "Health Boost",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000"
       }
@@ -555,7 +555,7 @@
     "abilityName": "Perfect Absorption",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000",
         "health": 14000,
@@ -569,7 +569,7 @@
     "abilityName": "Rubber Body",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000",
         "health": 8000,
@@ -583,7 +583,7 @@
     "abilityName": "Sun and Water Breath",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/13,011",
         "health": 8660,
@@ -597,7 +597,7 @@
     "abilityName": "Black Flash",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000",
         "health": 9039,
@@ -611,7 +611,7 @@
     "abilityName": "Speed Boost",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000"
       }
@@ -622,7 +622,7 @@
     "abilityName": "Stored Power",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000",
         "health": 27117,
@@ -636,7 +636,7 @@
     "abilityName": "Copycat",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20,000",
         "health": 9857,
@@ -650,7 +650,7 @@
     "abilityName": "Sharpless Katana",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/22,000",
         "health": 10144,
@@ -664,7 +664,7 @@
     "abilityName": "Seal of Command",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/33,000",
         "health": 11460,
@@ -678,7 +678,7 @@
     "abilityName": "Forest Memory",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/33,500",
         "health": 28780,
@@ -692,7 +692,7 @@
     "abilityName": "Living Artillery",
     "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
     "hasOffFieldEffects": true,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/40,000",
         "health": 36432,
@@ -706,7 +706,7 @@
     "abilityName": "Water Armor",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/44,000",
         "health": 15622,
@@ -720,7 +720,7 @@
     "abilityName": "Rage Awakening",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000",
         "health": 12987,
@@ -734,7 +734,7 @@
     "abilityName": "Spear Chain",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000",
         "health": 12987,
@@ -748,7 +748,7 @@
     "abilityName": "Tactical Supply",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000",
         "health": 12987,
@@ -762,7 +762,7 @@
     "abilityName": "Lucky Human",
     "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/75,000",
         "health": 22010,
@@ -776,7 +776,7 @@
     "abilityName": "Blood Feast",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/90,000",
         "health": 31002,
@@ -790,7 +790,7 @@
     "abilityName": "Divine Light",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 28000,
@@ -804,7 +804,7 @@
     "abilityName": "Lightning Discharge",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 24000,
@@ -818,7 +818,7 @@
     "abilityName": "Adaptive Formation",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 48000,
@@ -832,7 +832,7 @@
     "abilityName": "Ora Rush",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 16000,
@@ -846,7 +846,7 @@
     "abilityName": "Absorption",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 40000,
@@ -860,7 +860,7 @@
     "abilityName": "Time Stop",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000",
         "health": 16000,
@@ -874,7 +874,7 @@
     "abilityName": "Blooming Hands",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/150,000",
         "health": 18078,
@@ -888,7 +888,7 @@
     "abilityName": "Death Loop",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/150,000",
         "health": 18078,
@@ -902,7 +902,7 @@
     "abilityName": "Frozen Command",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/167,000",
         "health": 25206,
@@ -916,7 +916,7 @@
     "abilityName": "Dragon Seal",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/200,000"
       }
@@ -927,7 +927,7 @@
     "abilityName": "Heart of the Cards",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/200,000",
         "health": 19713,
@@ -941,7 +941,7 @@
     "abilityName": "Water Shield",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/200,000",
         "health": 24642,
@@ -955,7 +955,7 @@
     "abilityName": "Emergency Ejection",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/250,000",
         "health": 63249,
@@ -969,7 +969,7 @@
     "abilityName": "Natural Recovery",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/250,000"
       }
@@ -980,7 +980,7 @@
     "abilityName": "Crimson Curse",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/250,000",
         "health": 52708,
@@ -994,7 +994,7 @@
     "abilityName": "Immortality",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/300,000",
         "health": 22272,
@@ -1008,7 +1008,7 @@
     "abilityName": "Old Reflexes",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/345,000",
         "health": 81302,
@@ -1022,7 +1022,7 @@
     "abilityName": "Final Release",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/400,000",
         "health": 24287,
@@ -1036,7 +1036,7 @@
     "abilityName": "Death Sense",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/450,000",
         "health": 75489,
@@ -1050,7 +1050,7 @@
     "abilityName": "Blood Absorption",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500,000",
         "health": 51948,
@@ -1064,7 +1064,7 @@
     "abilityName": "Triple Slash",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500,000",
         "health": 25974,
@@ -1078,7 +1078,7 @@
     "abilityName": "Saint Blade",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500,000",
         "health": 25974,
@@ -1092,7 +1092,7 @@
     "abilityName": "Double Sword Skill",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500,000",
         "health": 25974,
@@ -1106,7 +1106,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/550,000"
       }
@@ -1117,7 +1117,7 @@
     "abilityName": "Tactical Command",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/590,000",
         "health": 81903,
@@ -1131,7 +1131,7 @@
     "abilityName": "Last Meal",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/666,666"
       }
@@ -1142,7 +1142,7 @@
     "abilityName": "Death's Presence",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/666,666",
         "health": 99135,
@@ -1156,7 +1156,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/670,000"
       }
@@ -1167,7 +1167,7 @@
     "abilityName": "Psychic Shield",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/690,000",
         "health": 28618,
@@ -1181,7 +1181,7 @@
     "abilityName": "Demon Trick",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/690,000",
         "health": 114472,
@@ -1195,7 +1195,7 @@
     "abilityName": "Renegade Overdrive",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/700,000",
         "health": 86229,
@@ -1209,7 +1209,7 @@
     "abilityName": "Vandalism",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/777,777",
         "health": 29669,
@@ -1223,7 +1223,7 @@
     "abilityName": "Ogre Rage",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/800,000",
         "health": 29922,
@@ -1237,7 +1237,7 @@
     "abilityName": "Newtype Instinct",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/850,000",
         "health": 91419,
@@ -1251,7 +1251,7 @@
     "abilityName": "Blind Justice",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/900,000",
         "health": 31001,
@@ -1265,7 +1265,7 @@
     "abilityName": "Feline Agility",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/900,000",
         "health": 46502,
@@ -1279,7 +1279,7 @@
     "abilityName": "Psychic Power",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/960,000",
         "health": 31610,
@@ -1293,7 +1293,7 @@
     "abilityName": "Lava Domain",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/999,999",
         "health": 96000,
@@ -1307,7 +1307,7 @@
     "abilityName": "Ten Moves Ahead",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 32000,
@@ -1321,7 +1321,7 @@
     "abilityName": "Borrowed Time",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 144000,
@@ -1335,7 +1335,7 @@
     "abilityName": "Aegis Protocol",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 96000,
@@ -1349,7 +1349,7 @@
     "abilityName": "Construction Project",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 32000,
@@ -1363,7 +1363,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000"
       }
@@ -1374,7 +1374,7 @@
     "abilityName": "Plush Guard",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000"
       }
@@ -1385,7 +1385,7 @@
     "abilityName": "Mana Sniper",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 32000,
@@ -1399,7 +1399,7 @@
     "abilityName": "Calm Execution",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 40000,
@@ -1413,7 +1413,7 @@
     "abilityName": "Tactical Relay",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000"
       }
@@ -1424,7 +1424,7 @@
     "abilityName": "Poison Prison",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000",
         "health": 56000,
@@ -1438,7 +1438,7 @@
     "abilityName": "White Coldness",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,500,000",
         "health": 48810,
@@ -1452,7 +1452,7 @@
     "abilityName": "Brat Power",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,700,000",
         "health": 56315,
@@ -1466,7 +1466,7 @@
     "abilityName": "Blackened Vote",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000,000",
         "health": 59138,
@@ -1480,7 +1480,7 @@
     "abilityName": "Wandless Blade",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000,000",
         "health": 39425,
@@ -1494,7 +1494,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000,000"
       }
@@ -1505,7 +1505,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000,000"
       }
@@ -1516,7 +1516,7 @@
     "abilityName": "Velocity Protocol",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,000,000",
         "health": 118275,
@@ -1530,7 +1530,7 @@
     "abilityName": "Implant Overclock",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,077,000"
       }
@@ -1541,7 +1541,7 @@
     "abilityName": "Alien Enhancement",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,500,000"
       }
@@ -1552,7 +1552,7 @@
     "abilityName": "Sacred Sword",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/2,700,000",
         "health": 43153,
@@ -1566,7 +1566,7 @@
     "abilityName": "Forbidden Spell",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,000,000",
         "health": 44543,
@@ -1580,7 +1580,7 @@
     "abilityName": "Flash Extension",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,000,000",
         "health": 44543,
@@ -1594,7 +1594,7 @@
     "abilityName": "Assault Protocol",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,000,000",
         "health": 133629,
@@ -1608,7 +1608,7 @@
     "abilityName": "Blade Supremacy",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,000,000",
         "health": 178172,
@@ -1622,7 +1622,7 @@
     "abilityName": "Evolving Cycle",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/3,500,000"
       }
@@ -1633,7 +1633,7 @@
     "abilityName": "Crimson Halberd",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/4,000,000",
         "health": 48573,
@@ -1647,7 +1647,7 @@
     "abilityName": "Cursed Roots",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/4,400,000",
         "health": 124968,
@@ -1661,7 +1661,7 @@
     "abilityName": "Walking Arsenal",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000",
         "health": 155844,
@@ -1675,7 +1675,7 @@
     "abilityName": "Restorative Wish",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000"
       }
@@ -1686,7 +1686,7 @@
     "abilityName": "Black Sword",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000",
         "health": 51948,
@@ -1700,7 +1700,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000"
       }
@@ -1711,7 +1711,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000"
       }
@@ -1722,7 +1722,7 @@
     "abilityName": "Steal!",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/5,000,000",
         "health": 51948,
@@ -1736,7 +1736,7 @@
     "abilityName": "Final Release!",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/6,000,000",
         "health": 54878,
@@ -1750,7 +1750,7 @@
     "abilityName": "Energy Boost",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/7,000,000",
         "health": 57485,
@@ -1764,7 +1764,7 @@
     "abilityName": "Omniscient",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/7,000,000",
         "health": 57485,
@@ -1778,7 +1778,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/9,000,000"
       }
@@ -1789,7 +1789,7 @@
     "abilityName": "Time Dominion",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/9,000,000",
         "health": 279009,
@@ -1803,7 +1803,7 @@
     "abilityName": "Getting Serious",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000,000",
         "health": 64000,
@@ -1817,7 +1817,7 @@
     "abilityName": "Sanguine Gift",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000,000",
         "health": 128000,
@@ -1831,7 +1831,7 @@
     "abilityName": "Future Mistake",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000,000",
         "health": 64000,
@@ -1845,7 +1845,7 @@
     "abilityName": "Perfect Hypnosis",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/10,000,000",
         "health": 112000,
@@ -1859,7 +1859,7 @@
     "abilityName": "Black Ink",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/13,000,000",
         "health": 277040,
@@ -1873,7 +1873,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/13,000,000"
       }
@@ -1884,7 +1884,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/14,000,000"
       }
@@ -1895,7 +1895,7 @@
     "abilityName": "Endless Sword Swing",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000,000",
         "health": 72309,
@@ -1909,7 +1909,7 @@
     "abilityName": "Adaptive Directive",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000,000",
         "health": 216927,
@@ -1923,7 +1923,7 @@
     "abilityName": "Redline",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/15,000,000"
       }
@@ -1934,7 +1934,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/17,000,000"
       }
@@ -1945,7 +1945,7 @@
     "abilityName": "Berserker's Wounds",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20,000,000",
         "health": 315400,
@@ -1959,7 +1959,7 @@
     "abilityName": "Return by Death",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20,000,000",
         "health": 78850,
@@ -1973,7 +1973,7 @@
     "abilityName": "Frozen Battlefield",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20,000,000",
         "health": 78850,
@@ -1987,7 +1987,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/20,000,000"
       }
@@ -1998,7 +1998,7 @@
     "abilityName": "Blood Feast",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/25,000,000"
       }
@@ -2009,7 +2009,7 @@
     "abilityName": "Beyond Tomorrow",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/25,000,000",
         "health": 379481,
@@ -2023,7 +2023,7 @@
     "abilityName": "Paw Power",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/25,000,000",
         "health": 252987,
@@ -2037,7 +2037,7 @@
     "abilityName": "Edge of Chrome",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/27,000,000",
         "health": 86305,
@@ -2051,7 +2051,7 @@
     "abilityName": "Aerial Bombardment",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/30,000,000",
         "health": 89086,
@@ -2065,7 +2065,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/30,000,000"
       }
@@ -2076,7 +2076,7 @@
     "abilityName": "Endless Armory",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/30,000,000",
         "health": 89086,
@@ -2090,7 +2090,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/33,000,000"
       }
@@ -2101,7 +2101,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/35,000,000"
       }
@@ -2112,7 +2112,7 @@
     "abilityName": "Last Command",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/35,000,000",
         "health": 93318,
@@ -2126,7 +2126,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/40,000,000"
       }
@@ -2137,7 +2137,7 @@
     "abilityName": "Unbreakable Shield",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/44,000,000",
         "health": 99973,
@@ -2151,7 +2151,7 @@
     "abilityName": "Delayed Execution",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000",
         "health": 467528,
@@ -2165,7 +2165,7 @@
     "abilityName": "Burning Feast",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000",
         "health": 103895,
@@ -2179,7 +2179,7 @@
     "abilityName": "A Last Hit",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000",
         "health": 103895,
@@ -2193,7 +2193,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000"
       }
@@ -2204,7 +2204,7 @@
     "abilityName": "Overwhelming Presence",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000",
         "health": 103895,
@@ -2218,7 +2218,7 @@
     "abilityName": "Otherworld Delivery",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/50,000,000"
       }
@@ -2229,7 +2229,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/55,000,000"
       }
@@ -2240,7 +2240,7 @@
     "abilityName": "Heavy Defense",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/67,000,000"
       }
@@ -2251,7 +2251,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/70,000,000"
       }
@@ -2262,7 +2262,7 @@
     "abilityName": "Limitless Mana",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/70,000,000",
         "health": 114969,
@@ -2276,7 +2276,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/76,000,000"
       }
@@ -2287,7 +2287,7 @@
     "abilityName": "Short Circuit",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/77,000,000",
         "health": 118316,
@@ -2301,7 +2301,7 @@
     "abilityName": "Sword Dance",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/87,000,000",
         "health": 122745,
@@ -2315,7 +2315,7 @@
     "abilityName": "Infinity",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000",
         "health": 128000,
@@ -2329,7 +2329,7 @@
     "abilityName": "Slime Body!",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000",
         "health": 320000,
@@ -2343,7 +2343,7 @@
     "abilityName": "Web Trap",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000",
         "health": 128000,
@@ -2357,7 +2357,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000"
       }
@@ -2368,7 +2368,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000"
       }
@@ -2379,7 +2379,7 @@
     "abilityName": "Noble Blood",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000",
         "health": 128000,
@@ -2393,7 +2393,7 @@
     "abilityName": "Soul Power",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/100,000,000"
       }
@@ -2404,7 +2404,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/250,000,000"
       }
@@ -2415,7 +2415,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/250,000,000"
       }
@@ -2426,7 +2426,7 @@
     "abilityName": "Rain of Earth",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/320,000,000",
         "health": 181667,
@@ -2440,7 +2440,7 @@
     "abilityName": "Thorn",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/500,000,000",
         "health": 207789,
@@ -2454,7 +2454,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/650,000,000"
       }
@@ -2465,7 +2465,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/850,000,000"
       }
@@ -2476,7 +2476,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000,000"
       }
@@ -2487,7 +2487,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,000,000,000"
       }
@@ -2498,7 +2498,7 @@
     "abilityName": "MISSING",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
-    "rarities": {
+    "borders": {
       "Classic": {
         "odds": "1/1,500,000,000"
       }

@@ -275,6 +275,7 @@ function updateSortControls() {
 function renderCards() {
   const q = $("#search").value.toLowerCase().trim();
   const offField = $("#offFieldFilter").value;
+  const source = $("#sourceFilter").value;
 
   // Front page displays one Classic card per character.
   const filtered = cards
@@ -287,6 +288,7 @@ function renderCards() {
 
       return (!q || text.includes(q)) &&
         (!offField || String(c.hasOffFieldEffects) === offField) &&
+        (!source || String(c.obtain || "").trim() === source) &&
         c.borders && c.borders.Classic;
     })
     .sort((a, b) => {
@@ -413,6 +415,7 @@ function openCard(index) {
 
 $("#search").addEventListener("input", renderCards);
 $("#offFieldFilter").addEventListener("change", renderCards);
+$("#sourceFilter").addEventListener("change", renderCards);
 
 document.querySelectorAll(".sort-stat").forEach(button => {
   button.addEventListener("click", () => {

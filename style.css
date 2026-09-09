@@ -316,3 +316,13 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 .sort-row .sort-controls{
   margin-left:0;
 }
+
+/* Source filter */
+#sourceFilter{
+  min-width:170px;
+}
+@media(max-width:900px){
+  #sourceFilter{
+    min-width:150px;
+  }
+}

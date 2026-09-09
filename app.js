@@ -44,204 +44,116 @@ function statsHtml(stats) {
 function formatAbilityDescription(text) {
   let safe = esc(text);
 
+  // Keep highlighted text protected while applying multiple color rules.
+  // This prevents later rules from matching words inside generated <span> HTML.
+  const protectedParts = [];
+
+  function mark(regex, className) {
+    safe = safe.replace(regex, (...args) => {
+      const matched = args[0];
+      const token = `\uE000${protectedParts.length}\uE001`;
+      protectedParts.push(`<span class="${className}">${matched}</span>`);
+      return token;
+    });
+  }
+
+  function markCustom(regex, renderer) {
+    safe = safe.replace(regex, (...args) => {
+      const token = `\uE000${protectedParts.length}\uE001`;
+      protectedParts.push(renderer(...args));
+      return token;
+    });
+  }
+
   // Match the screenshot spacing for separate recurring/raid effects.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
     ".</p><p>"
   );
 
-  // Exact phrase colors from the uploaded card screenshots.
-  safe = safe.replace(
-    /(\b50%\s+of\s+this\s+card&#039;s\s+damage\b)/gi,
-    '<span class="ability-card-damage">$1</span>'
+  // Exact phrase colors from the card screenshots.
+  mark(/\b50%\s+of\s+this\s+card&#039;s\s+damage\b/gi, "ability-card-damage");
+  mark(/\b\d+(?:\.\d+)?%\s+less\s+damage\b/gi, "ability-less-damage");
+  mark(/\b100%\s+of\s+this\s+card&#039;s\s+maximum\s+HP\b/gi, "ability-max-hp");
+
+  // Hole: HP and SPEED use different colors.
+  markCustom(
+    /\bHP\b(\s+and\s+)\bSPEED\b/gi,
+    (match, separator) =>
+      `<span class="ability-hp">HP</span>${separator}<span class="ability-speed">SPEED</span>`
   );
 
-  // Slime: the complete phrase "10% less damage" is gold.
-  safe = safe.replace(
-    /(\b\d+(?:\.\d+)?%\s+less\s+damage\b)/gi,
-    '<span class="ability-less-damage">$1</span>'
-  );
-
-  // Hole: the complete capped amount phrase is green.
-  safe = safe.replace(
-    /(\b100%\s+of\s+this\s+card&#039;s\s+maximum\s+HP\b)/gi,
-    '<span class="ability-max-hp">$1</span>'
-  );
-
-  // Hole: HP and SPEED have different colors.
-  safe = safe.replace(
-    /(\bHP\b)(\s+and\s+)(\bSPEED\b)/gi,
-    '<span class="ability-hp">$1</span>$2<span class="ability-speed">$3</span>'
-  );
-
-  // Hole: the reduction amount is purple.
-  safe = safe.replace(
-    /(\bby\s+)(10%)(?=\.)/i,
-    '$1<span class="ability-reduction">$2</span>'
-  );
+  // Hole: "by 10%" is purple.
+  mark(/\bby\s+10%(?=\.)/gi, "ability-reduction");
 
   // Demon: only "10% HP" is green.
-  safe = safe.replace(
-    /(\b\d+(?:\.\d+)?%\s+HP\b)/gi,
-    '<span class="ability-hp-percent">$1</span>'
+  mark(/\b\d+(?:\.\d+)?%\s+HP\b/gi, "ability-hp-percent");
+
+  // Cyber K.O.K.O.
+  mark(/\bKokoverclock\b/gi, "ability-kokoverclock");
+  mark(/\b250%\s+of\s+its\s+Attack\b/gi, "ability-cyber-attack");
+
+  // Eldergrove.
+  mark(/\b(?:25|10)%\s+of\s+maximum\s+HP\b/gi, "ability-max-hp");
+  mark(/\bShield\b/gi, "ability-shield");
+
+  // FPLN-67.
+  mark(/\bdoubles\s+its\s+Speed\b/gi, "ability-speed");
+  mark(/\b2\s+separate\s+attacks\b/gi, "ability-fighter-attacks");
+
+  // Young Hunter.
+  markCustom(
+    /\bATTACK\b(\s+by\s+)50%/gi,
+    (match, separator) =>
+      `<span class="ability-attack">ATTACK</span>${separator}<span class="ability-attack">50%</span>`
   );
 
-  // Marine / Living Artillery / World Champion / Blue Cat formatting.
-  safe = safe.replace(
-    /(\b\d+\s+shots?\b)/gi,
-    '<span class="ability-shots">$1</span>'
+  // Skyroot.
+  mark(/\b2\s+enemies\b/gi, "ability-fighter-attacks");
+  mark(/\b250%\s+total\s+damage\b/gi, "ability-damage");
+
+  // Chad of Conquerors.
+  markCustom(
+    /\bSPEED\b(\s+by\s+)30%/gi,
+    (match, separator) =>
+      `<span class="ability-speed">SPEED</span>${separator}<span class="ability-speed">30%</span>`
+  );
+  markCustom(
+    /\bATTACK\b(\s+by\s+)10%/gi,
+    (match, separator) =>
+      `<span class="ability-attack">ATTACK</span>${separator}<span class="ability-attack">10%</span>`
   );
 
-  safe = safe.replace(
-    /(\b\d+(?:\.\d+)?%\s+damage\b)/gi,
-    '<span class="ability-damage">$1</span>'
-  );
+  // SPDR-06.
+  mark(/\b200%\s+damage\b/gi, "ability-damage");
+  mark(/\bsurvives\s+at\s+1\s+HP\b/gi, "ability-max-hp");
 
-  safe = safe.replace(
-    /(\b\d+(?:\.\d+)?%\s+chance\b)/gi,
-    '<span class="ability-chance">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\bdodges?\b)/gi,
-    '<span class="ability-dodge">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\b\d+(?:\.\d+)?%\s+Attack\b)/gi,
-    '<span class="ability-attack">$1</span>'
-  );
-
-  // Pusu Pusu: Burn is orange.
-  safe = safe.replace(
-    /(\bBurn\b)/gi,
-    '<span class="ability-burn">$1</span>'
-  );
-
-  // Cyber K.O.K.O: Kokoverclock is purple.
-  safe = safe.replace(
-    /(\bKokoverclock\b)/gi,
-    '<span class="ability-kokoverclock">$1</span>'
-  );
-
-  // Cyber K.O.K.O: the complete "250% of its Attack" phrase is orange.
-  safe = safe.replace(
-    /(\b250%\s+of\s+its\s+Attack\b)/gi,
-    '<span class="ability-cyber-attack">$1</span>'
-  );
-
-  // The Cyclist: SPEED is cyan and "damage dealt" is orange.
-  safe = safe.replace(
-    /(\bdamage\s+dealt\b)/gi,
-    '<span class="ability-damage">$1</span>'
-  );
-
-  // Knucklehead ninja: "Evades" is cyan.
-  safe = safe.replace(
-    /(\bEvades\b)/gi,
-    '<span class="ability-evade">$1</span>'
-  );
-
-  // Eldergrove: Shield is cyan; the percentage + maximum HP phrases are green.
-  safe = safe.replace(
-    /(\bShield\b)/gi,
-    '<span class="ability-shield">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\b(?:25|10)%\s+of\s+maximum\s+HP\b)/gi,
-    '<span class="ability-max-hp">$1</span>'
-  );
-
-  // Thunder Boy: chance is gold and Stun is yellow.
-  safe = safe.replace(
-    /(\b20%\s+chance\b)/gi,
-    '<span class="ability-chance">$1</span>'
-  );
-  safe = safe.replace(
-    /(\bStun\b)/gi,
-    '<span class="ability-stun">$1</span>'
-  );
-
-  // FPLN-67: "doubles its Speed" is cyan.
-  safe = safe.replace(
-    /(\bdoubles\s+its\s+Speed\b)/gi,
-    '<span class="ability-speed">$1</span>'
-  );
-
-  // FPLN-67: "2 separate attacks" is orange/gold.
-  safe = safe.replace(
-    /(\b2\s+separate\s+attacks\b)/gi,
-    '<span class="ability-fighter-attacks">$1</span>'
-  );
-
-  // Young Hunter: only ATTACK and 50% are pink/red; "by" remains the normal color.
-  safe = safe.replace(
-    /(\bATTACK\b)(\s+by\s+)(50%)/gi,
-    '<span class="ability-attack">$1</span>$2<span class="ability-attack">$3</span>'
-  );
-
-  // Skyroot: "2 enemies" and "250% total damage" are orange/gold; ATTACK is red.
-  safe = safe.replace(
-    /(\b2\s+enemies\b)/gi,
-    '<span class="ability-fighter-attacks">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\bATTACK\b)/gi,
-    '<span class="ability-attack">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\b250%\s+total\s+damage\b)/gi,
-    '<span class="ability-damage">$1</span>'
-  );
-
-  // Chad of Conquerors: SPEED and 30% are blue; ATTACK and 10% are red.
-  // Match the exact words/values independently so intervening words do not break coloring.
-  safe = safe.replace(
-    /(\bSPEED\b)/gi,
-    '<span class="ability-speed">$1</span>'
-  );
-  safe = safe.replace(
-    /(\b30%\b)/g,
-    '<span class="ability-speed">$1</span>'
-  );
-  safe = safe.replace(
-    /(\bATTACK\b)/gi,
-    '<span class="ability-attack">$1</span>'
-  );
-  safe = safe.replace(
-    /(\b10%\b)/g,
-    '<span class="ability-attack">$1</span>'
-  );
-
-  // SPDR-06: "200% damage" is orange/peach and "survives at 1 HP" is green.
-  safe = safe.replace(
-    /(\b200%\s+damage\b)/gi,
-    '<span class="ability-damage">$1</span>'
-  );
-
-  safe = safe.replace(
-    /(\bsurvives\s+at\s+1\s+HP\b)/gi,
-    '<span class="ability-max-hp">$1</span>'
-  );
+  // General screenshot formatting.
+  mark(/\b\d+\s+shots?\b/gi, "ability-shots");
+  mark(/\b\d+(?:\.\d+)?%\s+damage\b/gi, "ability-damage");
+  mark(/\b\d+(?:\.\d+)?%\s+chance\b/gi, "ability-chance");
+  mark(/\bdodges?\b/gi, "ability-dodge");
+  mark(/\b\d+(?:\.\d+)?%\s+Attack\b/gi, "ability-attack");
+  mark(/\bBurn\b/gi, "ability-burn");
+  mark(/\bdamage\s+dealt\b/gi, "ability-damage");
+  mark(/\bEvades\b/gi, "ability-evade");
+  mark(/\b20%\s+chance\b/gi, "ability-chance");
+  mark(/\bStun\b/gi, "ability-stun");
 
   // Any "# turn(s)" or "# Global Turn(s)" is always light gray.
-  safe = safe.replace(
-    /(\b\d+\s+(?:Global\s+)?Turns?\b)/gi,
-    '<span class="ability-turn">$1</span>'
-  );
+  mark(/\b\d+\s+(?:Global\s+)?Turns?\b/gi, "ability-turn");
 
-  // Standalone SPEED remains cyan (e.g. Ball of Feathers).
-  safe = safe.replace(
-    /(?<!>)\bSPEED\b(?!<)/g,
-    '<span class="ability-speed">SPEED</span>'
-  );
+  // Standalone SPEED remains cyan.
+  mark(/\bSPEED\b/gi, "ability-speed");
+
+  // Skyroot's remaining standalone ATTACK is red.
+  mark(/\bATTACK\b/gi, "ability-attack");
+
+  // Restore protected HTML only after all text matching is complete.
+  safe = safe.replace(/\uE000(\d+)\uE001/g, (_, index) => protectedParts[Number(index)]);
 
   return `<p>${safe}</p>`;
 }
-
 function renderCards() {
   const q = $("#search").value.toLowerCase().trim();
   const offField = $("#offFieldFilter").value;

@@ -6,10 +6,10 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/2",
         "health": 617,
         "attack": 124,
-        "speed": 35,
-        "odds": "1/2"
+        "speed": 35
       }
     }
   },
@@ -20,64 +20,24 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/3",
         "health": 696,
         "attack": 140,
-        "speed": 38,
-        "odds": "1/3"
+        "speed": 38
       }
     }
   },
   {
-    "characterName": "Ball of Feathers",
+    "characterName": "Ball of feathers",
     "abilityName": "Light as a Feather",
-    "abilityDescription": "On entry, doubles its SPEED.",
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/5",
         "health": 812,
         "attack": 163,
-        "speed": 43,
-        "odds": "1/5"
-      }
-    }
-  },
-  {
-    "characterName": "World Champion",
-    "abilityName": "Lucky Human",
-    "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
-    "hasOffFieldEffects": false,
-    "rarities": {
-      "Classic": {
-        "health": 22010,
-        "attack": 4403,
-        "speed": 896,
-        "odds": "1/75,000"
-      },
-      "Holographic": {
-        "health": 352146,
-        "attack": 70430,
-        "speed": 14102,
-        "odds": "1/750,000,000"
-      }
-    }
-  },
-  {
-    "characterName": "Remote Warlord",
-    "abilityName": "Living Artillery",
-    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
-    "hasOffFieldEffects": true,
-    "rarities": {
-      "Classic": {
-        "health": 36432,
-        "attack": 7287,
-        "speed": 1488,
-        "odds": "1/100,000"
-      },
-      "Scarlet": {
-        "health": 145719,
-        "attack": 29145,
-        "speed": 5859,
-        "odds": "1/4,000,000"
+        "speed": 43
       }
     }
   },
@@ -88,10 +48,10 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/10",
         "health": 1000,
         "attack": 200,
-        "speed": 50,
-        "odds": "1/10"
+        "speed": 50
       }
     }
   },
@@ -102,10 +62,10 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/20",
         "health": 1130,
         "attack": 226,
-        "speed": 56,
-        "odds": "1/15"
+        "speed": 56
       }
     }
   },
@@ -116,66 +76,66 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/20",
         "health": 1233,
         "attack": 247,
-        "speed": 60,
-        "odds": "1/20"
+        "speed": 60
       }
     }
   },
   {
     "characterName": "Pusu Pusu",
-    "abilityName": "BOOM",
+    "abilityName": "Boom",
     "abilityDescription": "On death, applies Burn to the opposing card for 3 turns.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/20",
         "health": 1392,
         "attack": 279,
-        "speed": 66,
-        "odds": "1/30"
+        "speed": 66
       }
     }
   },
   {
     "characterName": "Cyber K.O.K.O",
-    "abilityName": "KOKOVERCLOCK",
+    "abilityName": "Kokoverclock",
     "abilityDescription": "At the start of battle, every allied Koko gains Kokoverclock. When a marked Koko dies, it deals 250% of its Attack to the active enemy. Each Koko can trigger this only once.",
     "hasOffFieldEffects": true,
     "rarities": {
       "Classic": {
+        "odds": "1/50",
         "health": 4872,
         "attack": 975,
-        "speed": 225,
-        "odds": "1/50"
+        "speed": 225
       }
     }
   },
   {
     "characterName": "Koko",
-    "abilityName": "CUTE SPROUT",
+    "abilityName": "Cute Sprout",
     "abilityDescription": "Why would you even defeat something this cute?",
     "hasOffFieldEffects": true,
     "rarities": {
       "Classic": {
+        "odds": "1/50",
         "health": 4060,
         "attack": 813,
-        "speed": 188,
-        "odds": "1/50"
+        "speed": 188
       }
     }
   },
   {
-    "characterName": "The Cyclist",
+    "characterName": "The cyclist",
     "abilityName": "Justice Crash",
-    "abilityDescription": "On entry, immediately attacks and adds its SPEED to the damage dealt.",
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/50",
         "health": 1624,
         "attack": 325,
-        "speed": 75,
-        "odds": "1/50"
+        "speed": 75
       }
     }
   },
@@ -186,10 +146,10 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/100",
         "health": 2000,
         "attack": 400,
-        "speed": 90,
-        "odds": "1/100"
+        "speed": 90
       }
     }
   },
@@ -200,177 +160,2348 @@
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/150",
         "health": 5650,
         "attack": 1130,
-        "speed": 253,
-        "odds": "1/150"
+        "speed": 253
       }
     }
   },
   {
     "characterName": "Thunder Boy",
-    "abilityName": "THUNDER STRIKE",
+    "abilityName": "Thunder Strike",
     "abilityDescription": "Every turn, has a 30% chance to Stun the opposing card for 1 turn.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/200",
         "health": 2465,
         "attack": 493,
-        "speed": 109,
-        "odds": "1/200"
+        "speed": 109
       }
     }
   },
   {
     "characterName": "FPLN-67",
-    "abilityName": "FIGHTER JET",
+    "abilityName": "Fighter Jet",
     "abilityDescription": "On entry, doubles its Speed. Performs 2 separate attacks against random enemies.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/240",
         "health": 7812,
-        "attack": 1562,
-        "speed": 345,
-        "odds": "1/240"
+        "attack": 1563,
+        "speed": 345
       }
     }
   },
   {
     "characterName": "Young Hunter",
-    "abilityName": "ROCK",
+    "abilityName": "Rock",
     "abilityDescription": "Attacks once every 2 turns. Each time Young Hunter hits an enemy, increases his ATTACK by 50%.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/300",
         "health": 2784,
         "attack": 557,
-        "speed": 122,
-        "odds": "1/300"
+        "speed": 122
       }
     }
   },
   {
     "characterName": "Skyroot",
-    "abilityName": "CANOPY DIVE",
+    "abilityName": "Canopy Dive",
     "abilityDescription": "On entry, strikes the 2 enemies with the highest ATTACK for 250% total damage each.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/333",
         "health": 7183,
         "attack": 1438,
-        "speed": 313,
-        "odds": "1/333"
+        "speed": 313
       }
     }
   },
   {
     "characterName": "Chad of Conquerors",
-    "abilityName": "CONQUEROR'S PRESENCE",
+    "abilityName": "Conqueror's Presence",
     "abilityDescription": "On entry, increases all allies' SPEED by 30% and their ATTACK by 10%.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/500",
         "health": 3247,
         "attack": 650,
-        "speed": 140,
-        "odds": "1/500"
+        "speed": 140
       }
     }
   },
   {
     "characterName": "SPDR-06",
-    "abilityName": "SPIDER ROBOT",
+    "abilityName": "Spider Robot",
     "abilityDescription": "On an enemy entry, deals 200% damage to that enemy. The first time SPDR-06 would be defeated, it survives at 1 HP.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/500",
         "health": 9741,
         "attack": 1950,
-        "speed": 420,
-        "odds": "1/500"
+        "speed": 420
       }
     }
   },
   {
     "characterName": "Thornveil",
-    "abilityName": "CURSED VINES",
+    "abilityName": "Cursed Vines",
     "abilityDescription": "When hit, deals 20% of Thornveil's ATTACK back to the attacker.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/700",
         "health": 8983,
-        "attack": 1789,
-        "speed": 385,
-        "odds": "1/700"
+        "attack": 1798,
+        "speed": 385
       }
     }
   },
   {
-    "characterName": "The Fake",
-    "abilityName": "ENGINE",
-    "abilityDescription": "On entry, reduces the opposing card's HP, ATTACK, and SPEED by 15%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
+    "characterName": "The fake",
+    "abilityName": "Engine",
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/777",
         "health": 3708,
         "attack": 742,
-        "speed": 59,
-        "odds": "1/777"
+        "speed": 159
       }
     }
   },
   {
     "characterName": "Lucky Clown",
-    "abilityName": "CLOWN LUCK",
+    "abilityName": "Clown Luck",
     "abilityDescription": "Has a 20% chance to dodge an incoming attack. After attacking, has a 20% chance to attack again.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/999",
         "health": 3999,
         "attack": 800,
-        "speed": 170,
-        "odds": "1/999"
+        "speed": 170
       }
     }
   },
   {
     "characterName": "Bloomera",
-    "abilityName": "SPRING POLLEN",
+    "abilityName": "Spring Pollen",
     "abilityDescription": "On entry, Bloomera spreads Spring Pollen across the allied team for 7 turns. While Spring Pollen is active, all allies gain 20% dodge chance, and all healing they receive is increased by 50%.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/1,000",
         "health": 10000,
         "attack": 2000,
-        "speed": 425,
-        "odds": "1/1,000"
+        "speed": 425
       }
     }
   },
   {
     "characterName": "Coward Goblin",
-    "abilityName": "LUCKY GOBLIN",
+    "abilityName": "Lucky Goblin",
     "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 150% of its base ATTACK.",
     "hasOffFieldEffects": false,
     "rarities": {
       "Classic": {
+        "odds": "1/1,000",
         "health": 4000,
         "attack": 800,
-        "speed": 170,
-        "odds": "1/1,000"
+        "speed": 170
       }
     }
   },
   {
     "characterName": "Log",
-    "abilityName": "REPLACEMENT",
+    "abilityName": "Replacement",
     "abilityDescription": "Grants the supported card a 10% chance to dodge incoming attacks.",
     "hasOffFieldEffects": true,
     "rarities": {
       "Classic": {
         "odds": "1/1,000"
       }
-    },
-    "isSupportCard": true
+    }
+  },
+  {
+    "characterName": "SWRM-87",
+    "abilityName": "Swarm Carrier",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,111",
+        "health": 12387,
+        "attack": 2478,
+        "speed": 528
+      }
+    }
+  },
+  {
+    "characterName": "Ninja Traitor",
+    "abilityName": "Special Eye",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,500",
+        "health": 4520,
+        "attack": 904,
+        "speed": 191
+      }
+    }
+  },
+  {
+    "characterName": "Legs Fighter",
+    "abilityName": "Women Lover",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000",
+        "health": 4929,
+        "attack": 986,
+        "speed": 208
+      }
+    }
+  },
+  {
+    "characterName": "Prince",
+    "abilityName": "Warrior Pride",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000",
+        "health": 4929,
+        "attack": 986,
+        "speed": 208
+      }
+    }
+  },
+  {
+    "characterName": "M.KA-21",
+    "abilityName": "Big Mecha",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,500",
+        "health": 15813,
+        "attack": 3165,
+        "speed": 663
+      }
+    }
+  },
+  {
+    "characterName": "Fatherboard",
+    "abilityName": "Overclock",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,000",
+        "health": 5568,
+        "attack": 1114,
+        "speed": 233
+      }
+    }
+  },
+  {
+    "characterName": "Ice Admiral",
+    "abilityName": "Ice Age",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/4,000",
+        "health": 8198,
+        "attack": 1641,
+        "speed": 342
+      }
+    }
+  },
+  {
+    "characterName": "Electric Dragon",
+    "abilityName": "Thunder Stroke",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000",
+        "health": 9741,
+        "attack": 1949,
+        "speed": 405
+      }
+    }
+  },
+  {
+    "characterName": "Spearman",
+    "abilityName": "Lance",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000",
+        "health": 6494,
+        "attack": 1299,
+        "speed": 270
+      }
+    }
+  },
+  {
+    "characterName": "Sword",
+    "abilityName": "Attack Boost",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000"
+      }
+    }
+  },
+  {
+    "characterName": "Princess of Rejection",
+    "abilityName": "Healing",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/6,000",
+        "health": 6860,
+        "attack": 1372,
+        "speed": 285
+      }
+    }
+  },
+  {
+    "characterName": "Cat Thief",
+    "abilityName": "Steal",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/6,900",
+        "health": 7155,
+        "attack": 1431,
+        "speed": 297
+      }
+    }
+  },
+  {
+    "characterName": "Lost Sworsman",
+    "abilityName": "Cutting Endurance",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/7,000",
+        "health": 7186,
+        "attack": 1438,
+        "speed": 298
+      }
+    }
+  },
+  {
+    "characterName": "Water Ninja",
+    "abilityName": "Water Manipulation",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/8,000",
+        "health": 9352,
+        "attack": 1872,
+        "speed": 388
+      }
+    }
+  },
+  {
+    "characterName": "Strongest Warrior",
+    "abilityName": "Super Warrior",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/9,001",
+        "health": 7751,
+        "attack": 1551,
+        "speed": 321
+      }
+    }
+  },
+  {
+    "characterName": "Armor",
+    "abilityName": "Health Boost",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000"
+      }
+    }
+  },
+  {
+    "characterName": "Green Cyborg",
+    "abilityName": "Perfect Absorption",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000",
+        "health": 14000,
+        "attack": 4000,
+        "speed": 660
+      }
+    }
+  },
+  {
+    "characterName": "Malleable Man",
+    "abilityName": "Rubber Body",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000",
+        "health": 8000,
+        "attack": 1600,
+        "speed": 330
+      }
+    }
+  },
+  {
+    "characterName": "Demon Slayer",
+    "abilityName": "Sun and Water Breath",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/13,011",
+        "health": 8660,
+        "attack": 1732,
+        "speed": 357
+      }
+    }
+  },
+  {
+    "characterName": "Cursed Vessel",
+    "abilityName": "Black Flash",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000",
+        "health": 9039,
+        "attack": 1808,
+        "speed": 372
+      }
+    }
+  },
+  {
+    "characterName": "Shoes",
+    "abilityName": "Speed Boost",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000"
+      }
+    }
+  },
+  {
+    "characterName": "Steel Proxy",
+    "abilityName": "Stored Power",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000",
+        "health": 27117,
+        "attack": 5424,
+        "speed": 1116
+      }
+    }
+  },
+  {
+    "characterName": "Copy Ninja",
+    "abilityName": "Copycat",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/20,000",
+        "health": 9857,
+        "attack": 1972,
+        "speed": 405
+      }
+    }
+  },
+  {
+    "characterName": "Crazy Wild Boar",
+    "abilityName": "Sharpless Katana",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/22,000",
+        "health": 10144,
+        "attack": 2029,
+        "speed": 416
+      }
+    }
+  },
+  {
+    "characterName": "Grumpy Princess",
+    "abilityName": "Seal of Command",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/33,000",
+        "health": 11460,
+        "attack": 2292,
+        "speed": 469
+      }
+    }
+  },
+  {
+    "characterName": "Forest Dryad",
+    "abilityName": "Forest Memory",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/33,500",
+        "health": 28780,
+        "attack": 5758,
+        "speed": 1178
+      }
+    }
+  },
+  {
+    "characterName": "Remote Warlord",
+    "abilityName": "Living Artillery",
+    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "hasOffFieldEffects": true,
+    "rarities": {
+      "Classic": {
+        "odds": "1/40,000",
+        "health": 36432,
+        "attack": 7287,
+        "speed": 1488
+      }
+    }
+  },
+  {
+    "characterName": "Water princess",
+    "abilityName": "Water Armor",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/44,000",
+        "health": 15622,
+        "attack": 3125,
+        "speed": 638
+      }
+    }
+  },
+  {
+    "characterName": "Awakened Prodigy",
+    "abilityName": "Rage Awakening",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000",
+        "health": 12987,
+        "attack": 2598,
+        "speed": 530
+      }
+    }
+  },
+  {
+    "characterName": "Golden Lion Spear",
+    "abilityName": "Spear Chain",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000",
+        "health": 12987,
+        "attack": 2598,
+        "speed": 530
+      }
+    }
+  },
+  {
+    "characterName": "Ranger Officer",
+    "abilityName": "Tactical Supply",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000",
+        "health": 12987,
+        "attack": 2598,
+        "speed": 530
+      }
+    }
+  },
+  {
+    "characterName": "World Champion",
+    "abilityName": "Lucky Human",
+    "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/75,000",
+        "health": 22010,
+        "attack": 4403,
+        "speed": 896
+      }
+    }
+  },
+  {
+    "characterName": "Blood girl",
+    "abilityName": "Blood Feast",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/90,000",
+        "health": 31002,
+        "attack": 6202,
+        "speed": 1262
+      }
+    }
+  },
+  {
+    "characterName": "Elf Leader",
+    "abilityName": "Divine Light",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 28000,
+        "attack": 8000,
+        "speed": 1300
+      }
+    }
+  },
+  {
+    "characterName": "God of thunder",
+    "abilityName": "Lightning Discharge",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 24000,
+        "attack": 4800,
+        "speed": 975
+      }
+    }
+  },
+  {
+    "characterName": "Masked Strategist",
+    "abilityName": "Adaptive Formation",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 48000,
+        "attack": 9600,
+        "speed": 1950
+      }
+    }
+  },
+  {
+    "characterName": "Star Brawler",
+    "abilityName": "Ora Rush",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 16000,
+        "attack": 3200,
+        "speed": 650
+      }
+    }
+  },
+  {
+    "characterName": "The vampire",
+    "abilityName": "Absorption",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 40000,
+        "attack": 8000,
+        "speed": 1625
+      }
+    }
+  },
+  {
+    "characterName": "Time Tyrant",
+    "abilityName": "Time Stop",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000",
+        "health": 16000,
+        "attack": 3200,
+        "speed": 650
+      }
+    }
+  },
+  {
+    "characterName": "Flower Girl",
+    "abilityName": "Blooming Hands",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/150,000",
+        "health": 18078,
+        "attack": 3616,
+        "speed": 734
+      }
+    }
+  },
+  {
+    "characterName": "Regressing Knight",
+    "abilityName": "Death Loop",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/150,000",
+        "health": 18078,
+        "attack": 3616,
+        "speed": 734
+      }
+    }
+  },
+  {
+    "characterName": "Ice General",
+    "abilityName": "Frozen Command",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/167,000",
+        "health": 25206,
+        "attack": 5043,
+        "speed": 1022
+      }
+    }
+  },
+  {
+    "characterName": "Dragon Relic",
+    "abilityName": "Dragon Seal",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/200,000"
+      }
+    }
+  },
+  {
+    "characterName": "Duel King",
+    "abilityName": "Heart of the Cards",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/200,000",
+        "health": 19713,
+        "attack": 3943,
+        "speed": 799
+      }
+    }
+  },
+  {
+    "characterName": "Water Queen Magician",
+    "abilityName": "Water Shield",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/200,000",
+        "health": 24642,
+        "attack": 4929,
+        "speed": 999
+      }
+    }
+  },
+  {
+    "characterName": "Iron General",
+    "abilityName": "Emergency Ejection",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/250,000",
+        "health": 63249,
+        "attack": 12651,
+        "speed": 2562
+      }
+    }
+  },
+  {
+    "characterName": "Pile of bean",
+    "abilityName": "Natural Recovery",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/250,000"
+      }
+    }
+  },
+  {
+    "characterName": "Red shadow",
+    "abilityName": "Crimson Curse",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/250,000",
+        "health": 52708,
+        "attack": 10543,
+        "speed": 2135
+      }
+    }
+  },
+  {
+    "characterName": "Undying Fox",
+    "abilityName": "Immortality",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/300,000",
+        "health": 22272,
+        "attack": 4455,
+        "speed": 901
+      }
+    }
+  },
+  {
+    "characterName": "Fast granny",
+    "abilityName": "Old Reflexes",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/345,000",
+        "health": 81302,
+        "attack": 16261,
+        "speed": 3290
+      }
+    }
+  },
+  {
+    "characterName": "The Substitute",
+    "abilityName": "Final Release",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/400,000",
+        "health": 24287,
+        "attack": 4858,
+        "speed": 982
+      }
+    }
+  },
+  {
+    "characterName": "Ghost Vanguard",
+    "abilityName": "Death Sense",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/450,000",
+        "health": 75489,
+        "attack": 15099,
+        "speed": 3051
+      }
+    }
+  },
+  {
+    "characterName": "Big brother",
+    "abilityName": "Blood Absorption",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/500,000",
+        "health": 51948,
+        "attack": 10390,
+        "speed": 2098
+      }
+    }
+  },
+  {
+    "characterName": "Cool Swordsman",
+    "abilityName": "Triple Slash",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/500,000",
+        "health": 25974,
+        "attack": 5195,
+        "speed": 1049
+      }
+    }
+  },
+  {
+    "characterName": "Dancing Blade",
+    "abilityName": "Saint Blade",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/500,000",
+        "health": 25974,
+        "attack": 5195,
+        "speed": 1049
+      }
+    }
+  },
+  {
+    "characterName": "Dual Swordsman",
+    "abilityName": "Double Sword Skill",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/500,000",
+        "health": 25974,
+        "attack": 5195,
+        "speed": 1049
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #01",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/550,000"
+      }
+    }
+  },
+  {
+    "characterName": "Battlefield Handler",
+    "abilityName": "Tactical Command",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/590,000",
+        "health": 81903,
+        "attack": 16383,
+        "speed": 3309
+      }
+    }
+  },
+  {
+    "characterName": "Death Apple",
+    "abilityName": "Last Meal",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/666,666"
+      }
+    }
+  },
+  {
+    "characterName": "God of death",
+    "abilityName": "Death's Presence",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/666,666",
+        "health": 99135,
+        "attack": 19828,
+        "speed": 4001
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #02",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/670,000"
+      }
+    }
+  },
+  {
+    "characterName": "Miss Blizzard",
+    "abilityName": "Psychic Shield",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/690,000",
+        "health": 28618,
+        "attack": 5724,
+        "speed": 1155
+      }
+    }
+  },
+  {
+    "characterName": "Old elf",
+    "abilityName": "Demon Trick",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/690,000",
+        "health": 114472,
+        "attack": 22896,
+        "speed": 4620
+      }
+    }
+  },
+  {
+    "characterName": "Runaway Unit",
+    "abilityName": "Renegade Overdrive",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/700,000",
+        "health": 86229,
+        "attack": 17247,
+        "speed": 3480
+      }
+    }
+  },
+  {
+    "characterName": "Vending Machine",
+    "abilityName": "Vandalism",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/777,777",
+        "health": 29669,
+        "attack": 5934,
+        "speed": 1197
+      }
+    }
+  },
+  {
+    "characterName": "Powerful Secretary",
+    "abilityName": "Ogre Rage",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/800,000",
+        "health": 29922,
+        "attack": 5985,
+        "speed": 1207
+      }
+    }
+  },
+  {
+    "characterName": "White Ace",
+    "abilityName": "Newtype Instinct",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/850,000",
+        "health": 91419,
+        "attack": 18285,
+        "speed": 3687
+      }
+    }
+  },
+  {
+    "characterName": "Blind Captain",
+    "abilityName": "Blind Justice",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/900,000",
+        "health": 31001,
+        "attack": 6201,
+        "speed": 1251
+      }
+    }
+  },
+  {
+    "characterName": "Thunder Cat",
+    "abilityName": "Feline Agility",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/900,000",
+        "health": 46502,
+        "attack": 9302,
+        "speed": 1877
+      }
+    }
+  },
+  {
+    "characterName": "Spirit Huntress",
+    "abilityName": "Psychic Power",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/960,000",
+        "health": 31610,
+        "attack": 6322,
+        "speed": 1275
+      }
+    }
+  },
+  {
+    "characterName": "Vase head",
+    "abilityName": "Lava Domain",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/999,999",
+        "health": 96000,
+        "attack": 19200,
+        "speed": 3870
+      }
+    }
+  },
+  {
+    "characterName": "Blank Strategist",
+    "abilityName": "Ten Moves Ahead",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 32000,
+        "attack": 6400,
+        "speed": 1290
+      }
+    }
+  },
+  {
+    "characterName": "Clockwork Reaper",
+    "abilityName": "Borrowed Time",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 144000,
+        "attack": 28800,
+        "speed": 5805
+      }
+    }
+  },
+  {
+    "characterName": "First Child",
+    "abilityName": "Aegis Protocol",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 96000,
+        "attack": 19200,
+        "speed": 3870
+      }
+    }
+  },
+  {
+    "characterName": "Greatest Developer",
+    "abilityName": "Construction Project",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 32000,
+        "attack": 6400,
+        "speed": 1290
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #03",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Mr. Plush",
+    "abilityName": "Plush Guard",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Purple Mage",
+    "abilityName": "Mana Sniper",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 32000,
+        "attack": 6400,
+        "speed": 1290
+      }
+    }
+  },
+  {
+    "characterName": "Silent Current",
+    "abilityName": "Calm Execution",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 40000,
+        "attack": 8000,
+        "speed": 1613
+      }
+    }
+  },
+  {
+    "characterName": "Tactical Support Drone",
+    "abilityName": "Tactical Relay",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Venom Warden",
+    "abilityName": "Poison Prison",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000",
+        "health": 56000,
+        "attack": 16000,
+        "speed": 2580
+      }
+    }
+  },
+  {
+    "characterName": "Cold Woman",
+    "abilityName": "White Coldness",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,500,000",
+        "health": 48810,
+        "attack": 9762,
+        "speed": 1967
+      }
+    }
+  },
+  {
+    "characterName": "Small tornado",
+    "abilityName": "Brat Power",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,700,000",
+        "health": 56315,
+        "attack": 11264,
+        "speed": 2268
+      }
+    }
+  },
+  {
+    "characterName": "Despair Bear",
+    "abilityName": "Blackened Vote",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000,000",
+        "health": 59138,
+        "attack": 11828,
+        "speed": 2381
+      }
+    }
+  },
+  {
+    "characterName": "Magicless Swordsman",
+    "abilityName": "Wandless Blade",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000,000",
+        "health": 39425,
+        "attack": 7885,
+        "speed": 1587
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #04",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #05",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Second Child",
+    "abilityName": "Velocity Protocol",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,000,000",
+        "health": 118275,
+        "attack": 23655,
+        "speed": 4761
+      }
+    }
+  },
+  {
+    "characterName": "Implant",
+    "abilityName": "Implant Overclock",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,077,000"
+      }
+    }
+  },
+  {
+    "characterName": "Alien Hairpin",
+    "abilityName": "Alien Enhancement",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,500,000"
+      }
+    }
+  },
+  {
+    "characterName": "Pendragon's Wrath",
+    "abilityName": "Sacred Sword",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/2,700,000",
+        "health": 43153,
+        "attack": 8631,
+        "speed": 1737
+      }
+    }
+  },
+  {
+    "characterName": "Crimson Heiress",
+    "abilityName": "Forbidden Spell",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,000,000",
+        "health": 44543,
+        "attack": 8909,
+        "speed": 1792
+      }
+    }
+  },
+  {
+    "characterName": "Snake Captain",
+    "abilityName": "Flash Extension",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,000,000",
+        "health": 44543,
+        "attack": 8909,
+        "speed": 1792
+      }
+    }
+  },
+  {
+    "characterName": "Third Child",
+    "abilityName": "Assault Protocol",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,000,000",
+        "health": 133629,
+        "attack": 26727,
+        "speed": 5376
+      }
+    }
+  },
+  {
+    "characterName": "Wandering samurai",
+    "abilityName": "Blade Supremacy",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,000,000",
+        "health": 178172,
+        "attack": 35636,
+        "speed": 7168
+      }
+    }
+  },
+  {
+    "characterName": "Evolving Wheel",
+    "abilityName": "Evolving Cycle",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/3,500,000"
+      }
+    }
+  },
+  {
+    "characterName": "Death Apostle",
+    "abilityName": "Crimson Halberd",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/4,000,000",
+        "health": 48573,
+        "attack": 9715,
+        "speed": 1953
+      }
+    }
+  },
+  {
+    "characterName": "Cursed Earth Spirit",
+    "abilityName": "Cursed Roots",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/4,400,000",
+        "health": 124968,
+        "attack": 24995,
+        "speed": 5025
+      }
+    }
+  },
+  {
+    "characterName": "Chrome Butcher",
+    "abilityName": "Walking Arsenal",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000",
+        "health": 155844,
+        "attack": 31170,
+        "speed": 6264
+      }
+    }
+  },
+  {
+    "characterName": "Grail of Wishes",
+    "abilityName": "Restorative Wish",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Mana Breaker",
+    "abilityName": "Black Sword",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000",
+        "health": 51948,
+        "attack": 10390,
+        "speed": 2088
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #06",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #07",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Scummy Adventurer",
+    "abilityName": "Steal!",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/5,000,000",
+        "health": 51948,
+        "attack": 10390,
+        "speed": 2088
+      }
+    }
+  },
+  {
+    "characterName": "Blooming Man",
+    "abilityName": "Final Release!",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/6,000,000",
+        "health": 54878,
+        "attack": 10976,
+        "speed": 2206
+      }
+    }
+  },
+  {
+    "characterName": "Cursed Sprinter",
+    "abilityName": "Energy Boost",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/7,000,000",
+        "health": 57485,
+        "attack": 11497,
+        "speed": 2310
+      }
+    }
+  },
+  {
+    "characterName": "The Reader",
+    "abilityName": "Omniscient",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/7,000,000",
+        "health": 57485,
+        "attack": 11497,
+        "speed": 2310
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #08",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/9,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Time Sovereign",
+    "abilityName": "Time Dominion",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/9,000,000",
+        "health": 279009,
+        "attack": 55805,
+        "speed": 11210
+      }
+    }
+  },
+  {
+    "characterName": "Bald Hero",
+    "abilityName": "Getting Serious",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000,000",
+        "health": 64000,
+        "attack": 12800,
+        "speed": 2570
+      }
+    }
+  },
+  {
+    "characterName": "Blood guardian",
+    "abilityName": "Sanguine Gift",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000,000",
+        "health": 128000,
+        "attack": 25600,
+        "speed": 5140
+      }
+    }
+  },
+  {
+    "characterName": "Mercenary King",
+    "abilityName": "Future Mistake",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000,000",
+        "health": 64000,
+        "attack": 12800,
+        "speed": 2570
+      }
+    }
+  },
+  {
+    "characterName": "Traitor Captain",
+    "abilityName": "Perfect Hypnosis",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/10,000,000",
+        "health": 112000,
+        "attack": 32000,
+        "speed": 5140
+      }
+    }
+  },
+  {
+    "characterName": "Ink sovereign",
+    "abilityName": "Black Ink",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/13,000,000",
+        "health": 277040,
+        "attack": 55408,
+        "speed": 11124
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #09",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/13,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #10",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/14,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Awakened Noble",
+    "abilityName": "Endless Sword Swing",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000,000",
+        "health": 72309,
+        "attack": 14462,
+        "speed": 2903
+      }
+    }
+  },
+  {
+    "characterName": "Blindfolded Unit",
+    "abilityName": "Adaptive Directive",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000,000",
+        "health": 216927,
+        "attack": 43386,
+        "speed": 8709
+      }
+    }
+  },
+  {
+    "characterName": "Red Bike",
+    "abilityName": "Redline",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/15,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #11",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/17,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Dark swordsman",
+    "abilityName": "Berserker's Wounds",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/20,000,000",
+        "health": 315400,
+        "attack": 63080,
+        "speed": 12656
+      }
+    }
+  },
+  {
+    "characterName": "Death Returner",
+    "abilityName": "Return by Death",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/20,000,000",
+        "health": 78850,
+        "attack": 15770,
+        "speed": 3164
+      }
+    }
+  },
+  {
+    "characterName": "Frozen Sculptor",
+    "abilityName": "Frozen Battlefield",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/20,000,000",
+        "health": 78850,
+        "attack": 15770,
+        "speed": 3164
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #12",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/20,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Blood Fruit",
+    "abilityName": "Blood Feast",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/25,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Fate Priest",
+    "abilityName": "Beyond Tomorrow",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/25,000,000",
+        "health": 379481,
+        "attack": 75897,
+        "speed": 15228
+      }
+    }
+  },
+  {
+    "characterName": "Paw Tyrant",
+    "abilityName": "Paw Power",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/25,000,000",
+        "health": 252987,
+        "attack": 50598,
+        "speed": 10152
+      }
+    }
+  },
+  {
+    "characterName": "Chrome Berserker",
+    "abilityName": "Edge of Chrome",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/27,000,000",
+        "health": 86305,
+        "attack": 17261,
+        "speed": 3463
+      }
+    }
+  },
+  {
+    "characterName": "Devil Major",
+    "abilityName": "Aerial Bombardment",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/30,000,000",
+        "health": 89086,
+        "attack": 17818,
+        "speed": 3574
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #13",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/30,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Scarlet Knight",
+    "abilityName": "Endless Armory",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/30,000,000",
+        "health": 89086,
+        "attack": 17818,
+        "speed": 3574
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #14",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/33,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #15",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/35,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Puppeteer",
+    "abilityName": "Last Command",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/35,000,000",
+        "health": 93318,
+        "attack": 18664,
+        "speed": 3743
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #16",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/40,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Shield Guardian",
+    "abilityName": "Unbreakable Shield",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/44,000,000",
+        "health": 99973,
+        "attack": 19995,
+        "speed": 4009
+      }
+    }
+  },
+  {
+    "characterName": "Chrono Assassin",
+    "abilityName": "Delayed Execution",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000",
+        "health": 467528,
+        "attack": 93506,
+        "speed": 18747
+      }
+    }
+  },
+  {
+    "characterName": "Flame Devourer",
+    "abilityName": "Burning Feast",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000",
+        "health": 103895,
+        "attack": 20779,
+        "speed": 4166
+      }
+    }
+  },
+  {
+    "characterName": "Master Hero",
+    "abilityName": "A Last Hit",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000",
+        "health": 103895,
+        "attack": 20779,
+        "speed": 4166
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #17",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Otherword Demon Lord",
+    "abilityName": "Overwhelming Presence",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000",
+        "health": 103895,
+        "attack": 20779,
+        "speed": 4166
+      }
+    }
+  },
+  {
+    "characterName": "Truck-Kun",
+    "abilityName": "Otherworld Delivery",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/50,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #18",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/55,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "The Shield",
+    "abilityName": "Heavy Defense",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/67,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #19",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/70,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Moonlit Outcast",
+    "abilityName": "Limitless Mana",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/70,000,000",
+        "health": 114969,
+        "attack": 22994,
+        "speed": 4609
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #20",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/76,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Ghost Hacker",
+    "abilityName": "Short Circuit",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/77,000,000",
+        "health": 118316,
+        "attack": 23664,
+        "speed": 4743
+      }
+    }
+  },
+  {
+    "characterName": "Sword Dancer",
+    "abilityName": "Sword Dance",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/87,000,000",
+        "health": 122745,
+        "attack": 24549,
+        "speed": 4920
+      }
+    }
+  },
+  {
+    "characterName": "Blindfolded Sorcerer",
+    "abilityName": "Infinity",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000",
+        "health": 128000,
+        "attack": 25600,
+        "speed": 5130
+      }
+    }
+  },
+  {
+    "characterName": "King Slime",
+    "abilityName": "Slime Body!",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000",
+        "health": 320000,
+        "attack": 51200,
+        "speed": 5130
+      }
+    }
+  },
+  {
+    "characterName": "Labyrinth Spider",
+    "abilityName": "Web Trap",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000",
+        "health": 128000,
+        "attack": 25600,
+        "speed": 5130
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #21",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #22",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Noble Lord",
+    "abilityName": "Noble Blood",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000",
+        "health": 128000,
+        "attack": 25600,
+        "speed": 5130
+      }
+    }
+  },
+  {
+    "characterName": "Soul Punisher",
+    "abilityName": "Soul Power",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/100,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #23",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/250,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #24",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/250,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "Quagmire Mage",
+    "abilityName": "Rain of Earth",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/320,000,000",
+        "health": 181667,
+        "attack": 36334,
+        "speed": 7277
+      }
+    }
+  },
+  {
+    "characterName": "The Irregular",
+    "abilityName": "Thorn",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/500,000,000",
+        "health": 207789,
+        "attack": 41558,
+        "speed": 8322
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #25",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/650,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #26",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/850,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #27",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #28",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,000,000,000"
+      }
+    }
+  },
+  {
+    "characterName": "MISSING #29",
+    "abilityName": "MISSING",
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
+    "rarities": {
+      "Classic": {
+        "odds": "1/1,500,000,000"
+      }
+    }
   }
 ]

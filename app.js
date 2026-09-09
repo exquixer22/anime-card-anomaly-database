@@ -298,7 +298,7 @@ function renderModalCard(c, rarity) {
       <h3>${esc(c.abilityName)}</h3>
 
       <div class="ability-description">
-        ${formatAbilityDescription(c.abilityDescription, c.name)}
+        ${formatAbilityDescription(c.abilityDescription, c.characterName)}
       </div>
 
       ${c.hasOffFieldEffects

@@ -1,0 +1,14 @@
+{
+  "source": "ANIMECARDANOMALYDB.xlsx",
+  "total_entries": 189,
+  "regular_cards": 142,
+  "support_cards": 18,
+  "missing_placeholders": 29,
+  "ability_descriptions_preserved_from_previous_database": 23,
+  "notes": [
+    "N/A stats are stored as support cards with odds only.",
+    "MISSING rows are stored as uniquely numbered placeholder cards with odds only.",
+    "Cards are ordered by odds denominator ascending, then alphabetically by name for equal odds.",
+    "Existing verified ability descriptions from v36 were preserved where the card name matched."
+  ]
+}

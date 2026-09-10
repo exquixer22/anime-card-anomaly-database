@@ -282,34 +282,20 @@ function formatAbilityDescription(text, cardName = "") {
   // Legs Fighter — Women Lover.
   
 
-  if (cardName === "Prince" && abilityName === "Warrior Pride") {
-    let d = esc(description);
-
-    // Match the card: 10% and 100% are green.
-    // "20% ATTACK difference" is entirely red/pink.
-    d = mark(d, /20%\s+ATTACK\s+difference/gi, "ability-attack");
-    d = mark(d, /\b10%\b/g, "ability-max-hp");
-    d = mark(d, /\b100%\b/g, "ability-max-hp");
-
-    return d.split(/\n\s*\n/).map(p => `<p>${p}</p>`).join("");
+  if (cardName === "Prince") {
+    // Warrior Pride — match the original card colors.
+    mark(/20%\s+ATTACK\s+difference/gi, "ability-attack");
+    mark(/\b10%\b/g, "ability-max-hp");
+    mark(/\b100%\b/g, "ability-max-hp");
   }
 
-  if (cardName === "Fatherboard" && abilityName === "Overclock") {
-    const paragraphs = String(description).split(/\n\s*\n/);
-    return paragraphs.map((paragraph, index) => {
-      let p = esc(paragraph);
-
-      // Match the card exactly: only the first "Overheat Mode" is purple.
-      if (index === 0) {
-        p = mark(p, /Overheat Mode/gi, "ability-overheat");
-      }
-
-      p = mark(p, /30%\s+more\s+damage/gi, "ability-damage");
-      p = mark(p, /10%\s+of\s+current\s+HP/gi, "ability-max-hp");
-      p = mark(p, /70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
-
-      return `<p>${p}</p>`;
-    }).join("");
+  if (cardName === "Fatherboard") {
+    // Overclock — match the original card colors.
+    // Only the first "Overheat Mode" is purple; later occurrences stay white.
+    markOccurrence(/Overheat Mode/gi, "ability-overheat", 1);
+    mark(/30%\s+more\s+damage/gi, "ability-damage");
+    mark(/10%\s+of\s+current\s+HP/gi, "ability-max-hp");
+    mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
   }
 
   // Fatherboard — Overclock.

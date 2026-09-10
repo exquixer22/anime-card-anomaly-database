@@ -283,10 +283,10 @@ function formatAbilityDescription(text, cardName = "") {
   
 
   if (cardName === "Prince") {
-    // Warrior Pride — match the original card colors.
+    // Warrior Pride — exact card color assignments.
+    mark(/10%/g, "ability-max-hp");
     mark(/20%\s+ATTACK\s+difference/gi, "ability-attack");
-    mark(/\b10%\b/g, "ability-max-hp");
-    mark(/\b100%\b/g, "ability-max-hp");
+    mark(/100%/g, "ability-max-hp");
   }
 
   if (cardName === "Fatherboard") {

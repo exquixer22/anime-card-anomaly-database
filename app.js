@@ -280,11 +280,22 @@ function formatAbilityDescription(text, cardName = "") {
   }
 
   // Legs Fighter — Women Lover.
-  if (cardName === "Legs Fighter") {
-    safe = safe.replace(
-      /(female\s+cards\.)\s+(?=Gains\s+50%)/i,
-      "$1</p><p>"
-    );
+  if (cardName === "Fatherboard" && abilityName === "Overclock") {
+    const paragraphs = String(description).split(/\n\s*\n/);
+    return paragraphs.map((paragraph, index) => {
+      let p = esc(paragraph);
+
+      // Match the card exactly: only the first "Overheat Mode" is purple.
+      if (index === 0) {
+        p = mark(p, /Overheat Mode/gi, "ability-overheat");
+      }
+
+      p = mark(p, /30%\s+more\s+damage/gi, "ability-damage");
+      p = mark(p, /10%\s+of\s+current\s+HP/gi, "ability-max-hp");
+      p = mark(p, /70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
+
+      return `<p>${p}</p>`;
+    }).join("");
   }
 
   // Fatherboard — Overclock.

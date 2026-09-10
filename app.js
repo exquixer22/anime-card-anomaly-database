@@ -280,6 +280,19 @@ function formatAbilityDescription(text, cardName = "") {
   }
 
   // Legs Fighter — Women Lover.
+  if (cardName === "Prince" && abilityName === "Warrior Pride") {
+    let d = esc(description);
+
+    // Match the card:
+    // 10% = green, "20% ATTACK difference" = entirely red/pink,
+    // 100% = green.
+    d = mark(d, /20%\s+ATTACK\s+difference/gi, "ability-attack");
+    d = mark(d, /\b10%\b/g, "ability-max-hp");
+    d = mark(d, /\b100%\b/g, "ability-max-hp");
+
+    return d.split(/\n\s*\n/).map(p => `<p>${p}</p>`).join("");
+  }
+
   if (cardName === "Fatherboard" && abilityName === "Overclock") {
     const paragraphs = String(description).split(/\n\s*\n/);
     return paragraphs.map((paragraph, index) => {

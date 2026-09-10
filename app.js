@@ -280,12 +280,13 @@ function formatAbilityDescription(text, cardName = "") {
   }
 
   // Legs Fighter — Women Lover.
+  
+
   if (cardName === "Prince" && abilityName === "Warrior Pride") {
     let d = esc(description);
 
-    // Match the card:
-    // 10% = green, "20% ATTACK difference" = entirely red/pink,
-    // 100% = green.
+    // Match the card: 10% and 100% are green.
+    // "20% ATTACK difference" is entirely red/pink.
     d = mark(d, /20%\s+ATTACK\s+difference/gi, "ability-attack");
     d = mark(d, /\b10%\b/g, "ability-max-hp");
     d = mark(d, /\b100%\b/g, "ability-max-hp");

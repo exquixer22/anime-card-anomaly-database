@@ -709,6 +709,9 @@ function renderCards() {
 
         <div class="card-footer">
           <p class="odds">${esc(stats.odds)}</p>
+          ${Number(c.teamLimit) === 1
+            ? '<p class="team-limit">1 per team</p>'
+            : ''}
         </div>
       </article>`;
   }).join("") || "<p>No cards found.</p>";
@@ -755,7 +758,12 @@ function renderModalCard(c, border) {
 
       ${statsHtml(stats)}
 
-      <p class="odds">${esc(stats.odds)}</p>
+      <div class="modal-odds-row">
+        <p class="odds">${esc(stats.odds)}</p>
+        ${Number(c.teamLimit) === 1
+          ? '<p class="team-limit">1 per team</p>'
+          : ''}
+      </div>
 
       <hr>
 

@@ -2,7 +2,24 @@
   {
     "characterName": "Marine",
     "abilityName": "Sword Skill",
-    "abilityDescription": "10% chance to slice the opponent, dealing 50% of this card's damage.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "10%",
+          "color": "#2ecc71"
+        },
+        {
+          "text": " chance to slice the opponent, dealing "
+        },
+        {
+          "text": "50%",
+          "color": "#e74c3c"
+        },
+        {
+          "text": " of this card's damage."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -17,7 +34,24 @@
   {
     "characterName": "Blue Cat",
     "abilityName": "Max Speed Dodge",
-    "abilityDescription": "10% chance to dodge an incoming attack.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "10% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " an incoming attack."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -32,7 +66,20 @@
   {
     "characterName": "Ball of feathers",
     "abilityName": "Light as a Feather",
-    "abilityDescription": "On entry, doubles its SPEED.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, doubles its "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -47,7 +94,20 @@
   {
     "characterName": "Slime",
     "abilityName": "Slime Body",
-    "abilityDescription": "Takes 10% less damage.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Takes "
+        },
+        {
+          "text": "10% less damage",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -62,7 +122,27 @@
   {
     "characterName": "Demon",
     "abilityName": "Demon Body",
-    "abilityDescription": "Restores 10% HP every 2 turns.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Restores "
+        },
+        {
+          "text": "10% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " every "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -77,7 +157,41 @@
   {
     "characterName": "Hole",
     "abilityName": "Spiritual Pressure",
-    "abilityDescription": "On entry, reduces the opposing card's HP and SPEED by 10%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, reduces the opposing card's "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "10%",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nIn raids, the HP reduction is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -92,7 +206,27 @@
   {
     "characterName": "Pusu Pusu",
     "abilityName": "Boom",
-    "abilityDescription": "On death, applies Burn to the opposing card for 3 turns.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On death, applies "
+        },
+        {
+          "text": "Burn",
+          "color": "#f0a06d"
+        },
+        {
+          "text": " to the opposing card for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -107,7 +241,27 @@
   {
     "characterName": "Cyber K.O.K.O",
     "abilityName": "Kokoverclock",
-    "abilityDescription": "At the start of battle, every allied Koko gains Kokoverclock. When a marked Koko dies, it deals 250% of its Attack to the active enemy. Each Koko can trigger this only once.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of battle, every allied Koko gains "
+        },
+        {
+          "text": "Kokoverclock",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nWhen a marked Koko dies, it deals "
+        },
+        {
+          "text": "250% of its Attack",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the active enemy. Each Koko can trigger this only once."
+        }
+      ]
+    },
     "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
@@ -122,7 +276,13 @@
   {
     "characterName": "Koko",
     "abilityName": "Cute Sprout",
-    "abilityDescription": "Why would you even defeat something this cute?",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Why would you even defeat something this cute?"
+        }
+      ]
+    },
     "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
@@ -137,7 +297,27 @@
   {
     "characterName": "The cyclist",
     "abilityName": "Justice Crash",
-    "abilityDescription": "On entry, immediately attacks and adds its SPEED to the damage dealt.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, immediately attacks and adds its "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " to the "
+        },
+        {
+          "text": "damage dealt",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -152,7 +332,17 @@
   {
     "characterName": "Knucklehead ninja",
     "abilityName": "Body Replacement",
-    "abilityDescription": "Evades the first incoming attack and the first attack that would be fatal.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Evades",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " the first incoming attack and the first attack that would be fatal."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -167,7 +357,41 @@
   {
     "characterName": "Eldergrove",
     "abilityName": "Ancient Roots",
-    "abilityDescription": "On entry, gains a Shield equal to 25% of maximum HP. Every 3 turns, restores 10% of maximum HP.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "25% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ".\n\nEvery "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", restores "
+        },
+        {
+          "text": "10% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -182,7 +406,34 @@
   {
     "characterName": "Thunder Boy",
     "abilityName": "Thunder Strike",
-    "abilityDescription": "Every turn, has a 30% chance to Stun the opposing card for 1 turn.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every turn, has a "
+        },
+        {
+          "text": "30% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Stun",
+          "color": "#f2d46f"
+        },
+        {
+          "text": " the opposing card for "
+        },
+        {
+          "text": "1 turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -197,7 +448,27 @@
   {
     "characterName": "FPLN-67",
     "abilityName": "Fighter Jet",
-    "abilityDescription": "On entry, doubles its Speed. Performs 2 separate attacks against random enemies.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, "
+        },
+        {
+          "text": "doubles its Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nPerforms "
+        },
+        {
+          "text": "2 separate attacks",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " against random enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -212,7 +483,34 @@
   {
     "characterName": "Young Hunter",
     "abilityName": "Rock",
-    "abilityDescription": "Attacks once every 2 turns. Each time Young Hunter hits an enemy, increases his ATTACK by 50%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Attacks once every "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nEach time Young Hunter hits an enemy, increases his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "50%",
+          "color": "#ff0051"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -227,7 +525,34 @@
   {
     "characterName": "Skyroot",
     "abilityName": "Canopy Dive",
-    "abilityDescription": "On entry, strikes the 2 enemies with the highest ATTACK for 250% total damage each.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, strikes the "
+        },
+        {
+          "text": "2 enemies",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " with the highest "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "250% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " each."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -242,7 +567,41 @@
   {
     "characterName": "Chad of Conquerors",
     "abilityName": "Conqueror's Presence",
-    "abilityDescription": "On entry, increases all allies' SPEED by 30% and their ATTACK by 10%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, increases all allies' "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "30%",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and their "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "10%",
+          "color": "#ff0051"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -257,7 +616,27 @@
   {
     "characterName": "SPDR-06",
     "abilityName": "Spider Robot",
-    "abilityDescription": "On an enemy entry, deals 200% damage to that enemy. The first time SPDR-06 would be defeated, it survives at 1 HP.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On an enemy entry, deals "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to that enemy.\n\nThe first time SPDR-06 would be defeated, it "
+        },
+        {
+          "text": "survives at 1 HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -272,7 +651,20 @@
   {
     "characterName": "Thornveil",
     "abilityName": "Cursed Vines",
-    "abilityDescription": "When hit, deals 20% of Thornveil's ATTACK back to the attacker.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When hit, deals "
+        },
+        {
+          "text": "20% of Thornveil's ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " back to the attacker."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -287,7 +679,48 @@
   {
     "characterName": "The fake",
     "abilityName": "Engine",
-    "abilityDescription": "On entry, reduces the opposing card's HP, ATTACK, and SPEED by 15%. In raids, the HP reduction is capped at 100% of this card's maximum HP.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, reduces the opposing card's "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "15%",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nIn raids, the HP reduction is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -302,7 +735,34 @@
   {
     "characterName": "Lucky Clown",
     "abilityName": "Clown Luck",
-    "abilityDescription": "Has a 20% chance to dodge an incoming attack. After attacking, has a 20% chance to attack again.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Has a "
+        },
+        {
+          "text": "20% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " an incoming attack.\n\nAfter attacking, has a "
+        },
+        {
+          "text": "20% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to attack again."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -317,7 +777,41 @@
   {
     "characterName": "Bloomera",
     "abilityName": "Spring Pollen",
-    "abilityDescription": "On entry, Bloomera spreads Spring Pollen across the allied team for 7 turns. While Spring Pollen is active, all allies gain 20% dodge chance, and all healing they receive is increased by 50%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Bloomera spreads "
+        },
+        {
+          "text": "Spring Pollen",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " across the allied team for "
+        },
+        {
+          "text": "7 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nWhile Spring Pollen is active, all allies gain "
+        },
+        {
+          "text": "20% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", and all healing they receive is increased by "
+        },
+        {
+          "text": "50%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -332,7 +826,48 @@
   {
     "characterName": "Coward Goblin",
     "abilityName": "Lucky Goblin",
-    "abilityDescription": "Has a 30% chance to evade the incoming attack. After a successful evade, counterattacks for 150% of its base ATTACK.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Has a "
+        },
+        {
+          "text": "30% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "evade",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " the incoming attack.\n\nAfter a successful evade, "
+        },
+        {
+          "text": "counterattacks",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "150%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of its base "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -347,7 +882,27 @@
   {
     "characterName": "Log",
     "abilityName": "Replacement",
-    "abilityDescription": "Grants the supported card a 10% chance to dodge incoming attacks.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Grants the supported card a "
+        },
+        {
+          "text": "10% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " incoming attacks."
+        }
+      ]
+    },
     "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
@@ -359,7 +914,34 @@
   {
     "characterName": "SWRM-87",
     "abilityName": "Swarm Carrier",
-    "abilityDescription": "Every 3 turns, deploys 1 S.Mini-87 directly before S.Mini-87. On death, deploys 5 S.Mini-87 at once. Each S.Mini-87 inherits 15% of SWRM-87's current stats.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", deploys 1 S.Mini-87 directly before S.Mini-87.\n\nOn death, deploys "
+        },
+        {
+          "text": "5 S.Mini-87",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " at once.\n\nEach S.Mini-87 inherits "
+        },
+        {
+          "text": "15% of SWRM-87's current stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -374,7 +956,41 @@
   {
     "characterName": "Ninja Traitor",
     "abilityName": "Special Eye",
-    "abilityDescription": "Has a 20% chance to dodge each incoming attack. Each attack has a 20% chance to deal 200% total damage.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Has a "
+        },
+        {
+          "text": "20% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dodge",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " each incoming attack.\n\nEach attack has a "
+        },
+        {
+          "text": "20% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to deal "
+        },
+        {
+          "text": "200% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -389,7 +1005,27 @@
   {
     "characterName": "Legs Fighter",
     "abilityName": "Women Lover",
-    "abilityDescription": "Cannot deal damage to female cards. Gains 50% ATTACK for each fallen female ally.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Cannot deal damage to "
+        },
+        {
+          "text": "female cards",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ". Gains "
+        },
+        {
+          "text": "50% ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": " for each fallen female ally."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -404,7 +1040,34 @@
   {
     "characterName": "Prince",
     "abilityName": "Warrior Pride",
-    "abilityDescription": "Increases all stats by 10% for every 20% ATTACK difference between Prince and the opposing card, up to 100%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Increases all stats by "
+        },
+        {
+          "text": "10%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " for every "
+        },
+        {
+          "text": "20% ATTACK difference",
+          "color": "#f0787d"
+        },
+        {
+          "text": " between Prince and the opposing card, up to "
+        },
+        {
+          "text": "100%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -419,7 +1082,20 @@
   {
     "characterName": "M.KA-21",
     "abilityName": "Big Mecha",
-    "abilityDescription": "At the end of every turn, gains +10% max HP, Attack, and Speed, up to +100%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the end of every turn, gains "
+        },
+        {
+          "text": "+10% max HP, Attack, and Speed",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", up to +100%."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -434,7 +1110,41 @@
   {
     "characterName": "Fatherboard",
     "abilityName": "Overclock",
-    "abilityDescription": "After 3 turns, enters Overheat Mode. While in Overheat Mode, deals 30% more damage, but lose 10% of its current HP each turn. If Fatherboard dies during Overheat Mode, deals damage equal to 70% of maximum HP.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "After 3 turns, enters "
+        },
+        {
+          "text": "Overheat Mode",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nWhile in Overheat Mode, deals "
+        },
+        {
+          "text": "30% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ", but lose "
+        },
+        {
+          "text": "10% of its current HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " each turn.\n\nIf Fatherboard dies during Overheat Mode, deals damage equal to "
+        },
+        {
+          "text": "70% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -449,7 +1159,41 @@
   {
     "characterName": "Ice Admiral",
     "abilityName": "Ice Age",
-    "abilityDescription": "On entry, Freezes enemies for 1 turn.\n\nWhen attacking a Frozen enemy, increases his ATTACK by 35%.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, "
+        },
+        {
+          "text": "Freezes enemies",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " for 1 turn.\n\nWhen attacking a "
+        },
+        {
+          "text": "Frozen enemy",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", increases his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "35%",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -740,7 +1484,41 @@
   {
     "characterName": "Remote Warlord",
     "abilityName": "Living Artillery",
-    "abilityDescription": "On entry, immediately fires 6 shots at random enemies, each dealing 150% damage. Every 2 Global Turns, fires 2 missiles at random enemies, each dealing 100% damage.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, immediately fires "
+        },
+        {
+          "text": "6 shots",
+          "color": "#f2b84b"
+        },
+        {
+          "text": " at random enemies, each dealing "
+        },
+        {
+          "text": "150% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\nEvery "
+        },
+        {
+          "text": "2 Global Turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", fires 2 missiles at random enemies, each dealing "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
@@ -815,7 +1593,38 @@
   {
     "characterName": "World Champion",
     "abilityName": "Lucky Human",
-    "abilityDescription": "30% chance to dodge incoming damage. Whenever World Champion dodges, all allies gain 10% Attack.",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "30% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " incoming damage. Whenever World Champion "
+        },
+        {
+          "text": "dodges",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ", all allies gain "
+        },
+        {
+          "text": "10% Attack",
+          "color": "#ff0051"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

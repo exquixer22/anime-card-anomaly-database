@@ -138,8 +138,43 @@ function statsHtml(stats, reserveSpace = false) {
     </div>`;
 }
 
-function formatAbilityDescription(text, cardName = "") {
-  let safe = esc(text);
+function formatAbilityDescription(description, cardName = "") {
+  // Preferred format: data-driven description parts from cards.json.
+  // Example:
+  // { parts: [{ text: "10%", color: "#2ecc71" }, { text: " chance..." }] }
+  // This keeps color assignments in the database instead of relying on
+  // character-specific JavaScript rules.
+  if (
+    description &&
+    typeof description === "object" &&
+    Array.isArray(description.parts)
+  ) {
+    const html = description.parts
+      .map((part) => {
+        const text = esc(String(part?.text ?? ""));
+        const color =
+          typeof part?.color === "string" &&
+          /^#[0-9a-fA-F]{6}$/.test(part.color)
+            ? part.color
+            : null;
+
+        return color
+          ? `<span style="color:${color}">${text}</span>`
+          : text;
+      })
+      .join("");
+
+    // Two line breaks create a paragraph break. A single line break creates
+    // a normal line break.
+    return html
+      .split(/\n\s*\n/)
+      .map((paragraph) => `<p>${paragraph.replace(/\n/g, "<br>")}</p>`)
+      .join("");
+  }
+
+  // Backward compatibility: existing string descriptions continue to use
+  // the legacy formatter until they are migrated to the data-driven format.
+  let safe = esc(String(description ?? ""));
 
   // Keep highlighted text protected while applying multiple color rules.
   // This prevents later rules from matching words inside generated <span> HTML.
@@ -445,7 +480,7 @@ function formatAbilityDescription(text, cardName = "") {
   if (cardName === "Ice Admiral") {
     mark(/\bFreezes\s+enemies\b/gi, "ability-speed");
     mark(/\bFrozen\s+enemy\b/gi, "ability-speed");
-    mark(/\b35%\b/g, "ability-attack");
+    mark(/35%/g, "ability-attack");
   }
 
   // The Fake: HP is green, ATTACK is red, SPEED is blue.

@@ -2477,15 +2477,19 @@
     "obtain": "Base Pack"
   },
   {
-    "characterName": "MISSING #01",
-    "abilityName": "MISSING",
+    "characterName": "Forest Mage",
+    "abilityName": "Tree Explosion",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/550,000"
+        "odds": "1/550,000",
+        "health": 66825,
+        "attack": 13365,
+        "speed": 2700
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Battlefield Handler",
@@ -2530,15 +2534,19 @@
     "obtain": "Spooky Weather"
   },
   {
-    "characterName": "MISSING #02",
-    "abilityName": "MISSING",
+    "characterName": "Rose Captain",
+    "abilityName": "Thorn Garden",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/670,000"
+        "odds": "1/670,000",
+        "health": 70915,
+        "attack": 14185,
+        "speed": 2863
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Miss Blizzard",
@@ -2751,15 +2759,19 @@
     "obtain": "Manhwa Pack"
   },
   {
-    "characterName": "MISSING #03",
-    "abilityName": "MISSING",
+    "characterName": "Third Princess",
+    "abilityName": "Plant Connection",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/1,000,000"
+        "odds": "1/1,000,000",
+        "health": 80000,
+        "attack": 16000,
+        "speed": 3225
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Mr. Plush",
@@ -2891,27 +2903,34 @@
     "obtain": "Base Pack"
   },
   {
-    "characterName": "MISSING #04",
-    "abilityName": "MISSING",
+    "characterName": "Crimson lioness",
+    "abilityName": "Burning Combat",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/2,000,000"
+        "odds": "1/2,000,000",
+        "health": 118275,
+        "attack": 23655,
+        "speed": 4761
       }
     },
     "obtain": "Solar Wrath Weather"
   },
   {
-    "characterName": "MISSING #05",
-    "abilityName": "MISSING",
+    "characterName": "Double Face",
+    "abilityName": "World Tree",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/2,000,000"
+        "odds": "1/2,000,000",
+        "health": 98563,
+        "attack": 19713,
+        "speed": 3968
       }
-    }
+    },
+    "obtain": "Sylvan Anomaly"
   },
   {
     "characterName": "Second Child",
@@ -3541,15 +3560,19 @@
     }
   },
   {
-    "characterName": "MISSING #15",
-    "abilityName": "MISSING",
+    "characterName": "Pink Horned Pilot",
+    "abilityName": "Crimson Aegis",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/35,000,000"
+        "odds": "1/35,000,000",
+        "health": 279954,
+        "attack": 55992,
+        "speed": 11229
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Puppeteer",
@@ -3639,15 +3662,19 @@
     "obtain": "Manhwa Pack"
   },
   {
-    "characterName": "MISSING #17",
-    "abilityName": "MISSING",
+    "characterName": "Blonde Cyborg",
+    "abilityName": "Twin Protocol",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/50,000,000"
+        "odds": "1/50,000,000",
+        "health": 311685,
+        "attack": 62337,
+        "speed": 12498
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Otherword Demon Lord",
@@ -3700,15 +3727,19 @@
     "obtain": "Base Pack"
   },
   {
-    "characterName": "MISSING #19",
-    "abilityName": "MISSING",
+    "characterName": "Spiral Hero",
+    "abilityName": "Pierce the Heavens",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/70,000,000"
+        "odds": "1/70,000,000",
+        "health": 344907,
+        "attack": 68982,
+        "speed": 13827
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Moonlit Outcast",
@@ -3813,15 +3844,19 @@
     "obtain": "Isekai Pack"
   },
   {
-    "characterName": "MISSING #21",
-    "abilityName": "MISSING",
+    "characterName": "Cyborg Ranger",
+    "abilityName": "Infinite Barrier",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/100,000,000"
+        "odds": "1/100,000,000",
+        "health": 384000,
+        "attack": 76800,
+        "speed": 15390
       }
-    }
+    },
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "MISSING #22",
@@ -3862,13 +3897,16 @@
     "obtain": "Base Pack"
   },
   {
-    "characterName": "MISSING #23",
-    "abilityName": "MISSING",
+    "characterName": "Abyss Survivor",
+    "abilityName": "Endless Arsenal",
     "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
-        "odds": "1/250,000,000"
+        "odds": "1/250,000,000",
+        "health": 168657,
+        "attack": 33732,
+        "speed": 6757
       }
     },
     "obtain": "Manhwa Pack"

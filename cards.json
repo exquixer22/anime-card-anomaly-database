@@ -1429,7 +1429,27 @@
   {
     "characterName": "Lost Sworsman",
     "abilityName": "Cutting Endurance",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Gains "
+        },
+        {
+          "text": "1 additional attack",
+          "color": "#f5b84d"
+        },
+        {
+          "text": " for every "
+        },
+        {
+          "text": "30% HP lost",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1444,7 +1464,27 @@
   {
     "characterName": "Water Ninja",
     "abilityName": "Water Manipulation",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, grants the next living ally in the lineup a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "50% of the damage dealt",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1459,7 +1499,27 @@
   {
     "characterName": "Strongest Warrior",
     "abilityName": "Super Warrior",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Gains "
+        },
+        {
+          "text": "20% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " for every "
+        },
+        {
+          "text": "20% HP lost",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1474,8 +1534,21 @@
   {
     "characterName": "Armor",
     "abilityName": "Health Boost",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Grants the supported card "
+        },
+        {
+          "text": "10% maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/10,000"
@@ -1486,7 +1559,20 @@
   {
     "characterName": "Green Cyborg",
     "abilityName": "Perfect Absorption",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When Green Cyborg defeats an enemy, he permanently absorbs "
+        },
+        {
+          "text": "25% of that enemy's Health, Attack, and Speed",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1501,7 +1587,90 @@
   {
     "characterName": "Malleable Man",
     "abilityName": "Rubber Body",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "If Malleable Man has equal or higher "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " than the target, he uses "
+        },
+        {
+          "text": "Snakeman Form",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\nOtherwise, he uses "
+        },
+        {
+          "text": "Tankman Form",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Snakeman Form",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ": gains "
+        },
+        {
+          "text": "30% damage chance",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "50% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ". After dodging an attack, counterattacks.\n\n"
+        },
+        {
+          "text": "Tankman Form",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ": gains "
+        },
+        {
+          "text": "25% damage reduction",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ", loses "
+        },
+        {
+          "text": "50% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "reflects",
+          "color": "#f0787d"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "50% of the damage taken",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

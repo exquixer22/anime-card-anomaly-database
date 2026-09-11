@@ -2333,25 +2333,15 @@
     "abilityDescription": {
       "parts": [
         {
-          "text": "On attack, applies "
+          "text": "Grants the supported card "
         },
         {
-          "text": "1 Bleed Stack",
-          "color": "#f0787d"
-        },
-        {
-          "text": " to the target.\n\nAfter dealing damage, heals for "
-        },
-        {
-          "text": "5% of the damage dealt",
+          "text": "50% life steal.",
           "color": "#8fdaa0"
-        },
-        {
-          "text": " for each Bleed Stack currently on the target, including the stack just applied."
         }
       ]
     },
-    "hasOffFieldEffects": false,
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/90,000",
@@ -5849,8 +5839,49 @@
   {
     "characterName": "Blindfolded Unit",
     "abilityName": "Adaptive Directive",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of battle, Blindfolded Unit activates a Combat Frame based on her starting position.\n\n"
+        },
+        {
+          "text": "Position 1-2 - Retribution Frame:",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " stores 50% of damage received as Impact, up to 200% of her ATTACK. On attack, consumes all Impact as bonus damage and gains an equal Shield.\n\n"
+        },
+        {
+          "text": "Position 3-4 - Piercing Frame:",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " attacks the current target for 100% damage, the enemy directly behind it for 60%, and every remaining enemy for 30%. While off-field, attacks the entire enemy team for 25% damage each global turn.\n\n"
+        },
+        {
+          "text": "Position 5 - Legacy Frame:",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " stores 1 Combat Data whenever an ally dies, even off-field. On entry, consumes all Combat Data to attack once per stack for 75% damage. Remaining attacks continue onto the next enemy.\n\nAfter the Legacy sequence, permanently gains "
+        },
+        {
+          "text": "+15% Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "+15% Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " for each Combat Data consumed."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/15,000,000",
@@ -5864,7 +5895,34 @@
   {
     "characterName": "Red Bike",
     "abilityName": "Redline",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Permanently doubles the supported card's "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " on entry.\n\nAdds its current "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " to the damage of each hit, when increasing its "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " stat."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5887,7 +5945,103 @@
   {
     "characterName": "Dark swordsman",
     "abilityName": "Berserker's Wounds",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Before each attack, Dark Swordsman permanently gains "
+        },
+        {
+          "text": "10% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", then loses "
+        },
+        {
+          "text": "2% of his maximum HP.",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "\n\nWhenever he takes damage, gains "
+        },
+        {
+          "text": "1 Wound Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ". At "
+        },
+        {
+          "text": "5 Wound Stacks",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", removes all stacks and transforms into "
+        },
+        {
+          "text": "Berserk",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " once."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Berserk",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " permanently gains "
+        },
+        {
+          "text": "25% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ". Every second attack deals additional damage equal to "
+        },
+        {
+          "text": "50%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to the target."
+        },
+        {
+          "text": "\n\nWhile below "
+        },
+        {
+          "text": "30% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", his normal attacks instead deal damage equal to "
+        },
+        {
+          "text": "100%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5902,7 +6056,24 @@
   {
     "characterName": "Death Returner",
     "abilityName": "Return by Death",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Upon defeat, "
+        },
+        {
+          "text": "revives once per battle",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " with 100% HP.\n\nAfter reviving, gains "
+        },
+        {
+          "text": "35% dodge chance.",
+          "color": "#79d9e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5917,7 +6088,69 @@
   {
     "characterName": "Frozen Sculptor",
     "abilityName": "Frozen Battlefield",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, creates an "
+        },
+        {
+          "text": "Ice Field",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "5 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nWhile active, every enemy loses "
+        },
+        {
+          "text": "10% of their current SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " at the beginning of each turn, and Frozen Sculptor deals "
+        },
+        {
+          "text": "50% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to enemies affected by the "
+        },
+        {
+          "text": "Ice Field",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ".\n\nWhen the "
+        },
+        {
+          "text": "Ice Field",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " ends, every enemy takes "
+        },
+        {
+          "text": "damage",
+          "color": "#f0787d"
+        },
+        {
+          "text": " equal to the total "
+        },
+        {
+          "text": "SPEED removed from the entire team",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ". This field damages, then all removed SPEED is restored."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5976,7 +6209,38 @@
   {
     "characterName": "Fate Priest",
     "abilityName": "Beyond Tomorrow",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every turn, gain "
+        },
+        {
+          "text": "20% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nAfter 5 turns, enter "
+        },
+        {
+          "text": "Gravity Phase",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "; permanently reduce the enemy team's SPEED by 25%, and cannot be dodged.\n\nAfter 10 turns, enter "
+        },
+        {
+          "text": "Ascended Phase",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ": double current SPEED; attack twice per turn.\n\nWhile Ascended, immediately attack a new enemy when one enemy dies for "
+        },
+        {
+          "text": "150% damage.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

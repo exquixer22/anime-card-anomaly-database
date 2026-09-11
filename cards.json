@@ -1278,7 +1278,20 @@
   {
     "characterName": "Spearman",
     "abilityName": "Lance",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry and on death, deals "
+        },
+        {
+          "text": "150% of this card's damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the opposing card."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1293,7 +1306,20 @@
   {
     "characterName": "Sword",
     "abilityName": "Attack Boost",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Grants the support card "
+        },
+        {
+          "text": "15% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1305,7 +1331,55 @@
   {
     "characterName": "Princess of Rejection",
     "abilityName": "Healing",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Heals the ally with the lowest "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " every turn for "
+        },
+        {
+          "text": "10% of her maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ".\n\nIf "
+        },
+        {
+          "text": "The Substitute",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " is on the same team, creates a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " for him equal to "
+        },
+        {
+          "text": "200% of her damage",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nWhen the Shield is destroyed, deals "
+        },
+        {
+          "text": "100% of the absorbed damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the card that destroyed it."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1320,7 +1394,27 @@
   {
     "characterName": "Cat Thief",
     "abilityName": "Steal",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, steals "
+        },
+        {
+          "text": "100% of the opposing card's stats",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nIn raids, stolen HP is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

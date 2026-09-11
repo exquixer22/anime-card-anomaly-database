@@ -1,7 +1,19 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#101218;color:#eef0f5}
 header{padding:18px max(20px,5vw);background:#181b25;border-bottom:1px solid #2b3040;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
-.brand h1{margin:0;font-size:1.45rem;display:flex;align-items:center;gap:10px}.brand-title{display:inline-block}.brand-logo{width:1.45em;height:1.45em;object-fit:cover;border-radius:12px;display:block;flex:0 0 auto}.brand p{margin:5px 0 0;color:#aeb6c9}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-copy{display:flex;flex-direction:column;justify-content:center;min-width:0}
+.brand h1{margin:0;font-size:1.45rem;line-height:1.2}
+.brand-title{display:inline-block}
+.brand-logo{
+  width:3.25rem;
+  height:3.25rem;
+  object-fit:cover;
+  border-radius:10px;
+  display:block;
+  flex:0 0 auto;
+}
+.brand p{margin:5px 0 0;color:#aeb6c9}
 nav{display:flex;gap:8px}.nav-btn{border:1px solid #343b50;background:#222738;color:#eef0f5;padding:9px 14px;border-radius:8px;cursor:pointer}
 .nav-btn.active,.nav-btn:hover{background:#5b4b9a;border-color:#7a66c8}
 main{max-width:1200px;margin:auto;padding:28px 20px 50px}.page{display:none}.page.active{display:block}

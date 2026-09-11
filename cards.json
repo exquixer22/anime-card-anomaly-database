@@ -3816,7 +3816,27 @@
   {
     "characterName": "Clockwork Reaper",
     "abilityName": "Borrowed Time",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, steal "
+        },
+        {
+          "text": "10% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " from the opponent.\n\nFor every 3 successful steals, immediately attack again.\n\nWhen the opponent is defeated, keep "
+        },
+        {
+          "text": "50% of the SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " stolen from it."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3826,13 +3846,48 @@
         "speed": 5805
       }
     },
-    "obtain": "Time Madness Weather"
+    "obtain": "Time Madness Weather",
+    "teamLimit": 1
   },
   {
     "characterName": "First Child",
     "abilityName": "Aegis Protocol",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Starts battle with "
+        },
+        {
+          "text": "50% of her stats",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " and grants a Shield equal to "
+        },
+        {
+          "text": "600% of her Attack",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " to the allied card directly before her.\n\nWhen that Shield breaks, transforms into Mecha Form. This effect works off-field.\n\nMecha Form: HP is multiplied by 3, and all other stats by 2.5.\n\nOn transformation, revives the most recently defeated ally with "
+        },
+        {
+          "text": "35% max HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", places it directly after First Child, and grants it a Shield equal to "
+        },
+        {
+          "text": "400% of First Child's Attack",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/1,000,000",
@@ -3841,12 +3896,54 @@
         "speed": 3870
       }
     },
-    "obtain": "Cyber Anomaly"
+    "obtain": "Cyber Anomaly",
+    "teamLimit": 1
   },
   {
     "characterName": "Greatest Developer",
     "abilityName": "Construction Project",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Greatest Developer starts building a "
+        },
+        {
+          "text": "Construction Project",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nIf Greatest Developer survives for "
+        },
+        {
+          "text": "4 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", the project is completed.\n\nAll allies gain "
+        },
+        {
+          "text": "25% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "15% bonus stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "10% Dodge chance",
+          "color": "#79d9e8"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3861,8 +3958,67 @@
   {
     "characterName": "Third Princess",
     "abilityName": "Plant Connection",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At battle start, Third Princess "
+        },
+        {
+          "text": "summons 3 Plants.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Carnivorous Plant:",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " attacks ignore "
+        },
+        {
+          "text": "defensive effects.",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Venomous Plant:",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " on attack, applies "
+        },
+        {
+          "text": "2 Poison Stacks.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Sunflower:",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " every turn, heals the ally with the lowest "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "25% of Sunflower's maximum HP.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/1,000,000",
@@ -3876,8 +4032,21 @@
   {
     "characterName": "Mr. Plush",
     "abilityName": "Plush Guard",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Takes the "
+        },
+        {
+          "text": "first incoming hit",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " instead of the supported card."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/1,000,000"
@@ -3888,8 +4057,35 @@
   {
     "characterName": "Purple Mage",
     "abilityName": "Mana Sniper",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of each turn, attacks the farthest living enemy for "
+        },
+        {
+          "text": "25% of her ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nWhen in battle, Purple Mage still attacks the farthest living enemy, but deals "
+        },
+        {
+          "text": "100% of her ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nEach enemy defeated by Purple Mage grants "
+        },
+        {
+          "text": "1 guaranteed dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/1,000,000",
@@ -3903,7 +4099,27 @@
   {
     "characterName": "Silent Current",
     "abilityName": "Calm Execution",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Counter the first attack made by each enemy card.\n\nOn attack or counter, if the opponent has more current "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", deal "
+        },
+        {
+          "text": "300% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3918,7 +4134,41 @@
   {
     "characterName": "Tactical Support Drone",
     "abilityName": "Tactical Relay",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever the supported card attacks, the drone follows up against the same target for "
+        },
+        {
+          "text": "25% of the supported card's Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", up to "
+        },
+        {
+          "text": "5 follow-ups per global turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nEvery "
+        },
+        {
+          "text": "5 follow-ups",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", it deals "
+        },
+        {
+          "text": "50% of the supported card's Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to the entire enemy team, then resets the count."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3930,7 +4180,41 @@
   {
     "characterName": "Venom Warden",
     "abilityName": "Poison Prison",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, applies "
+        },
+        {
+          "text": "2 permanent Poison Stacks",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " to every enemy. Enemies that damage Venom Warden receive "
+        },
+        {
+          "text": "1 Poison Stack.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nWhenever an enemy takes Poison damage, gain "
+        },
+        {
+          "text": "1 Venom Stack.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " At 5 Venom Stacks, create "
+        },
+        {
+          "text": "Poison Prison",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " until Venom Warden dies. Poison Prison increases enemy Poison damage taken by 50% and prevents Poison cleansing."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3945,7 +4229,83 @@
   {
     "characterName": "Cold Woman",
     "abilityName": "White Coldness",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, has a "
+        },
+        {
+          "text": "50% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Freeze the opposing card",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "1 turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nAfter successfully applying Freeze twice, activates "
+        },
+        {
+          "text": "Final Form",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " once. Final Form increases her current and maximum "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "20%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " for the rest of the battle, then "
+        },
+        {
+          "text": "Freezes all enemies",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3960,7 +4320,62 @@
   {
     "characterName": "Small tornado",
     "abilityName": "Brat Power",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Small Tornado cannot perform normal attacks. At the start of each turn, she deals damage equal to "
+        },
+        {
+          "text": "50%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of her "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all enemies.\n\nAfter surviving for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", she permanently gains "
+        },
+        {
+          "text": "50% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", and her storm damage increases from "
+        },
+        {
+          "text": "50%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "100%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of her "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " permanently."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3975,8 +4390,49 @@
   {
     "characterName": "Despair Bear",
     "abilityName": "Blackened Vote",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "4 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", marks a random enemy as the "
+        },
+        {
+          "text": "Blackened.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " All allied cards deal "
+        },
+        {
+          "text": "50% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the Blackened.\n\nWhen an enemy falls below "
+        },
+        {
+          "text": "30% Health",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", Despair Bear deals "
+        },
+        {
+          "text": "300% Attack damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to it."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/2,000,000",
@@ -3985,12 +4441,51 @@
         "speed": 2381
       }
     },
-    "obtain": "Launch Celebration"
+    "obtain": "Launch Celebration",
+    "teamLimit": 1
   },
   {
     "characterName": "Magicless Swordsman",
     "abilityName": "Wandless Blade",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, deals "
+        },
+        {
+          "text": "150% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " if the target has a "
+        },
+        {
+          "text": "buff",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " or "
+        },
+        {
+          "text": "Shield",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ".\n\nWhenever the target actually "
+        },
+        {
+          "text": "dodges",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " one of his attacks, Magicless Swordsman immediately follows up with "
+        },
+        {
+          "text": "2 unavoidable strikes.",
+          "color": "#e5b86b"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4005,7 +4500,38 @@
   {
     "characterName": "Crimson lioness",
     "abilityName": "Burning Combat",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever Crimson Lioness attacks or takes direct damage, she gains "
+        },
+        {
+          "text": "1 Flame Stack.",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "\n\nEach Flame Stack grants "
+        },
+        {
+          "text": "10% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "5% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ". Stacks up to "
+        },
+        {
+          "text": "10 times.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4020,7 +4546,38 @@
   {
     "characterName": "Double Face",
     "abilityName": "World Tree",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Double Face "
+        },
+        {
+          "text": "summons a World Tree",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "100% of Double Face's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ".\n\nWhenever the World Tree takes damage, it grants another random ally a "
+        },
+        {
+          "text": "Shield",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "200% of the damage taken.",
+          "color": "#79d9e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4035,8 +4592,39 @@
   {
     "characterName": "Second Child",
     "abilityName": "Velocity Protocol",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Starts battle with "
+        },
+        {
+          "text": "50% of her stats",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " and grants "
+        },
+        {
+          "text": "+25% Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " to all allied cards.\n\nAfter allied cards perform a total of "
+        },
+        {
+          "text": "10 base attacks",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", transforms into Mecha Form. This effect works off-field.\n\nMecha Form Speed is multiplied by 3.5 and all other stats by 2.5.\n\nOn attack, adds the positive Speed difference between Second Child and the target as bonus damage.\n\nIf an attack defeats an enemy, immediately attacks the next enemy and heals for "
+        },
+        {
+          "text": "50% of the damage dealt.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/2,000,000",
@@ -4050,7 +4638,34 @@
   {
     "characterName": "Implant",
     "abilityName": "Implant Overclock",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, the supported card loses "
+        },
+        {
+          "text": "50% of its current HP.",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "\n\nIn exchange, its "
+        },
+        {
+          "text": "Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " are doubled."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4062,7 +4677,41 @@
   {
     "characterName": "Alien Hairpin",
     "abilityName": "Alien Enhancement",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, increases the supported card's "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "20%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4074,7 +4723,31 @@
   {
     "characterName": "Pendragon's Wrath",
     "abilityName": "Sacred Sword",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Does not attack during the "
+        },
+        {
+          "text": "first 3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ". After those 3 turns, unleashes an attack dealing "
+        },
+        {
+          "text": "1000% of this card's damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\nIf the target is defeated, any excess damage carries over to the next enemy card.\n\nThis attack "
+        },
+        {
+          "text": "cannot miss or be avoided.",
+          "color": "#c8a5e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4089,7 +4762,48 @@
   {
     "characterName": "Crimson Heiress",
     "abilityName": "Forbidden Spell",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Crimson Heiress starts casting "
+        },
+        {
+          "text": "Forbidden Spell",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nWhile casting, she cannot attack, deals "
+        },
+        {
+          "text": "50% of all damage dealt by enemies.",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "\n\nAfter "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", Crimson Heiress unleashes Forbidden Spell, dealing the stored damage plus "
+        },
+        {
+          "text": "150% of her ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to all enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4104,7 +4818,62 @@
   {
     "characterName": "Snake Captain",
     "abilityName": "Flash Extension",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Snake Captain uses exactly one attack pattern each turn.\n\nOn odd-numbered turns, he strikes "
+        },
+        {
+          "text": "5 times",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", each hit dealing "
+        },
+        {
+          "text": "20% of his ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\nOn even-numbered turns that are not multiples of "
+        },
+        {
+          "text": "4",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", he strikes the opposing card and the next enemy card for "
+        },
+        {
+          "text": "150% of his ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " each.\n\nEvery "
+        },
+        {
+          "text": "4th turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", he strikes the entire enemy team "
+        },
+        {
+          "text": "twice",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", each hit dealing "
+        },
+        {
+          "text": "100% of his ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4119,7 +4888,48 @@
   {
     "characterName": "Third Child",
     "abilityName": "Assault Protocol",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Starts battle with "
+        },
+        {
+          "text": "50% of his stats",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " and grants "
+        },
+        {
+          "text": "+20% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all allied cards.\n\nWhen she drops below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", transforms into Mecha Form.\n\nMecha Form: Stats is multiplied by 2.5.\n\nWhile in Mecha Form, every "
+        },
+        {
+          "text": "3 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": " deals "
+        },
+        {
+          "text": "175% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the entire enemy team."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4129,12 +4939,26 @@
         "speed": 5376
       }
     },
-    "obtain": "Cyber Anomaly"
+    "obtain": "Cyber Anomaly",
+    "teamLimit": 1
   },
   {
     "characterName": "Wandering samurai",
     "abilityName": "Blade Supremacy",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On enemy entry, "
+        },
+        {
+          "text": "negate their ability",
+          "color": "#f0787d"
+        },
+        {
+          "text": " then attack twice."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -4149,7 +4973,48 @@
   {
     "characterName": "Evolving Wheel",
     "abilityName": "Evolving Cycle",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of each turn, the supported card gains a "
+        },
+        {
+          "text": "rotating 15% bonus:",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", then "
+        },
+        {
+          "text": "Health",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", then "
+        },
+        {
+          "text": "Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ". Each stat bonus is capped at "
+        },
+        {
+          "text": "30%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

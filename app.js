@@ -371,3 +371,15 @@ document.querySelectorAll(".nav-btn").forEach(b => {
 });
 $("#closeModal").onclick = () => $("#modal").classList.add("hidden");
 $("#modal").onclick = e => { if (e.target === $("#modal")) $("#modal").classList.add("hidden"); };
+
+
+fetch("cards.json")
+  .then(r => r.json())
+  .then(data => {
+    cards = data;
+    renderCards();
+  })
+  .catch(err => {
+    console.error("Failed to load cards.json", err);
+    $("#cardGrid").innerHTML = "<p>Unable to load the card database.</p>";
+  });

@@ -6255,8 +6255,34 @@
   {
     "characterName": "Paw Tyrant",
     "abilityName": "Paw Power",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, repels the opposing card to the back of its team, dealing "
+        },
+        {
+          "text": "150% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to it and "
+        },
+        {
+          "text": "75% damage"
+        },
+        {
+          "text": " to every enemy it passes.\n\nThe first time an allied card drops below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", heals 30% of its missing HP and stores the healed amount inside a Pain Bubble. This effect works off-field.\n\nAt the start of the global turn after Paw Tyrant enters, the Pain Bubble bursts, dealing its stored value as damage to the entire enemy team."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/25,000,000",
@@ -6270,7 +6296,62 @@
   {
     "characterName": "Chrome Berserker",
     "abilityName": "Edge of Chrome",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains "
+        },
+        {
+          "text": "50% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nWhenever an enemy is defeated, gains "
+        },
+        {
+          "text": "1 Psychosis Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ". Each stack grants "
+        },
+        {
+          "text": "30% bonus stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ".\n\nWhenever Chrome Berserker attacks, he takes self-damage equal to "
+        },
+        {
+          "text": "25% of his own damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " per "
+        },
+        {
+          "text": "Psychosis Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ". This is reduced to "
+        },
+        {
+          "text": "15% per stack",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " if "
+        },
+        {
+          "text": "Ghost Hacker",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " is on the same team."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6285,7 +6366,24 @@
   {
     "characterName": "Devil Major",
     "abilityName": "Aerial Bombardment",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, takes flight and bombards the enemy team for 3 turns.\n\nWhile flying, gains "
+        },
+        {
+          "text": "30% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and adds SPEED to attack damage.\n\nEach turn, fires 2 to 4 random shells dealing "
+        },
+        {
+          "text": "50% damage each.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6312,7 +6410,90 @@
   {
     "characterName": "Scarlet Knight",
     "abilityName": "Endless Armory",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, equips "
+        },
+        {
+          "text": "Assault Armor",
+          "color": "#f0787d"
+        },
+        {
+          "text": ". Every "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", switches Armor in this order: Assault, Guardian, Swift.\n\n"
+        },
+        {
+          "text": "Assault Armor:",
+          "color": "#f0787d"
+        },
+        {
+          "text": " Gains "
+        },
+        {
+          "text": "50% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and deals "
+        },
+        {
+          "text": "125% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Guardian Armor:",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " Gains "
+        },
+        {
+          "text": "25% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "Shield equal to 25% maximum HP",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Swift Armor:",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " Gains "
+        },
+        {
+          "text": "75% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and attacks "
+        },
+        {
+          "text": "twice",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6338,7 +6519,34 @@
   {
     "characterName": "Pink Horned Pilot",
     "abilityName": "Crimson Aegis",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, grants the entire allied team a "
+        },
+        {
+          "text": "Shield equal to 60% of her max HP.",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "\n\nWhile their Shield is active, allied cards gain "
+        },
+        {
+          "text": "35% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and deal "
+        },
+        {
+          "text": "35% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6348,12 +6556,47 @@
         "speed": 11229
       }
     },
-    "obtain": "Cyber Anomaly"
+    "obtain": "Cyber Anomaly",
+    "teamLimit": 1
   },
   {
     "characterName": "Puppeteer",
     "abilityName": "Last Command",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On death, transfers "
+        },
+        {
+          "text": "100% of her ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to the ally with the highest "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nThat ally also gains "
+        },
+        {
+          "text": "25% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6380,7 +6623,27 @@
   {
     "characterName": "Shield Guardian",
     "abilityName": "Unbreakable Shield",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains "
+        },
+        {
+          "text": "100% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\nAfter each hit, loses "
+        },
+        {
+          "text": "20 percentage points",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " of damage reduction."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6395,7 +6658,27 @@
   {
     "characterName": "Chrono Assassin",
     "abilityName": "Delayed Execution",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, attack every enemy for "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ". After 5 turns, deal 200% damage to the entire enemy team.\n\nOn attack, deal normal damage and store an additional "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " on the target.\n\nAt the start of the target's next turn, release all stored damage. If it defeats the target, immediately attack the next enemy."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6410,8 +6693,56 @@
   {
     "characterName": "Flame Devourer",
     "abilityName": "Burning Feast",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, applies "
+        },
+        {
+          "text": "2 Burn Stacks",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the entire enemy team.\n\nWhenever "
+        },
+        {
+          "text": "Burn",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " deals damage, heals for "
+        },
+        {
+          "text": "100% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and permanently gains "
+        },
+        {
+          "text": "ATTACK equal to 75% of that damage",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nIf Flame Devourer is affected by "
+        },
+        {
+          "text": "Burn",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ", it "
+        },
+        {
+          "text": "heals",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " instead of taking damage.\n\nThis passive works while off-field and stops when Flame Devourer is K.O."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/50,000,000",
@@ -6425,7 +6756,48 @@
   {
     "characterName": "Master Hero",
     "abilityName": "A Last Hit",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time Master Hero would die, he survives at "
+        },
+        {
+          "text": "1 HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and removes all "
+        },
+        {
+          "text": "debuffs",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " from himself.\n\nAfter surviving this way, Master Hero gains "
+        },
+        {
+          "text": "50% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "30% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", and his next attack deals "
+        },
+        {
+          "text": "175% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to all enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6440,8 +6812,28 @@
   {
     "characterName": "Blonde Cyborg",
     "abilityName": "Twin Protocol",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Supports the allied card positioned directly before her.\n\nWhenever the supported ally performs a base attack, Blonde Cyborg performs an additional attack against the same target, up to "
+        },
+        {
+          "text": "2 follow-ups per global turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nEach additional attack grants "
+        },
+        {
+          "text": "+10% Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", up to 50%."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/50,000,000",
@@ -6455,7 +6847,45 @@
   {
     "characterName": "Otherword Demon Lord",
     "abilityName": "Overwhelming Presence",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, "
+        },
+        {
+          "text": "terrifies",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " the enemy team for 3 turns, reducing its "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "20%",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nDeals "
+        },
+        {
+          "text": "50% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to terrified enemies.\n\nWhen the opposing card activates a passive while facing Otherworldly Demon Lord, it takes damage equal to its own ATTACK. "
+        },
+        {
+          "text": "Once per turn.",
+          "color": "#c8c9d4"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6470,7 +6900,31 @@
   {
     "characterName": "Truck-Kun",
     "abilityName": "Otherworld Delivery",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "After the supported card survives "
+        },
+        {
+          "text": "2 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", sacrifices it.\n\nThe next allied card gains "
+        },
+        {
+          "text": "40% of the sacrificed card's HP, ATTACK, and SPEED.",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "\n\nThis sacrifice can trigger only "
+        },
+        {
+          "text": "once per supported card.",
+          "color": "#c8a5e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6493,8 +6947,35 @@
   {
     "characterName": "The Shield",
     "abilityName": "Heavy Defense",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The supported card gains "
+        },
+        {
+          "text": "20% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "20% maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", but loses "
+        },
+        {
+          "text": "50% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/67,000,000"
@@ -6505,8 +6986,46 @@
   {
     "characterName": "Spiral Hero",
     "abilityName": "Pierce the Heavens",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "For each global turn he remains alive, his drill grows larger, granting "
+        },
+        {
+          "text": "+5% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "+5% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", up to 50%.\n\nEvery "
+        },
+        {
+          "text": "3 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", drills through the opposing card for "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and the enemy behind it for 100% damage.\n\nIf this attack defeats an enemy, immediately attacks the next enemy for "
+        },
+        {
+          "text": "150% damage.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/70,000,000",
@@ -6520,7 +7039,31 @@
   {
     "characterName": "Moonlit Outcast",
     "abilityName": "Limitless Mana",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Each attack consumes "
+        },
+        {
+          "text": "5% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and adds that amount to its damage.\n\nEvery cumulative 20% consumed prepares the next attack to deal "
+        },
+        {
+          "text": "150% damage to the entire enemy team.",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "\n\nAfter the empowered attack, heals for "
+        },
+        {
+          "text": "25% of the total damage dealt.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6547,7 +7090,59 @@
   {
     "characterName": "Ghost Hacker",
     "abilityName": "Short Circuit",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains "
+        },
+        {
+          "text": "3 Memory Stacks.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nOn each attack, consumes "
+        },
+        {
+          "text": "1 Memory Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "stun",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "1 random enemy.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nWhen no Memory Stacks remain, each attack deals "
+        },
+        {
+          "text": "40% of her damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the entire enemy team instead.\n\nThis damage increases to "
+        },
+        {
+          "text": "60%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " when paired with "
+        },
+        {
+          "text": "Chrome Berserker.",
+          "color": "#c8a5e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6562,7 +7157,41 @@
   {
     "characterName": "Sword Dancer",
     "abilityName": "Sword Dance",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Sword Dancer gains "
+        },
+        {
+          "text": "30% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\nSword Dancer has an "
+        },
+        {
+          "text": "80% chance to dodge",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " incoming attacks.\n\nWhen Sword Dancer dodges, she "
+        },
+        {
+          "text": "counterattacks",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and loses "
+        },
+        {
+          "text": "10% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6577,7 +7206,73 @@
   {
     "characterName": "Blindfolded Sorcerer",
     "abilityName": "Infinity",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, activates "
+        },
+        {
+          "text": "Infinity",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nWhile Infinity is active, reduces all incoming damage by "
+        },
+        {
+          "text": "60%",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and cannot receive "
+        },
+        {
+          "text": "debuffs",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nEach time Blindfolded Sorcerer is attacked during Infinity, gains "
+        },
+        {
+          "text": "1 Void Stack.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nAt "
+        },
+        {
+          "text": "3 Void Stacks,",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " consumes all stacks and unleashes "
+        },
+        {
+          "text": "Hollow Purple,",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " dealing "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the enemy team and ignoring "
+        },
+        {
+          "text": "Shields.",
+          "color": "#72c7ff"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6592,7 +7287,34 @@
   {
     "characterName": "King Slime",
     "abilityName": "Slime Body!",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever King Slime takes damage, he "
+        },
+        {
+          "text": "summons a random Slime",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " whose "
+        },
+        {
+          "text": "stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " are equal to the "
+        },
+        {
+          "text": "damage taken",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6607,7 +7329,41 @@
   {
     "characterName": "Labyrinth Spider",
     "abilityName": "Web Trap",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, covers the opposing card in "
+        },
+        {
+          "text": "Web",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nWebbed enemies lose "
+        },
+        {
+          "text": "30% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and gain 1 "
+        },
+        {
+          "text": "Poison Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " whenever they attack.\n\nWhen a webbed enemy dies, the Web and all Poison Stacks move to the next enemy card.\n\nAt the start of each turn, bites every enemy at 5 Poison Stacks for "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and consumes 5 stacks from each."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6622,7 +7378,34 @@
   {
     "characterName": "Cyborg Ranger",
     "abilityName": "Infinite Barrier",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains a Barrier equal to "
+        },
+        {
+          "text": "50% of max HP.",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "\n\nWhenever the Barrier absorbs damage, the next allied card gains a Shield equal to the damage absorbed.\n\nWhen the Barrier breaks, deals "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the next 2 enemies, then recreates the Barrier after "
+        },
+        {
+          "text": "5 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": " if Cyborg Ranger is still alive."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6648,7 +7431,48 @@
   {
     "characterName": "Noble Lord",
     "abilityName": "Noble Blood",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, Noble Lord consumes "
+        },
+        {
+          "text": "10% of his current HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " to deal "
+        },
+        {
+          "text": "100% bonus damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\nWhile Noble Lord is below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", his attacks deal "
+        },
+        {
+          "text": "50% bonus damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and heal him for "
+        },
+        {
+          "text": "50% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6663,8 +7487,18 @@
   {
     "characterName": "Soul Punisher",
     "abilityName": "Soul Power",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Grants the supported card "
+        },
+        {
+          "text": "65% ATTACK.",
+          "color": "#f0787d"
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/100,000,000"
@@ -6675,7 +7509,118 @@
   {
     "characterName": "Abyss Survivor",
     "abilityName": "Endless Arsenal",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Loads six bullets, fired in order:\n\n"
+        },
+        {
+          "text": "Piercing:",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "150% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and ignores shields.\n\n"
+        },
+        {
+          "text": "Explosive:",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "75% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to all enemies.\n\n"
+        },
+        {
+          "text": "Binding:",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and Stun.\n\n"
+        },
+        {
+          "text": "Devouring:",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "heals for damage dealt.",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Transmutation:",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "shields",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " the lowest HP ally for damage dealt.\n\n"
+        },
+        {
+          "text": "Railgun:",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the target and "
+        },
+        {
+          "text": "150%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the next enemy card.\n\nAfter all six bullets, skips the next attack to reload."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6702,7 +7647,24 @@
   {
     "characterName": "Quagmire Mage",
     "abilityName": "Rain of Earth",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, fires 10 to 20 Earth Projectiles at random enemies, each dealing "
+        },
+        {
+          "text": "10% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ".\n\nAny enemy hit at least five times is struck by a Stone Cannon for "
+        },
+        {
+          "text": "150% damage.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -6717,7 +7679,41 @@
   {
     "characterName": "The Irregular",
     "abilityName": "Thorn",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever The Invader takes damage, he stores "
+        },
+        {
+          "text": "20% of the damage taken",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " as "
+        },
+        {
+          "text": "Shinsu Power",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ".\n\nOn attack, has a "
+        },
+        {
+          "text": "35% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to consume all Shinsu Power as "
+        },
+        {
+          "text": "bonus damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

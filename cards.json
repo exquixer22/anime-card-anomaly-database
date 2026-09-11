@@ -942,7 +942,7 @@
         }
       ]
     },
-    "hasOffFieldEffects": false,
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/1,111",

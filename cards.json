@@ -1955,63 +1955,8 @@
   {
     "characterName": "Forest Dryad",
     "abilityName": "Forest Memory",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Whenever an ally dies, Forest Dryad stores their "
-        },
-        {
-          "text": "Soul",
-          "color": "#d38bd9"
-        },
-        {
-          "text": " inside the "
-        },
-        {
-          "text": "Forest",
-          "color": "#d38bd9"
-        },
-        {
-          "text": ".\n\nAt the start of every turn, each stored Soul attacks a random enemy. Stored Souls are "
-        },
-        {
-          "text": "not consumed",
-          "color": "#d38bd9"
-        },
-        {
-          "text": ".\n\nEach Soul deals "
-        },
-        {
-          "text": "100% of Forest Dryad's ATTACK",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " with 1 stored Soul, "
-        },
-        {
-          "text": "75%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " with 2, "
-        },
-        {
-          "text": "50%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " with 3, and "
-        },
-        {
-          "text": "25%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " with 4."
-        }
-      ]
-    },
-    "hasOffFieldEffects": true,
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
         "odds": "1/33,500",
@@ -2032,7 +1977,7 @@
         },
         {
           "text": "6 shots",
-          "color": "#e5b86b"
+          "color": "#f2b84b"
         },
         {
           "text": " at random enemies, each dealing "
@@ -2045,7 +1990,7 @@
           "text": ".\n\nEvery "
         },
         {
-          "text": "2 global turns",
+          "text": "2 Global Turns",
           "color": "#c8c9d4"
         },
         {
@@ -2074,34 +2019,7 @@
   {
     "characterName": "Water princess",
     "abilityName": "Water Armor",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, gains "
-        },
-        {
-          "text": "25% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ".\n\nWhenever she deals damage, she restores "
-        },
-        {
-          "text": "25% of the damage dealt",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " as "
-        },
-        {
-          "text": "HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2116,34 +2034,7 @@
   {
     "characterName": "Awakened Prodigy",
     "abilityName": "Rage Awakening",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "When Awakened Prodigy drops below "
-        },
-        {
-          "text": "50% HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " or when all allies have died, he "
-        },
-        {
-          "text": "transforms",
-          "color": "#d38bd9"
-        },
-        {
-          "text": ".\n\nAfter awakening, Awakened Prodigy "
-        },
-        {
-          "text": "attacks twice",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " per turn."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2158,27 +2049,7 @@
   {
     "characterName": "Golden Lion Spear",
     "abilityName": "Spear Chain",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On attack, Golden Lion Spear strikes another random enemy for "
-        },
-        {
-          "text": "50% damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " and applies "
-        },
-        {
-          "text": "Burn",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " to both damaged enemies."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2193,83 +2064,7 @@
   {
     "characterName": "Ranger Officer",
     "abilityName": "Tactical Supply",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, Ranger Officer delivers one random supportive ally:\n\n"
-        },
-        {
-          "text": "Ammunition",
-          "color": "#f0787d"
-        },
-        {
-          "text": ": grants "
-        },
-        {
-          "text": "20% ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": ".\n\n"
-        },
-        {
-          "text": "Body Armor",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ": grants "
-        },
-        {
-          "text": "20% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ".\n\n"
-        },
-        {
-          "text": "Recon Drone",
-          "color": "#72c7ff"
-        },
-        {
-          "text": ": grants "
-        },
-        {
-          "text": "15% SPEED",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " and "
-        },
-        {
-          "text": "15% dodge chance",
-          "color": "#72c7ff"
-        },
-        {
-          "text": ".\n\n"
-        },
-        {
-          "text": "Medical Kit",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ": heals below "
-        },
-        {
-          "text": "50% HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ", heals "
-        },
-        {
-          "text": "25% of maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2295,21 +2090,21 @@
         },
         {
           "text": "dodge",
-          "color": "#72c7ff"
+          "color": "#79d9e8"
         },
         {
-          "text": " incoming damage.\nWhenever World Champion "
+          "text": " incoming damage. Whenever World Champion "
         },
         {
           "text": "dodges",
-          "color": "#72c7ff"
+          "color": "#79d9e8"
         },
         {
           "text": ", all allies gain "
         },
         {
           "text": "10% Attack",
-          "color": "#f0787d"
+          "color": "#ff0051"
         },
         {
           "text": "."
@@ -2330,27 +2125,7 @@
   {
     "characterName": "Blood girl",
     "abilityName": "Blood Feast",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On attack, applies "
-        },
-        {
-          "text": "1 Bleed Stack",
-          "color": "#f0787d"
-        },
-        {
-          "text": " to the target.\n\nAfter dealing damage, heals for "
-        },
-        {
-          "text": "5% of the damage dealt",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " for each Bleed Stack currently on the target, including the stack just applied."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2365,27 +2140,7 @@
   {
     "characterName": "Elf Leader",
     "abilityName": "Divine Light",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, on attack, and whenever Elf Leader takes damage, gain "
-        },
-        {
-          "text": "1 Divine Light Stack",
-          "color": "#d38bd9"
-        },
-        {
-          "text": ". Each Divine Light Stack adds one additional hit dealing "
-        },
-        {
-          "text": "5% of Elf Leader's Attack",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2400,41 +2155,7 @@
   {
     "characterName": "God of thunder",
     "abilityName": "Lightning Discharge",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, deals damage equal to "
-        },
-        {
-          "text": "200%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " of his "
-        },
-        {
-          "text": "ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": " to all enemies and makes them "
-        },
-        {
-          "text": "Electrified",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " for "
-        },
-        {
-          "text": "1 Turn",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2449,35 +2170,8 @@
   {
     "characterName": "Masked Strategist",
     "abilityName": "Adaptive Formation",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "At the start of battle, all allies gain "
-        },
-        {
-          "text": "15% dodge chance",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " and "
-        },
-        {
-          "text": "15% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ".\n\nWhenever an allied card defeats an enemy, both bonuses increase by "
-        },
-        {
-          "text": "+5%",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
-    "hasOffFieldEffects": true,
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
         "odds": "1/100,000",
@@ -2486,13 +2180,56 @@
         "speed": 1950
       }
     },
-    "obtain": "Cyber Anomaly",
-    "teamLimit": 1
+    "obtain": "Cyber Anomaly"
   },
   {
     "characterName": "Star Brawler",
     "abilityName": "Ora Rush",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "3 attacks",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", Star Brawler unleashes a "
+        },
+        {
+          "text": "Rush Attack",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ", striking the target "
+        },
+        {
+          "text": "5 times",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nEach hit deals "
+        },
+        {
+          "text": "35%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of Star Brawler's "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " damage."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2507,7 +2244,34 @@
   {
     "characterName": "The vampire",
     "abilityName": "Absorption",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "After taking damage, restores "
+        },
+        {
+          "text": "20% of the damage received",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " as HP.\n\nWhen The Vampire defeats an enemy, he permanently gains "
+        },
+        {
+          "text": "40% of that enemy's stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ".\n\nIn raids, gained HP is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2522,7 +2286,54 @@
   {
     "characterName": "Time Tyrant",
     "abilityName": "Time Stop",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Time Tyrant stops time, "
+        },
+        {
+          "text": "stunning",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " the opponent for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhen Time Tyrant defeats a card, he steals "
+        },
+        {
+          "text": "15%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of the defeated card's "
+        },
+        {
+          "text": "stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nIn raids, stolen HP is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2537,7 +2348,27 @@
   {
     "characterName": "Flower Girl",
     "abilityName": "Blooming Hands",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", gains "
+        },
+        {
+          "text": "1 additional attack",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2552,7 +2383,68 @@
   {
     "characterName": "Regressing Knight",
     "abilityName": "Death Loop",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time Regressing Knight dies, he rewinds time instead."
+        },
+        {
+          "text": "\n\nRegressing Knight "
+        },
+        {
+          "text": "revives",
+          "color": "#2ecc71"
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "50% of his maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and gains "
+        },
+        {
+          "text": "Memory of Death",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Memory of Death:",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " Regressing Knight takes "
+        },
+        {
+          "text": "50% less damage",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and deals "
+        },
+        {
+          "text": "75% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2567,8 +2459,56 @@
   {
     "characterName": "Ice General",
     "abilityName": "Frozen Command",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Ice General has a "
+        },
+        {
+          "text": "30% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " each turn to apply "
+        },
+        {
+          "text": "1 Freeze Stack",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " to the enemy with the lowest "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhile Ice General is alive on the team, each enemy "
+        },
+        {
+          "text": "Freeze Stack",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " is consumed when it would activate. Each consumed stack deals "
+        },
+        {
+          "text": "150% of Ice General's ",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to its holder instead of stunning it."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/167,000",
@@ -2582,7 +2522,27 @@
   {
     "characterName": "Dragon Relic",
     "abilityName": "Dragon Seal",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, disables the opposing card's "
+        },
+        {
+          "text": "abilities",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2594,7 +2554,88 @@
   {
     "characterName": "Duel King",
     "abilityName": "Heart of the Cards",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, then every "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", draws a random card and grants its effect to the allies team."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Monster Card:",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " all allies gain "
+        },
+        {
+          "text": "10% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Spell Card:",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " all allies gain "
+        },
+        {
+          "text": "10% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Trap Card:",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " all allies gain a "
+        },
+        {
+          "text": "Shield equal to 25% of Duel King's ATTACK",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Quick-Play Card:",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " all allies gain "
+        },
+        {
+          "text": "10% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2609,7 +2650,44 @@
   {
     "characterName": "Water Queen Magician",
     "abilityName": "Water Shield",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, adds her current "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " value as bonus "
+        },
+        {
+          "text": "damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " without consuming it."
+        },
+        {
+          "text": "\n\nAfter the attack, gains a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "equal to 50% of the total damage dealt",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2624,7 +2702,47 @@
   {
     "characterName": "Iron General",
     "abilityName": "Emergency Ejection",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains "
+        },
+        {
+          "text": "40% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and fires 2 missiles at different enemies, each dealing "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhen he would be defeated, destroys the armor, transforms into Cyborg Pirate at "
+        },
+        {
+          "text": "100% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", then immediately attacks."
+        },
+        {
+          "text": "\n\nAfter transforming, attacks twice every "
+        },
+        {
+          "text": "2 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2639,7 +2757,20 @@
   {
     "characterName": "Pile of bean",
     "abilityName": "Natural Recovery",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of each turn, restores "
+        },
+        {
+          "text": "10% of the supported card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2651,7 +2782,89 @@
   {
     "characterName": "Red shadow",
     "abilityName": "Crimson Curse",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When Red Shadow hits a target without a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " or active "
+        },
+        {
+          "text": "damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", she inflicts "
+        },
+        {
+          "text": "a permanent Curse",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " (the target takes "
+        },
+        {
+          "text": "25% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "). Each target can have only one mark."
+        },
+        {
+          "text": "\n\nIf Red Shadow falls below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", he loses all "
+        },
+        {
+          "text": "permanent Curse",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " on herself."
+        },
+        {
+          "text": "\n\nWhile Cursed, Red Shadow gains "
+        },
+        {
+          "text": "50% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "50% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "50% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ". Each attack also inflicts "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2666,7 +2879,44 @@
   {
     "characterName": "Undying Fox",
     "abilityName": "Immortality",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever Undying Fox takes a fatal hit, has a "
+        },
+        {
+          "text": "50% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "revive",
+          "color": "#2ecc71"
+        },
+        {
+          "text": " with full "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nThe revival chance decreases by "
+        },
+        {
+          "text": "10%",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": " after each death."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2681,7 +2931,20 @@
   {
     "characterName": "Fast granny",
     "abilityName": "Old Reflexes",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When targeted by a direct attack, Fast Granny "
+        },
+        {
+          "text": "counter attacks twice",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " before the incoming attack."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2696,7 +2959,51 @@
   {
     "characterName": "The Substitute",
     "abilityName": "Final Release",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When receiving a fatal hit, restores "
+        },
+        {
+          "text": "50% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and transforms into "
+        },
+        {
+          "text": "Final Form",
+          "color": "#d38bd9"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nUpon transforming, immediately attacks "
+        },
+        {
+          "text": "twice",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " and gains "
+        },
+        {
+          "text": "35% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "35% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2711,7 +3018,44 @@
   {
     "characterName": "Ghost Vanguard",
     "abilityName": "Death Sense",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "If an enemy attack would deal more than "
+        },
+        {
+          "text": "25% of max HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", evades it and immediately counters for "
+        },
+        {
+          "text": "150% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nThis effect has a "
+        },
+        {
+          "text": "1-turn cooldown",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ". Each successful counter increases the next counter's damage by "
+        },
+        {
+          "text": "+50%",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2726,7 +3070,44 @@
   {
     "characterName": "Big brother",
     "abilityName": "Blood Absorption",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Heals for "
+        },
+        {
+          "text": "30% of all damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhenever Big Brother restores "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", he deals damage equal to "
+        },
+        {
+          "text": "the amount restored",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " to the opposing card if it has at least "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ". This bonus damage cannot trigger Blood Absorption again."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2741,7 +3122,30 @@
   {
     "characterName": "Cool Swordsman",
     "abilityName": "Triple Slash",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, Cool Swordsman strikes "
+        },
+        {
+          "text": "3 times",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nEach hit deals "
+        },
+        {
+          "text": "50% less damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " than the previous hit."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3759,27 +4163,7 @@
   {
     "characterName": "Blood Fruit",
     "abilityName": "Blood Feast",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On attack, applies "
-        },
-        {
-          "text": "1 Bleed Stack",
-          "color": "#f0787d"
-        },
-        {
-          "text": " to the target.\n\nAfter dealing damage, heals for "
-        },
-        {
-          "text": "5% of the damage dealt",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " for each Bleed Stack currently on the target, including the stack just applied."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

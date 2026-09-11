@@ -1685,7 +1685,48 @@
   {
     "characterName": "Demon Slayer",
     "abilityName": "Sun and Water Breath",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "3 attacks",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", engulfs the enemy team in "
+        },
+        {
+          "text": "blaze",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ", dealing "
+        },
+        {
+          "text": "150% of his ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to each enemy.\n\nEvery "
+        },
+        {
+          "text": "3 attacks received",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", counterattacks and heals for "
+        },
+        {
+          "text": "25% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1700,7 +1741,34 @@
   {
     "characterName": "Cursed Vessel",
     "abilityName": "Black Flash",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "3 attacks",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", the next attack deals "
+        },
+        {
+          "text": "200% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and ignores all "
+        },
+        {
+          "text": "defensive effects",
+          "color": "#f5b84d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1715,8 +1783,21 @@
   {
     "characterName": "Shoes",
     "abilityName": "Speed Boost",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Grants the supported card "
+        },
+        {
+          "text": "10% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/15,000"
@@ -1727,8 +1808,35 @@
   {
     "characterName": "Steel Proxy",
     "abilityName": "Stored Power",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Each global turn spent off-field stores "
+        },
+        {
+          "text": "+200% Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", up to "
+        },
+        {
+          "text": "+200%",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nOn entry, fires a charge blast dealing "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ". If it defeats the target, excess damage carries over to the next enemy."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/15,000",
@@ -1742,7 +1850,20 @@
   {
     "characterName": "Copy Ninja",
     "abilityName": "Copycat",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Copies the opposing card's "
+        },
+        {
+          "text": "Passive ability",
+          "color": "#d38bd9"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1757,7 +1878,27 @@
   {
     "characterName": "Crazy Wild Boar",
     "abilityName": "Sharpless Katana",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Each attack applies "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nWhen attacking a Bleeding target, attacks a second time with "
+        },
+        {
+          "text": "50% less damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -1772,7 +1913,34 @@
   {
     "characterName": "Grumpy Princess",
     "abilityName": "Seal of Command",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Each attack has a "
+        },
+        {
+          "text": "30% chance",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to mark the opponent with a "
+        },
+        {
+          "text": "Command Seal",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nA marked enemy takes "
+        },
+        {
+          "text": "100% more damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " from all sources."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

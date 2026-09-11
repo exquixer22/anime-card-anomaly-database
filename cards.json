@@ -5662,7 +5662,38 @@
   {
     "characterName": "Awakened Noble",
     "abilityName": "Endless Sword Swing",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "4 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", Awakened Noble uses "
+        },
+        {
+          "text": "Final Swing",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", dealing "
+        },
+        {
+          "text": "500% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the target and ignoring "
+        },
+        {
+          "text": "Shields.",
+          "color": "#79d9e8"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

@@ -1113,7 +1113,14 @@
     "abilityDescription": {
       "parts": [
         {
-          "text": "After 3 turns, enters "
+          "text": "After "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", enters "
         },
         {
           "text": "Overheat Mode",
@@ -1169,7 +1176,14 @@
           "color": "#72c7ff"
         },
         {
-          "text": " for 1 turn.\n\nWhen attacking a "
+          "text": " for "
+        },
+        {
+          "text": "1 turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ".\n\nWhen attacking a "
         },
         {
           "text": "Frozen enemy",
@@ -1239,7 +1253,14 @@
           "color": "#f2d46f"
         },
         {
-          "text": " for 1 turn."
+          "text": " for "
+        },
+        {
+          "text": "1 turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
         }
       ]
     },

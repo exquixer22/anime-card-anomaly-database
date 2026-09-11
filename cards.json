@@ -5695,7 +5695,76 @@
   {
     "characterName": "Ink sovereign",
     "abilityName": "Black Ink",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, applies "
+        },
+        {
+          "text": "1 Ink Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " to all enemies. On attack, applies "
+        },
+        {
+          "text": "1 Ink Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " to the target.\n\nEach Ink Stack reduces the target's current and maximum "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "10%",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ". Stacks up to "
+        },
+        {
+          "text": "3 times.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nAt "
+        },
+        {
+          "text": "3 Ink Stacks",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", the target's "
+        },
+        {
+          "text": "passive ability is disabled",
+          "color": "#f0787d"
+        },
+        {
+          "text": " for as long as it remains at 3 stacks."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

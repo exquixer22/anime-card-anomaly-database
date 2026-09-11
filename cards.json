@@ -2492,51 +2492,7 @@
   {
     "characterName": "Star Brawler",
     "abilityName": "Ora Rush",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Every "
-        },
-        {
-          "text": "3 attacks",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ", Star Brawler unleashes a "
-        },
-        {
-          "text": "Rush Attack",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": ", striking the target "
-        },
-        {
-          "text": "5 times",
-          "color": "#e5b86b"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nEach hit deals "
-        },
-        {
-          "text": "35%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " of Star Brawler's "
-        },
-        {
-          "text": "ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": " damage."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2551,34 +2507,7 @@
   {
     "characterName": "The vampire",
     "abilityName": "Absorption",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "After taking damage, restores "
-        },
-        {
-          "text": "20% of the damage received",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " as HP.\n\nWhen The Vampire defeats an enemy, he permanently gains "
-        },
-        {
-          "text": "40% of that enemy's stats",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ".\n\nIn raids, gained HP is capped at "
-        },
-        {
-          "text": "100% of this card's maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2593,54 +2522,7 @@
   {
     "characterName": "Time Tyrant",
     "abilityName": "Time Stop",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, Time Tyrant stops time, "
-        },
-        {
-          "text": "stunning",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " the opponent for "
-        },
-        {
-          "text": "2 turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nWhen Time Tyrant defeats a card, he steals "
-        },
-        {
-          "text": "15%",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " of the defeated card's "
-        },
-        {
-          "text": "stats",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nIn raids, stolen HP is capped at "
-        },
-        {
-          "text": "100% of this card's maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2655,27 +2537,7 @@
   {
     "characterName": "Flower Girl",
     "abilityName": "Blooming Hands",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Every "
-        },
-        {
-          "text": "3 turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": ", gains "
-        },
-        {
-          "text": "1 additional attack",
-          "color": "#e5b86b"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2690,68 +2552,7 @@
   {
     "characterName": "Regressing Knight",
     "abilityName": "Death Loop",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "The first time Regressing Knight dies, he rewinds time instead."
-        },
-        {
-          "text": "\n\nRegressing Knight "
-        },
-        {
-          "text": "revives",
-          "color": "#2ecc71"
-        },
-        {
-          "text": " with "
-        },
-        {
-          "text": "50% of his maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " and gains "
-        },
-        {
-          "text": "Memory of Death",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " for "
-        },
-        {
-          "text": "3 turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\n"
-        },
-        {
-          "text": "Memory of Death:",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " Regressing Knight takes "
-        },
-        {
-          "text": "50% less damage",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " and deals "
-        },
-        {
-          "text": "75% more damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2766,56 +2567,8 @@
   {
     "characterName": "Ice General",
     "abilityName": "Frozen Command",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Ice General has a "
-        },
-        {
-          "text": "30% chance",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " each turn to apply "
-        },
-        {
-          "text": "1 Freeze Stack",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " to the enemy with the lowest "
-        },
-        {
-          "text": "HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nWhile Ice General is alive on the team, each enemy "
-        },
-        {
-          "text": "Freeze Stack",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " is consumed when it would activate. Each consumed stack deals "
-        },
-        {
-          "text": "150% of Ice General's ",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": " to its holder instead of stunning it."
-        }
-      ]
-    },
-    "hasOffFieldEffects": true,
+    "abilityDescription": "",
+    "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
         "odds": "1/167,000",
@@ -2829,27 +2582,7 @@
   {
     "characterName": "Dragon Relic",
     "abilityName": "Dragon Seal",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, disables the opposing card's "
-        },
-        {
-          "text": "abilities",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " for "
-        },
-        {
-          "text": "2 turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2861,88 +2594,7 @@
   {
     "characterName": "Duel King",
     "abilityName": "Heart of the Cards",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, then every "
-        },
-        {
-          "text": "3 turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": ", draws a random card and grants its effect to the allies team."
-        },
-        {
-          "text": "\n\n"
-        },
-        {
-          "text": "Monster Card:",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " all allies gain "
-        },
-        {
-          "text": "10% ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\n"
-        },
-        {
-          "text": "Spell Card:",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " all allies gain "
-        },
-        {
-          "text": "10% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\n"
-        },
-        {
-          "text": "Trap Card:",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " all allies gain a "
-        },
-        {
-          "text": "Shield equal to 25% of Duel King's ATTACK",
-          "color": "#72c7ff"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\n"
-        },
-        {
-          "text": "Quick-Play Card:",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " all allies gain "
-        },
-        {
-          "text": "10% SPEED",
-          "color": "#72c7ff"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2957,44 +2609,7 @@
   {
     "characterName": "Water Queen Magician",
     "abilityName": "Water Shield",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On attack, adds her current "
-        },
-        {
-          "text": "Shield",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " value as bonus "
-        },
-        {
-          "text": "damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " without consuming it."
-        },
-        {
-          "text": "\n\nAfter the attack, gains a "
-        },
-        {
-          "text": "Shield",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " "
-        },
-        {
-          "text": "equal to 50% of the total damage dealt",
-          "color": "#72c7ff"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3009,47 +2624,7 @@
   {
     "characterName": "Iron General",
     "abilityName": "Emergency Ejection",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On entry, gains "
-        },
-        {
-          "text": "40% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " and fires 2 missiles at different enemies, each dealing "
-        },
-        {
-          "text": "200% damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nWhen he would be defeated, destroys the armor, transforms into Cyborg Pirate at "
-        },
-        {
-          "text": "100% HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ", then immediately attacks."
-        },
-        {
-          "text": "\n\nAfter transforming, attacks twice every "
-        },
-        {
-          "text": "2 global turns",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3064,20 +2639,7 @@
   {
     "characterName": "Pile of bean",
     "abilityName": "Natural Recovery",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "At the start of each turn, restores "
-        },
-        {
-          "text": "10% of the supported card's maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3089,89 +2651,7 @@
   {
     "characterName": "Red shadow",
     "abilityName": "Crimson Curse",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "When Red Shadow hits a target without a "
-        },
-        {
-          "text": "Shield",
-          "color": "#72c7ff"
-        },
-        {
-          "text": " or active "
-        },
-        {
-          "text": "damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ", she inflicts "
-        },
-        {
-          "text": "a permanent Curse",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " (the target takes "
-        },
-        {
-          "text": "25% more damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "). Each target can have only one mark."
-        },
-        {
-          "text": "\n\nIf Red Shadow falls below "
-        },
-        {
-          "text": "50% HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ", he loses all "
-        },
-        {
-          "text": "permanent Curse",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": " on herself."
-        },
-        {
-          "text": "\n\nShe gains "
-        },
-        {
-          "text": "50% ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": ", "
-        },
-        {
-          "text": "50% SPEED",
-          "color": "#72c7ff"
-        },
-        {
-          "text": ", and "
-        },
-        {
-          "text": "50% damage reduction",
-          "color": "#e5b86b"
-        },
-        {
-          "text": ". Each attack also inflicts "
-        },
-        {
-          "text": "1 Bleed Stack",
-          "color": "#f0787d"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3186,44 +2666,7 @@
   {
     "characterName": "Undying Fox",
     "abilityName": "Immortality",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Whenever Undying Fox takes a fatal hit, has a "
-        },
-        {
-          "text": "50% chance",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " to "
-        },
-        {
-          "text": "revive",
-          "color": "#2ecc71"
-        },
-        {
-          "text": " with full "
-        },
-        {
-          "text": "HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nThe revival chance decreases by "
-        },
-        {
-          "text": "10%",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": " after each death."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3238,20 +2681,7 @@
   {
     "characterName": "Fast granny",
     "abilityName": "Old Reflexes",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "When targeted by a direct attack, Fast Granny "
-        },
-        {
-          "text": "counter attacks twice",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " before the incoming attack."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3266,51 +2696,7 @@
   {
     "characterName": "The Substitute",
     "abilityName": "Final Release",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "When receiving a fatal hit, restores "
-        },
-        {
-          "text": "50% of maximum HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " and transforms into "
-        },
-        {
-          "text": "Final Form",
-          "color": "#c8a5e8"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nUpon transforming, immediately attacks "
-        },
-        {
-          "text": "twice",
-          "color": "#e5b86b"
-        },
-        {
-          "text": " and gains "
-        },
-        {
-          "text": "35% ATTACK",
-          "color": "#f0787d"
-        },
-        {
-          "text": " and "
-        },
-        {
-          "text": "35% SPEED",
-          "color": "#72c7ff"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3325,44 +2711,7 @@
   {
     "characterName": "Ghost Vanguard",
     "abilityName": "Death Sense",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "If an enemy attack would deal more than "
-        },
-        {
-          "text": "25% of max HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ", evades it and immediately counters for "
-        },
-        {
-          "text": "150% damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nThis effect has a "
-        },
-        {
-          "text": "1-turn cooldown",
-          "color": "#c8c9d4"
-        },
-        {
-          "text": ". Each successful counter increases the next counter's damage by "
-        },
-        {
-          "text": "+50%",
-          "color": "#f0787d"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3377,44 +2726,7 @@
   {
     "characterName": "Big brother",
     "abilityName": "Blood Absorption",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "Heals for "
-        },
-        {
-          "text": "30% of all damage dealt",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nWhenever Big Brother restores "
-        },
-        {
-          "text": "HP",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": ", he deals damage equal to "
-        },
-        {
-          "text": "the amount restored",
-          "color": "#8fdaa0"
-        },
-        {
-          "text": " to the opposing card if it has at least "
-        },
-        {
-          "text": "1 Bleed Stack",
-          "color": "#f0787d"
-        },
-        {
-          "text": ". This bonus damage cannot trigger Blood Absorption again."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3429,30 +2741,7 @@
   {
     "characterName": "Cool Swordsman",
     "abilityName": "Triple Slash",
-    "abilityDescription": {
-      "parts": [
-        {
-          "text": "On attack, Cool Swordsman strikes "
-        },
-        {
-          "text": "3 times",
-          "color": "#e5b86b"
-        },
-        {
-          "text": "."
-        },
-        {
-          "text": "\n\nEach hit deals "
-        },
-        {
-          "text": "50% less damage",
-          "color": "#ef9b79"
-        },
-        {
-          "text": " than the previous hit."
-        }
-      ]
-    },
+    "abilityDescription": "",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3467,7 +2756,44 @@
   {
     "characterName": "Dancing Blade",
     "abilityName": "Saint Blade",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When attacked, has a "
+        },
+        {
+          "text": "50% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "counterattack",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nIf "
+        },
+        {
+          "text": "Duel Swordsman",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " is on the same team, the counterattack chance becomes "
+        },
+        {
+          "text": "100%",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3482,7 +2808,44 @@
   {
     "characterName": "Dual Swordsman",
     "abilityName": "Double Sword Skill",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Each attack has a "
+        },
+        {
+          "text": "40% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "attack twice",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nIf "
+        },
+        {
+          "text": "Dancing Blade",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " is on the same team, always "
+        },
+        {
+          "text": "attacks twice",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3497,7 +2860,37 @@
   {
     "characterName": "Forest Mage",
     "abilityName": "Tree Explosion",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, plants a "
+        },
+        {
+          "text": "Seed Bomb",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " on the enemy team."
+        },
+        {
+          "text": "\n\nAfter "
+        },
+        {
+          "text": "4 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", the Seed Bomb explodes, dealing "
+        },
+        {
+          "text": "250% of Forest Mage's ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to all enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3512,8 +2905,52 @@
   {
     "characterName": "Battlefield Handler",
     "abilityName": "Tactical Command",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time each allied card would take at least "
+        },
+        {
+          "text": "25% of its max HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " from one attack, reduces that damage by "
+        },
+        {
+          "text": "50%",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", then retaliates against the attacker for "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhenever an allied card is defeated, calls an artillery strike on its killer for "
+        },
+        {
+          "text": "200%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of Battlefield Handler's "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/590,000",
@@ -3522,13 +2959,34 @@
         "speed": 3309
       }
     },
-    "obtain": "Cyber Anomaly"
+    "obtain": "Cyber Anomaly",
+    "teamLimit": 1
   },
   {
     "characterName": "Death Apple",
     "abilityName": "Last Meal",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Once per battle, when the supported card falls below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", it consumes the apple and restores "
+        },
+        {
+          "text": "35% of its maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/666,666"
@@ -3539,7 +2997,51 @@
   {
     "characterName": "God of death",
     "abilityName": "Death's Presence",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, reduces every enemy's current and maximum "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "25%",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nIn raids, the total HP reduction is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3549,12 +3051,53 @@
         "speed": 4001
       }
     },
-    "obtain": "Spooky Weather"
+    "obtain": "Spooky Weather",
+    "teamLimit": 1
   },
   {
     "characterName": "Rose Captain",
     "abilityName": "Thorn Garden",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, creates a "
+        },
+        {
+          "text": "Thorn Garden",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " that lasts until she dies."
+        },
+        {
+          "text": "\n\nWhile the Thorn Garden is active, all enemies take damage equal to "
+        },
+        {
+          "text": "50% of Rose Captain's ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " every turn and receive "
+        },
+        {
+          "text": "1 Poison Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhen the Garden is created, all allies permanently gain "
+        },
+        {
+          "text": "1 Thorn Stack",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3569,8 +3112,38 @@
   {
     "characterName": "Miss Blizzard",
     "abilityName": "Psychic Shield",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "While Miss Blizzard is in the team, all allied cards gain a "
+        },
+        {
+          "text": "Shield",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "100% of her damage",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nWhen one of these Shields is destroyed, it explodes and deals damage equal to "
+        },
+        {
+          "text": "100% of the absorbed damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the card that destroyed it."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/690,000",
@@ -3584,7 +3157,58 @@
   {
     "characterName": "Old elf",
     "abilityName": "Demon Trick",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Old Elf suppresses her mana for "
+        },
+        {
+          "text": "3 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ". While her mana is suppressed, she takes "
+        },
+        {
+          "text": "40% less damage",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nAt the end of the third turn, she releases her stored mana once, dealing damage equal to "
+        },
+        {
+          "text": "300%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of her "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all enemies and restoring "
+        },
+        {
+          "text": "35% of the total damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " as "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3599,7 +3223,64 @@
   {
     "characterName": "Runaway Unit",
     "abilityName": "Renegade Overdrive",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time Runaway Unit drops below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", she enters Overdrive for the rest of the battle."
+        },
+        {
+          "text": "\n\nWhile in Overdrive, she gains bonus "
+        },
+        {
+          "text": "Attack",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " equal to her missing HP percentage, up to 100%, and "
+        },
+        {
+          "text": "+40% Speed",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nAt the start of each global turn, she loses "
+        },
+        {
+          "text": "10% of her max HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ". This cannot reduce her below 1 HP."
+        },
+        {
+          "text": "\n\nWhenever she defeats an enemy, she heals "
+        },
+        {
+          "text": "30% of her missing HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and immediately attacks the next enemy for "
+        },
+        {
+          "text": "50% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3614,7 +3295,93 @@
   {
     "characterName": "Vending Machine",
     "abilityName": "Vandalism",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Starts battle with "
+        },
+        {
+          "text": "10 Products",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\nWhenever hit, consumes one Product and gives a random item to a random ally:"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Energy Drink",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ": +20% SPEED."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Protein Bar",
+          "color": "#f0787d"
+        },
+        {
+          "text": ": +20% ATTACK."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Hot Meal",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ": +10% maximum HP."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Body Warmer",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ": +20% damage reduction."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Barrier Can",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ": shield equal to 25% of Vending Machine's maximum HP."
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Mystery Drink",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " grants two different Products."
+        },
+        {
+          "text": "\n\nWhen empty, all allies gain "
+        },
+        {
+          "text": "20% to all stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3629,7 +3396,27 @@
   {
     "characterName": "Powerful Secretary",
     "abilityName": "Ogre Rage",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever Powerful Secretary takes damage, her "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " increases by "
+        },
+        {
+          "text": "40%",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3644,7 +3431,54 @@
   {
     "characterName": "White Ace",
     "abilityName": "Newtype Instinct",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time each enemy attacks White Angel, evades the hit and immediately counters for "
+        },
+        {
+          "text": "200% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nEvery "
+        },
+        {
+          "text": "2 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", gains "
+        },
+        {
+          "text": "20% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ", up to 60%."
+        },
+        {
+          "text": "\n\nEvery "
+        },
+        {
+          "text": "3 global turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", gains "
+        },
+        {
+          "text": "20% Attack",
+          "color": "#f0787d"
+        },
+        {
+          "text": ", up to 100%."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3659,7 +3493,44 @@
   {
     "characterName": "Blind Captain",
     "abilityName": "Blind Justice",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, inflicts "
+        },
+        {
+          "text": "Blind",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " on the entire enemy team for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nBlinded enemies "
+        },
+        {
+          "text": "miss their attacks",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "cannot dodge",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3674,7 +3545,82 @@
   {
     "characterName": "Thunder Cat",
     "abilityName": "Feline Agility",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Starts with a "
+        },
+        {
+          "text": "20% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ". Each successful dodge permanently adds "
+        },
+        {
+          "text": "10% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " up to "
+        },
+        {
+          "text": "60%",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " and grants "
+        },
+        {
+          "text": "1 Thunder Stack",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nAt "
+        },
+        {
+          "text": "5 Thunder Stacks",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", permanently adds her "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and adds her "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nAt "
+        },
+        {
+          "text": "10 Thunder Stacks",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", her attacks permanently strike all enemies for "
+        },
+        {
+          "text": "200% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3689,7 +3635,58 @@
   {
     "characterName": "Spirit Huntress",
     "abilityName": "Psychic Power",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, deals "
+        },
+        {
+          "text": "50% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the entire enemy team and reduces all enemies' "
+        },
+        {
+          "text": "SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " by "
+        },
+        {
+          "text": "30%",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nIf Cursed Sprinter is on the allied team, the entry damage becomes "
+        },
+        {
+          "text": "100%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": ", the reduction becomes "
+        },
+        {
+          "text": "50%",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ", and all allies gain "
+        },
+        {
+          "text": "20% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3704,7 +3701,44 @@
   {
     "characterName": "Vase head",
     "abilityName": "Lava Domain",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, applies "
+        },
+        {
+          "text": "Burn",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to all enemies for "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nAttacks against Burning enemies deals "
+        },
+        {
+          "text": "10% total damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and heal Vase Head for "
+        },
+        {
+          "text": "30% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3719,7 +3753,54 @@
   {
     "characterName": "Blank Strategist",
     "abilityName": "Ten Moves Ahead",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Dodges the "
+        },
+        {
+          "text": "first attack from each enemy card",
+          "color": "#72c7ff"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nOnce per battle, when falling to "
+        },
+        {
+          "text": "50% HP or less",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", all allies gain "
+        },
+        {
+          "text": "10% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "10% to all stats",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": "\n\nOn death, permanently reduces the enemy team's "
+        },
+        {
+          "text": "ATTACK by 25%",
+          "color": "#f0787d"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -3729,7 +3810,8 @@
         "speed": 1290
       }
     },
-    "obtain": "Isekai Pack"
+    "obtain": "Isekai Pack",
+    "teamLimit": 1
   },
   {
     "characterName": "Clockwork Reaper",

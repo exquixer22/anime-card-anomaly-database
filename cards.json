@@ -5567,7 +5567,48 @@
   {
     "characterName": "Traitor Captain",
     "abilityName": "Perfect Hypnosis",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Evades the "
+        },
+        {
+          "text": "first attack",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " received.\n\nIf Traitor Captain would take fatal damage, he "
+        },
+        {
+          "text": "evades the attack",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "counterattacks",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\nOn death, "
+        },
+        {
+          "text": "revives",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " with full "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and restores all of his dodge effects."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

@@ -5430,7 +5430,20 @@
   {
     "characterName": "The Reader",
     "abilityName": "Omniscient",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, copies the "
+        },
+        {
+          "text": "passive ability",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " of a random card, ally or enemy."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5457,7 +5470,34 @@
   {
     "characterName": "Time Sovereign",
     "abilityName": "Time Dominion",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, "
+        },
+        {
+          "text": "Stun",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " the entire enemy team for 2 turns.\n\nEvery 3 turns, gain "
+        },
+        {
+          "text": "1 guaranteed Dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ".\n\nOn death, once per battle, rewind with "
+        },
+        {
+          "text": "100% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", remove all debuffs and Stun the opponent for 2 turns."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5472,7 +5512,17 @@
   {
     "characterName": "Bald Hero",
     "abilityName": "Getting Serious",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever Bald Hero attacks or is attacked, gains "
+        },
+        {
+          "text": "25% ATTACK.",
+          "color": "#f0787d"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

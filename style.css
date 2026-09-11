@@ -508,3 +508,24 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
     right: auto;
   }
 }
+
+
+/* Keep the team-limit indicator aligned with the odds in the card details popup. */
+.modal-odds-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  margin:10px 0;
+}
+.modal-odds-row .odds,
+.modal-odds-row .team-limit{
+  margin:0;
+  white-space:nowrap;
+}
+.team-limit{
+  color:#aeb6c9;
+  font-size:.7rem;
+  text-transform:none;
+  text-align:right;
+}

@@ -5597,7 +5597,34 @@
   {
     "characterName": "Mercenary King",
     "abilityName": "Future Mistake",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "The first time Mercenary King is hit by an enemy, he remembers the attack.\n\nThe next time the same enemy attacks him, he "
+        },
+        {
+          "text": "dodges",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " it and "
+        },
+        {
+          "text": "counterattacks",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "250% damage.",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "\n\nAfter counterattacking, Mercenary King forgets the attack."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

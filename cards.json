@@ -1955,8 +1955,63 @@
   {
     "characterName": "Forest Dryad",
     "abilityName": "Forest Memory",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever an ally dies, Forest Dryad stores their "
+        },
+        {
+          "text": "Soul",
+          "color": "#d38bd9"
+        },
+        {
+          "text": " inside the "
+        },
+        {
+          "text": "Forest",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nAt the start of every turn, each stored Soul attacks a random enemy. Stored Souls are "
+        },
+        {
+          "text": "not consumed",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nEach Soul deals "
+        },
+        {
+          "text": "100% of Forest Dryad's ATTACK",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " with 1 stored Soul, "
+        },
+        {
+          "text": "75%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " with 2, "
+        },
+        {
+          "text": "50%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " with 3, and "
+        },
+        {
+          "text": "25%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " with 4."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/33,500",
@@ -1977,7 +2032,7 @@
         },
         {
           "text": "6 shots",
-          "color": "#f2b84b"
+          "color": "#e5b86b"
         },
         {
           "text": " at random enemies, each dealing "
@@ -1990,7 +2045,7 @@
           "text": ".\n\nEvery "
         },
         {
-          "text": "2 Global Turns",
+          "text": "2 global turns",
           "color": "#c8c9d4"
         },
         {
@@ -2019,7 +2074,34 @@
   {
     "characterName": "Water princess",
     "abilityName": "Water Armor",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains "
+        },
+        {
+          "text": "25% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\nWhenever she deals damage, she restores "
+        },
+        {
+          "text": "25% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " as "
+        },
+        {
+          "text": "HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2034,7 +2116,34 @@
   {
     "characterName": "Awakened Prodigy",
     "abilityName": "Rage Awakening",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "When Awakened Prodigy drops below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " or when all allies have died, he "
+        },
+        {
+          "text": "transforms",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ".\n\nAfter awakening, Awakened Prodigy "
+        },
+        {
+          "text": "attacks twice",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " per turn."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2049,7 +2158,27 @@
   {
     "characterName": "Golden Lion Spear",
     "abilityName": "Spear Chain",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, Golden Lion Spear strikes another random enemy for "
+        },
+        {
+          "text": "50% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " and applies "
+        },
+        {
+          "text": "Burn",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to both damaged enemies."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2064,7 +2193,83 @@
   {
     "characterName": "Ranger Officer",
     "abilityName": "Tactical Supply",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, Ranger Officer delivers one random supportive ally:\n\n"
+        },
+        {
+          "text": "Ammunition",
+          "color": "#f0787d"
+        },
+        {
+          "text": ": grants "
+        },
+        {
+          "text": "20% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Body Armor",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ": grants "
+        },
+        {
+          "text": "20% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Recon Drone",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ": grants "
+        },
+        {
+          "text": "15% SPEED",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "15% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Medical Kit",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ": heals below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", heals "
+        },
+        {
+          "text": "25% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2090,21 +2295,21 @@
         },
         {
           "text": "dodge",
-          "color": "#79d9e8"
+          "color": "#72c7ff"
         },
         {
-          "text": " incoming damage. Whenever World Champion "
+          "text": " incoming damage.\nWhenever World Champion "
         },
         {
           "text": "dodges",
-          "color": "#79d9e8"
+          "color": "#72c7ff"
         },
         {
           "text": ", all allies gain "
         },
         {
           "text": "10% Attack",
-          "color": "#ff0051"
+          "color": "#f0787d"
         },
         {
           "text": "."
@@ -2125,7 +2330,27 @@
   {
     "characterName": "Blood girl",
     "abilityName": "Blood Feast",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, applies "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to the target.\n\nAfter dealing damage, heals for "
+        },
+        {
+          "text": "5% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " for each Bleed Stack currently on the target, including the stack just applied."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2140,7 +2365,27 @@
   {
     "characterName": "Elf Leader",
     "abilityName": "Divine Light",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, on attack, and whenever Elf Leader takes damage, gain "
+        },
+        {
+          "text": "1 Divine Light Stack",
+          "color": "#d38bd9"
+        },
+        {
+          "text": ". Each Divine Light Stack adds one additional hit dealing "
+        },
+        {
+          "text": "5% of Elf Leader's Attack",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2155,7 +2400,41 @@
   {
     "characterName": "God of thunder",
     "abilityName": "Lightning Discharge",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, deals damage equal to "
+        },
+        {
+          "text": "200%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all enemies and makes them "
+        },
+        {
+          "text": "Electrified",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "1 Turn",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -2170,8 +2449,35 @@
   {
     "characterName": "Masked Strategist",
     "abilityName": "Adaptive Formation",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "At the start of battle, all allies gain "
+        },
+        {
+          "text": "15% dodge chance",
+          "color": "#72c7ff"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "15% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\nWhenever an allied card defeats an enemy, both bonuses increase by "
+        },
+        {
+          "text": "+5%",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/100,000",
@@ -2180,7 +2486,8 @@
         "speed": 1950
       }
     },
-    "obtain": "Cyber Anomaly"
+    "obtain": "Cyber Anomaly",
+    "teamLimit": 1
   },
   {
     "characterName": "Star Brawler",
@@ -2199,7 +2506,7 @@
         },
         {
           "text": "Rush Attack",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": ", striking the target "
@@ -2407,7 +2714,7 @@
         },
         {
           "text": "Memory of Death",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " for "
@@ -2424,7 +2731,7 @@
         },
         {
           "text": "Memory of Death:",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " Regressing Knight takes "
@@ -2529,7 +2836,7 @@
         },
         {
           "text": "abilities",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " for "
@@ -2571,7 +2878,7 @@
         },
         {
           "text": "Monster Card:",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " all allies gain "
@@ -2588,7 +2895,7 @@
         },
         {
           "text": "Spell Card:",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " all allies gain "
@@ -2605,7 +2912,7 @@
         },
         {
           "text": "Trap Card:",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " all allies gain a "
@@ -2622,7 +2929,7 @@
         },
         {
           "text": "Quick-Play Card:",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " all allies gain "
@@ -2803,7 +3110,7 @@
         },
         {
           "text": "a permanent Curse",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " (the target takes "
@@ -2827,13 +3134,13 @@
         },
         {
           "text": "permanent Curse",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": " on herself."
         },
         {
-          "text": "\n\nWhile Cursed, Red Shadow gains "
+          "text": "\n\nShe gains "
         },
         {
           "text": "50% ATTACK",
@@ -2973,7 +3280,7 @@
         },
         {
           "text": "Final Form",
-          "color": "#d38bd9"
+          "color": "#c8a5e8"
         },
         {
           "text": "."
@@ -4163,7 +4470,27 @@
   {
     "characterName": "Blood Fruit",
     "abilityName": "Blood Feast",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, applies "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to the target.\n\nAfter dealing damage, heals for "
+        },
+        {
+          "text": "5% of the damage dealt",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " for each Bleed Stack currently on the target, including the stack just applied."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

@@ -1208,7 +1208,41 @@
   {
     "characterName": "Electric Dragon",
     "abilityName": "Thunder Stroke",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On attack, also strikes the next living enemy in the lineup for damage equal to "
+        },
+        {
+          "text": "50%",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " of his "
+        },
+        {
+          "text": "ATTACK",
+          "color": "#ff0051"
+        },
+        {
+          "text": ".\n\nEach enemy damaged by this effect has a "
+        },
+        {
+          "text": "35% chance",
+          "color": "#e5b86b"
+        },
+        {
+          "text": " to become "
+        },
+        {
+          "text": "Electrified",
+          "color": "#f2d46f"
+        },
+        {
+          "text": " for 1 turn."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

@@ -301,6 +301,15 @@ function formatAbilityDescription(text, cardName = "") {
     );
   }
 
+  // Ice Admiral — Ice Age.
+  // Keep the two sentences as separate paragraphs, matching the original card.
+  if (cardName === "Ice Admiral") {
+    safe = safe.replace(
+      /(for\s+1\s+turn\.)\s*(?:\n\s*)+(?=When\s+attacking)/i,
+      "$1</p><p>"
+    );
+  }
+
   // Existing general formatting for recurring/raid effects.
   safe = safe.replace(
     /\.\s+(?=Every\s+\d+\s+Global\s+Turns|In\s+raids,)/i,
@@ -429,6 +438,14 @@ function formatAbilityDescription(text, cardName = "") {
     mark(/30%\s+more\s+damage/gi, "ability-damage");
     mark(/10%\s+of\s+(?:its\s+)?current\s+HP/gi, "ability-max-hp");
     mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
+  }
+
+  // Ice Admiral — Ice Age.
+  // Match the card: freezing phrases are cyan; ATTACK and 35% are red/pink.
+  if (cardName === "Ice Admiral") {
+    mark(/\bFreezes\s+enemies\b/gi, "ability-speed");
+    mark(/\bFrozen\s+enemy\b/gi, "ability-speed");
+    mark(/\b35%\b/g, "ability-attack");
   }
 
   // The Fake: HP is green, ATTACK is red, SPEED is blue.

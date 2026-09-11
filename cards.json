@@ -449,7 +449,7 @@
   {
     "characterName": "Ice Admiral",
     "abilityName": "Ice Age",
-    "abilityDescription": "",
+    "abilityDescription": "On entry, Freezes enemies for 1 turn.\n\nWhen attacking a Frozen enemy, increases his ATTACK by 35%.",
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

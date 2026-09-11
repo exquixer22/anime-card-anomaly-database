@@ -5537,7 +5537,52 @@
   {
     "characterName": "Blood guardian",
     "abilityName": "Sanguine Gift",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "2 turns",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "drains",
+          "color": "#f0787d"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "5% of each enemy's maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", restores HP equal to the damage dealt, and applies "
+        },
+        {
+          "text": "1 Bleed Stack",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to each enemy.\n\nWhenever Blood Guardian permanently gains bonus "
+        },
+        {
+          "text": "ATTACK equal to 25% of the damage taken",
+          "color": "#f0787d"
+        },
+        {
+          "text": ".\n\nIn raids, the total HP is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

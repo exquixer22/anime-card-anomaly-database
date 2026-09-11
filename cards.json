@@ -5026,7 +5026,38 @@
   {
     "characterName": "Death Apostle",
     "abilityName": "Crimson Halberd",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Every "
+        },
+        {
+          "text": "2 attacks",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": ", Death Apostle strikes "
+        },
+        {
+          "text": "twice.",
+          "color": "#e5b86b"
+        },
+        {
+          "text": "\n\nIf the target is below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", the second strike deals "
+        },
+        {
+          "text": "150% total damage.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5041,7 +5072,52 @@
   {
     "characterName": "Cursed Earth Spirit",
     "abilityName": "Cursed Roots",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever Cursed Earth Spirit takes damage, gains "
+        },
+        {
+          "text": "1 Bloom Stack.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nEach Bloom Stack grants "
+        },
+        {
+          "text": "10% damage reduction",
+          "color": "#e5b86b"
+        },
+        {
+          "text": ".\n\nAt "
+        },
+        {
+          "text": "5 Bloom Stacks",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", consumes all stacks to restore "
+        },
+        {
+          "text": "30% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " and applies "
+        },
+        {
+          "text": "Root",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": " to all enemies for "
+        },
+        {
+          "text": "1 turn.",
+          "color": "#c8c9d4"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5056,7 +5132,38 @@
   {
     "characterName": "Chrome Butcher",
     "abilityName": "Walking Arsenal",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, uses Gorilla Arms to deal "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " twice to the opposing card.\n\nOn attack, fires 3 Smart Gun shots at random enemies, each dealing "
+        },
+        {
+          "text": "40% damage.",
+          "color": "#ef9b79"
+        },
+        {
+          "text": "\n\nOn death, fires the Missile Launcher to deal "
+        },
+        {
+          "text": "100% damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the entire enemy team and applies "
+        },
+        {
+          "text": "Burn for 2 turns.",
+          "color": "#ef9b79"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5071,8 +5178,18 @@
   {
     "characterName": "Grail of Wishes",
     "abilityName": "Restorative Wish",
-    "abilityDescription": "",
-    "hasOffFieldEffects": false,
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "Whenever the supported card takes damage, it restores "
+        },
+        {
+          "text": "10% of its maximum HP.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/5,000,000"
@@ -5083,7 +5200,48 @@
   {
     "characterName": "Mana Breaker",
     "abilityName": "Black Sword",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On hit, gains "
+        },
+        {
+          "text": "10% ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " and disables the opposing card's "
+        },
+        {
+          "text": "passive abilities",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "1 turn.",
+          "color": "#c8c9d4"
+        },
+        {
+          "text": "\n\nHis attacks ignore "
+        },
+        {
+          "text": "Shields",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ", damage reduction, "
+        },
+        {
+          "text": "dodge",
+          "color": "#79d9e8"
+        },
+        {
+          "text": ", and defensive abilities."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5121,7 +5279,31 @@
   {
     "characterName": "Scummy Adventurer",
     "abilityName": "Steal!",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, steals "
+        },
+        {
+          "text": "25% of the opposing card's stats.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nAgainst a female card, steals "
+        },
+        {
+          "text": "50% instead.",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": "\n\nIn raids, stolen HP is capped at "
+        },
+        {
+          "text": "100% of this card's maximum HP.",
+          "color": "#8fdaa0"
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5136,7 +5318,62 @@
   {
     "characterName": "Blooming Man",
     "abilityName": "Final Release!",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry, gains a "
+        },
+        {
+          "text": "Shield",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "20% of maximum HP.",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": "\n\nWhen Blooming Man falls below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", activates "
+        },
+        {
+          "text": "Final Form",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": ", gains a "
+        },
+        {
+          "text": "Shield",
+          "color": "#79d9e8"
+        },
+        {
+          "text": " equal to "
+        },
+        {
+          "text": "50% of maximum HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", and permanently summons a permanent storm that deals "
+        },
+        {
+          "text": "10% of his ATTACK",
+          "color": "#f0787d"
+        },
+        {
+          "text": " to all enemies at the start of each turn."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {
@@ -5151,7 +5388,34 @@
   {
     "characterName": "Cursed Sprinter",
     "abilityName": "Energy Boost",
-    "abilityDescription": "",
+    "abilityDescription": {
+      "parts": [
+        {
+          "text": "On entry and when Cursed Sprinter falls below "
+        },
+        {
+          "text": "50% HP",
+          "color": "#8fdaa0"
+        },
+        {
+          "text": ", uses a boost that deals "
+        },
+        {
+          "text": "300% of this card's damage",
+          "color": "#ef9b79"
+        },
+        {
+          "text": " to the opposing card.\n\nIf "
+        },
+        {
+          "text": "Spirit Huntress",
+          "color": "#c8a5e8"
+        },
+        {
+          "text": " is on the same team, Cursed Sprinter can also use a boost upon death."
+        }
+      ]
+    },
     "hasOffFieldEffects": false,
     "borders": {
       "Classic": {

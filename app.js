@@ -425,7 +425,7 @@ function formatAbilityDescription(text, cardName = "") {
   // Fatherboard — Overclock.
   // Only the first "Overheat Mode" is purple. The next two stay white.
   if (cardName === "Fatherboard") {
-    markOccurrence(/\bOverheat\s+Mode\b/gi, "ability-overheat", 1);
+    markOccurrence(/\bOverheat\s+Mode\b/gi, "ability-kokoverclock", 1);
     mark(/30%\s+more\s+damage/gi, "ability-damage");
     mark(/10%\s+of\s+(?:its\s+)?current\s+HP/gi, "ability-max-hp");
     mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");

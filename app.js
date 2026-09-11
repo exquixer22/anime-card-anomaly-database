@@ -289,15 +289,6 @@ function formatAbilityDescription(text, cardName = "") {
     mark(/100%/g, "ability-max-hp");
   }
 
-  if (cardName === "Fatherboard") {
-    // Overclock — match the original card colors.
-    // Only the first "Overheat Mode" is purple; later occurrences stay white.
-    markOccurrence(/Overheat Mode/gi, "ability-overheat", 1);
-    mark(/30%\s+more\s+damage/gi, "ability-damage");
-    mark(/10%\s+of\s+current\s+HP/gi, "ability-max-hp");
-    mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
-  }
-
   // Fatherboard — Overclock.
   if (cardName === "Fatherboard") {
     safe = safe.replace(
@@ -432,10 +423,11 @@ function formatAbilityDescription(text, cardName = "") {
   }
 
   // Fatherboard — Overclock.
+  // Only the first "Overheat Mode" is purple. The next two stay white.
   if (cardName === "Fatherboard") {
-    mark(/\bOverheat\s+Mode\b/gi, "ability-kokoverclock");
+    markOccurrence(/\bOverheat\s+Mode\b/gi, "ability-overheat", 1);
     mark(/30%\s+more\s+damage/gi, "ability-damage");
-    mark(/10%\s+of\s+its\s+current\s+HP/gi, "ability-max-hp");
+    mark(/10%\s+of\s+(?:its\s+)?current\s+HP/gi, "ability-max-hp");
     mark(/70%\s+of\s+maximum\s+HP/gi, "ability-max-hp");
   }
 

@@ -1320,7 +1320,7 @@
         }
       ]
     },
-    "hasOffFieldEffects": false,
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/5,000"
@@ -1380,7 +1380,7 @@
         }
       ]
     },
-    "hasOffFieldEffects": false,
+    "hasOffFieldEffects": true,
     "borders": {
       "Classic": {
         "odds": "1/6,000",

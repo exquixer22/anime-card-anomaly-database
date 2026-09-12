@@ -541,3 +541,26 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
   text-transform:none;
   text-align:right;
 }
+
+
+/* Marine artwork background — CSS-only; does not alter card data or rendering logic. */
+.card[data-index="0"]{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+}
+.card[data-index="0"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/marine-card-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  opacity:.42;
+}
+.card[data-index="0"] .stat,
+.card[data-index="0"] .ability{
+  background:rgba(18,20,28,.82);
+}

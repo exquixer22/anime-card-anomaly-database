@@ -661,3 +661,62 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 .card[data-index="14"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/young-hunter-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
 
 .card[data-index="15"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/skyroot-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+
+/* Detail popup artwork backgrounds. */
+
+#modalCard.bg-2{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-2::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/ball-of-feathers-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-2 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-3{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-3::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/slime-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-3 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-4{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-4::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/demon-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-4 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-5{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-5::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/hole-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-5 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-6{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-6::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/pusu-pusu-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-6 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-7{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-7::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cyber-koko-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-7 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-8{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-8::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/koko-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-8 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-9{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-9::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/the-cyclist-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-9 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-10{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-10::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/knucklehead-ninja-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-10 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-11{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-11::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/eldergrove-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-11 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-12{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-12::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/thunder-boy-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-12 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-13{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-13::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/fpln-67-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-13 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-14{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-14::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/young-hunter-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-14 .stat{background:rgba(18,20,28,.82)}
+
+#modalCard.bg-15{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-15::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/skyroot-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-15 .stat{background:rgba(18,20,28,.82)}

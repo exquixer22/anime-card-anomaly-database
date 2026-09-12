@@ -326,7 +326,7 @@ function availableBorders(c) { return borderOrder.filter(r => c.borders && c.bor
 function renderModalCard(c, border) {
   const stats = c.borders[border]; if (!stats) return;
   const borderButtons = availableBorders(c).map(r => `<button class="border-toggle ${r === border ? "active" : ""} ${cardBorderClass(r)}" data-border="${esc(r)}">${esc(r)}</button>`).join("");
-  $("#modalContent").innerHTML = `<div class="border-toggle-row">${borderButtons}</div><div id="modalCard" class="modal-card ${cardBorderClass(border)}${c.characterName === "Marine" ? " marine-background" : ""}">
+  $("#modalContent").innerHTML = `<div class="border-toggle-row">${borderButtons}</div><div id="modalCard" class="modal-card ${cardBorderClass(border)}${c.characterName === "Marine" ? " marine-background" : ""}${c.characterName === "Blue Cat" ? " blue-cat-background" : ""}">
     <div class="card-meta"><span class="badge ${borderClass(border)}">${isSupportCard(stats) ? "Support" : esc(border)}</span>${obtainBadgeHtml(c.obtain)}</div>
     <h2>${esc(c.characterName)}</h2>${statsHtml(stats)}
     <div class="modal-odds-row"><p class="odds">${esc(stats.odds)}</p>${Number(c.teamLimit) === 1 ? '<p class="team-limit">1 per team</p>' : ''}</div>

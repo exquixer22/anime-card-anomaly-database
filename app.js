@@ -307,9 +307,7 @@ function renderCards() {
   $("#cardGrid").innerHTML = pageCards.map(c => {
     const originalIndex = cards.indexOf(c);
     const stats = c.borders.Classic;
-    const backgroundStyle = c.backgroundImage ? ` style="--card-bg-image:url('${esc(c.backgroundImage)}')"` : "";
-    const backgroundClass = c.backgroundImage ? " has-background-image" : "";
-    return `<article class="card ${cardBorderClass("Classic")}${backgroundClass}"${backgroundStyle} data-index="${originalIndex}">`
+    return `<article class="card ${cardBorderClass("Classic")}" data-index="${originalIndex}">
       <div class="card-meta"><span class="badge ${borderClass("Classic")}">${isSupportCard(stats) ? "Support" : "Classic"}</span>${obtainBadgeHtml(c.obtain)}</div>
       <h3>${esc(c.characterName)}</h3>${statsHtml(stats, true)}
       <div class="ability"><h4>${esc(c.abilityName)}</h4>${c.hasOffFieldEffects ? '<span class="ability-offfield">OFF-FIELD</span>' : ''}</div>
@@ -328,9 +326,7 @@ function availableBorders(c) { return borderOrder.filter(r => c.borders && c.bor
 function renderModalCard(c, border) {
   const stats = c.borders[border]; if (!stats) return;
   const borderButtons = availableBorders(c).map(r => `<button class="border-toggle ${r === border ? "active" : ""} ${cardBorderClass(r)}" data-border="${esc(r)}">${esc(r)}</button>`).join("");
-  const backgroundStyle = c.backgroundImage ? ` style="--card-bg-image:url('${esc(c.backgroundImage)}')"` : "";
-  const backgroundClass = c.backgroundImage ? " has-background-image" : "";
-  $("#modalContent").innerHTML = `<div class="border-toggle-row">${borderButtons}</div><div id="modalCard" class="modal-card ${cardBorderClass(border)}${backgroundClass}"${backgroundStyle}>`
+  $("#modalContent").innerHTML = `<div class="border-toggle-row">${borderButtons}</div><div id="modalCard" class="modal-card ${cardBorderClass(border)}">
     <div class="card-meta"><span class="badge ${borderClass(border)}">${isSupportCard(stats) ? "Support" : esc(border)}</span>${obtainBadgeHtml(c.obtain)}</div>
     <h2>${esc(c.characterName)}</h2>${statsHtml(stats)}
     <div class="modal-odds-row"><p class="odds">${esc(stats.odds)}</p>${Number(c.teamLimit) === 1 ? '<p class="team-limit">1 per team</p>' : ''}</div>

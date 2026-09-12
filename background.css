@@ -1,11 +1,6 @@
-/* Optional character artwork backgrounds */
-.card.has-background-image,
-.modal-card.has-background-image{position:relative;isolation:isolate;overflow:hidden}
-.card.has-background-image::before,
-.modal-card.has-background-image::before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--card-bg-image);background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.24}
-.card.has-background-image::after,
-.modal-card.has-background-image::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(18,20,28,.70);pointer-events:none}
-.card.has-background-image>*,
-.modal-card.has-background-image>*{position:relative;z-index:1}
-.card.has-background-image .stat,
-.card.has-background-image .ability{background:rgba(18,20,28,.82)}
+.card.has-background-image,.modal-card.has-background-image{position:relative;isolation:isolate;overflow:hidden;background:#1a1e2a}
+.card.has-background-image::before,.modal-card.has-background-image::before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--card-bg-image);background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.28}
+.card.has-background-image::after,.modal-card.has-background-image::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(12,16,27,.68)}
+.card.has-background-image>*,.modal-card.has-background-image>*{position:relative;z-index:1}
+.card.has-background-image .stat,.card.has-background-image .ability{background:rgba(18,21,29,.86)}
+.modal-card.has-background-image .ability-description{text-shadow:0 1px 2px rgba(0,0,0,.75)}

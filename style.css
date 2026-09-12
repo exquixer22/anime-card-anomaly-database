@@ -630,3 +630,34 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalCard.blue-cat-background .stat{
   background:rgba(18,20,28,.82);
 }
+
+
+/* Character artwork backgrounds. */
+
+.card[data-index="2"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/ball-of-feathers-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+
+.card[data-index="3"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/slime-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="4"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/demon-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="5"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/hole-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="6"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/pusu-pusu-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="7"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cyber-koko-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="8"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/koko-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="9"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/the-cyclist-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="10"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/knucklehead-ninja-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+
+.card[data-index="11"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/eldergrove-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+
+.card[data-index="12"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/thunder-boy-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+
+.card[data-index="13"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/fpln-67-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="14"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/young-hunter-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+
+.card[data-index="15"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/skyroot-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}

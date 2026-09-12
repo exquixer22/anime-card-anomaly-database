@@ -586,3 +586,47 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalCard.marine-background .stat{
   background:rgba(18,20,28,.82);
 }
+
+
+/* Blue Cat artwork background — CSS-only. */
+.card[data-index="1"]{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+}
+.card[data-index="1"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/blue-cat-card-bg.png");
+  background-size:cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+  opacity:.42;
+}
+.card[data-index="1"] .stat,
+.card[data-index="1"] .ability{
+  background:rgba(18,20,28,.82);
+}
+
+/* Blue Cat artwork in the card details popup. */
+#modalCard.blue-cat-background{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+}
+#modalCard.blue-cat-background::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/blue-cat-card-bg.png");
+  background-size:cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+  opacity:.42;
+}
+#modalCard.blue-cat-background .stat{
+  background:rgba(18,20,28,.82);
+}

@@ -29,7 +29,8 @@
         "speed": 35
       }
     },
-    "obtain": "Base Pack"
+    "obtain": "Base Pack",
+    "backgroundImage": "assets/marine-card-bg.jpg"
   },
   {
     "characterName": "Blue Cat",

@@ -1057,11 +1057,11 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalCard.bg-34 .stat{background:rgba(18,20,28,.82)}
 .card[data-index="35"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cat-thief-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
 #modalCard.bg-35{position:relative;isolation:isolate;overflow:hidden}
-#modalCard.bg-35::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cat-thief-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-35::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cat-thief-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
 #modalCard.bg-35 .stat{background:rgba(18,20,28,.82)}
 .card[data-index="36"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/lost-sworsman-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
 #modalCard.bg-36{position:relative;isolation:isolate;overflow:hidden}
-#modalCard.bg-36::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/lost-sworsman-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-36::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/lost-sworsman-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
 #modalCard.bg-36 .stat{background:rgba(18,20,28,.82)}
 .card[data-index="37"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/water-ninja-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
 #modalCard.bg-37{position:relative;isolation:isolate;overflow:hidden}
@@ -1069,7 +1069,7 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalCard.bg-37 .stat{background:rgba(18,20,28,.82)}
 .card[data-index="38"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/strongest-warrior-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
 #modalCard.bg-38{position:relative;isolation:isolate;overflow:hidden}
-#modalCard.bg-38::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/strongest-warrior-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-38::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/strongest-warrior-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
 #modalCard.bg-38 .stat{background:rgba(18,20,28,.82)}
 .card[data-index="39"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/armor-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
 #modalCard.bg-39{position:relative;isolation:isolate;overflow:hidden}

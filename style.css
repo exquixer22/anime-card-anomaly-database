@@ -1083,3 +1083,82 @@ footer{text-align:center;color:#8891a5;padding:25px;border-top:1px solid #252b39
 #modalCard.bg-41{position:relative;isolation:isolate;overflow:hidden}
 #modalCard.bg-41::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/malleable-man-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
 #modalCard.bg-41 .stat{background:rgba(18,20,28,.82)}
+
+
+/* Additional character artwork backgrounds (cards and detail popups). */
+.card[data-index="42"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/demon-slayer-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-42{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-42::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/demon-slayer-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-42 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="43"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cursed-vessel-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-43{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-43::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/cursed-vessel-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-43 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="44"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/shoes-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+#modalCard.bg-44{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-44::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/shoes-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-44 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="45"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/steel-proxy-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-45{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-45::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/steel-proxy-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-45 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="46"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/copy-ninja-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-46{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-46::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/copy-ninja-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-46 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="47"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/crazy-wild-boar-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-47{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-47::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/crazy-wild-boar-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-47 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="48"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/grumpy-princess-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+#modalCard.bg-48{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-48::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/grumpy-princess-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-48 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="49"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/forest-dryad-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-49{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-49::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/forest-dryad-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-49 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="50"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/remote-warlord-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-50{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-50::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/remote-warlord-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-50 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="51"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/water-princess-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+#modalCard.bg-51{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-51::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/water-princess-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-51 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="52"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/awakened-prodigy-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-52{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-52::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/awakened-prodigy-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-52 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="53"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/golden-lion-spear-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-53{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-53::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/golden-lion-spear-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-53 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="54"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/ranger-officer-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-54{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-54::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/ranger-officer-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-54 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="55"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/world-champion-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-55{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-55::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/world-champion-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-55 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="56"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/blood-girl-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-56{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-56::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/blood-girl-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-56 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="57"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/elf-leader-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+#modalCard.bg-57{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-57::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/elf-leader-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-57 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="58"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/god-of-thunder-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat}
+#modalCard.bg-58{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-58::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/god-of-thunder-card-bg.png");background-size:cover;background-position:center 25%;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-58 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="59"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/masked-strategist-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat}
+#modalCard.bg-59{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-59::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/masked-strategist-card-bg.png");background-size:cover;background-position:center;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-59 .stat{background:rgba(18,20,28,.82)}
+.card[data-index="60"]{background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/star-brawler-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat}
+#modalCard.bg-60{position:relative;isolation:isolate;overflow:hidden}
+#modalCard.bg-60::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(18,20,28,.72),rgba(18,20,28,.72)),url("assets/star-brawler-card-bg.png");background-size:cover;background-position:center top;background-repeat:no-repeat;opacity:.42}
+#modalCard.bg-60 .stat{background:rgba(18,20,28,.82)}

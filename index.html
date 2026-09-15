@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anime Card: Anomaly Database</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="additional-backgrounds.css">
 </head>
 <body>
 <header>
@@ -37,137 +38,43 @@
       </select>
       <select id="sourceFilter" class="source-filter-native" aria-hidden="true" tabindex="-1">
         <option value="">All Sources</option>
-        <option value="Base Pack">Base</option>
-        <option value="Manhwa Pack">Manhwa</option>
-        <option value="Isekai Pack">Isekai</option>
-        <option value="Boss">Boss</option>
-        <option value="Raid">Raid</option>
-        <option value="Rain Weather">Rain</option>
-        <option value="Snow Weather">Snow</option>
-        <option value="Storm Weather">Storm</option>
-        <option value="Blood Moon Weather">Blood Moon</option>
-        <option value="Black Out Weather">Black Out</option>
-        <option value="Solar Wrath Weather">Solar Wrath</option>
-        <option value="Spooky Weather">Spooky</option>
-        <option value="Ink Fall Weather">Ink Fall</option>
-        <option value="Time Madness Weather">Time Madness</option>
-        <option value="Sylvan Anomaly">Sylvan</option>
-        <option value="Cyber Anomaly">Cyber</option>
-        <option value="Launch Celebration">Event</option>
+        <option value="Base Pack">Base</option><option value="Manhwa Pack">Manhwa</option><option value="Isekai Pack">Isekai</option><option value="Boss">Boss</option><option value="Raid">Raid</option><option value="Rain Weather">Rain</option><option value="Snow Weather">Snow</option><option value="Storm Weather">Storm</option><option value="Blood Moon Weather">Blood Moon</option><option value="Black Out Weather">Black Out</option><option value="Solar Wrath Weather">Solar Wrath</option><option value="Spooky Weather">Spooky</option><option value="Ink Fall Weather">Ink Fall</option><option value="Time Madness Weather">Time Madness</option><option value="Sylvan Anomaly">Sylvan</option><option value="Cyber Anomaly">Cyber</option><option value="Launch Celebration">Event</option>
       </select>
       <div class="source-filter-wrap">
-        <button id="sourceFilterButton" class="source-filter-button" type="button" aria-haspopup="listbox" aria-expanded="false">
-          <span class="source-filter-selected">All Sources</span><span class="source-filter-chevron">⌄</span>
-        </button>
+        <button id="sourceFilterButton" class="source-filter-button" type="button" aria-haspopup="listbox" aria-expanded="false"><span class="source-filter-selected">All Sources</span><span class="source-filter-chevron">⌄</span></button>
         <div id="sourceFilterMenu" class="source-filter-menu hidden" role="listbox">
-          <button type="button" class="source-filter-item selected" data-source="">
-            <span class="source-filter-empty-icon" aria-hidden="true"></span><span class="source-filter-item-label">All Sources</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Base Pack">
-            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Base</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Manhwa Pack">
-            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Manhwa</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Isekai Pack">
-            <img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Isekai</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Boss">
-            <img class="source-icon" src="assets/source-icons/boss.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Boss</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Raid">
-            <img class="source-icon" src="assets/source-icons/raid.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Raid</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Rain Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Rain</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Snow Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Snow</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Storm Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Storm</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Blood Moon Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Blood Moon</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Black Out Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Black Out</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Solar Wrath Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Solar Wrath</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Spooky Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Spooky</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Ink Fall Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Ink Fall</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Time Madness Weather">
-            <img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Time Madness</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Sylvan Anomaly">
-            <img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Sylvan</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Cyber Anomaly">
-            <img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Cyber</span>
-          </button>
-          <button type="button" class="source-filter-item" data-source="Launch Celebration">
-            <img class="source-icon" src="assets/source-icons/event.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Event</span>
-          </button>
+          <button type="button" class="source-filter-item selected" data-source=""><span class="source-filter-empty-icon" aria-hidden="true"></span><span class="source-filter-item-label">All Sources</span></button>
+          <button type="button" class="source-filter-item" data-source="Base Pack"><img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Base</span></button>
+          <button type="button" class="source-filter-item" data-source="Manhwa Pack"><img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Manhwa</span></button>
+          <button type="button" class="source-filter-item" data-source="Isekai Pack"><img class="source-icon" src="assets/source-icons/pack.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Isekai</span></button>
+          <button type="button" class="source-filter-item" data-source="Boss"><img class="source-icon" src="assets/source-icons/boss.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Boss</span></button>
+          <button type="button" class="source-filter-item" data-source="Raid"><img class="source-icon" src="assets/source-icons/raid.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Raid</span></button>
+          <button type="button" class="source-filter-item" data-source="Rain Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Rain</span></button>
+          <button type="button" class="source-filter-item" data-source="Snow Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Snow</span></button>
+          <button type="button" class="source-filter-item" data-source="Storm Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Storm</span></button>
+          <button type="button" class="source-filter-item" data-source="Blood Moon Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Blood Moon</span></button>
+          <button type="button" class="source-filter-item" data-source="Black Out Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Black Out</span></button>
+          <button type="button" class="source-filter-item" data-source="Solar Wrath Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Solar Wrath</span></button>
+          <button type="button" class="source-filter-item" data-source="Spooky Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Spooky</span></button>
+          <button type="button" class="source-filter-item" data-source="Ink Fall Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Ink Fall</span></button>
+          <button type="button" class="source-filter-item" data-source="Time Madness Weather"><img class="source-icon" src="assets/source-icons/weather.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Time Madness</span></button>
+          <button type="button" class="source-filter-item" data-source="Sylvan Anomaly"><img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Sylvan</span></button>
+          <button type="button" class="source-filter-item" data-source="Cyber Anomaly"><img class="source-icon" src="assets/source-icons/anomaly.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Cyber</span></button>
+          <button type="button" class="source-filter-item" data-source="Launch Celebration"><img class="source-icon" src="assets/source-icons/event.png" alt="" aria-hidden="true"><span class="source-filter-item-label">Event</span></button>
         </div>
       </div>
     </div>
-    <div class="sort-row">
-      <div class="sort-controls" aria-label="Sort cards by stat">
-        <span class="sort-label">Sort:</span>
-        <button class="sort-stat" type="button" data-stat="health" aria-label="Sort by Health">
-          <span>Health</span><span class="sort-arrow">↕</span>
-        </button>
-        <button class="sort-stat" type="button" data-stat="attack" aria-label="Sort by Attack">
-          <span>Attack</span><span class="sort-arrow">↕</span>
-        </button>
-        <button class="sort-stat" type="button" data-stat="speed" aria-label="Sort by Speed">
-          <span>Speed</span><span class="sort-arrow">↕</span>
-        </button>
-      </div>
-    </div>
+    <div class="sort-row"><div class="sort-controls" aria-label="Sort cards by stat"><span class="sort-label">Sort:</span><button class="sort-stat" type="button" data-stat="health" aria-label="Sort by Health"><span>Health</span><span class="sort-arrow">↕</span></button><button class="sort-stat" type="button" data-stat="attack" aria-label="Sort by Attack"><span>Attack</span><span class="sort-arrow">↕</span></button><button class="sort-stat" type="button" data-stat="speed" aria-label="Sort by Speed"><span>Speed</span><span class="sort-arrow">↕</span></button></div></div>
     <div id="cardGrid" class="card-grid"></div>
     <nav id="pagination" class="pagination" aria-label="Card database pagination"></nav>
     <p id="count" class="card-count"></p>
   </section>
-
-  <section id="mechanics" class="page">
-    <div class="hero"><h2>Battle Mechanics</h2></div>
-    <div class="info-grid">
-      <article><h3>🎴 Team Formation</h3><ul>
-        <li>A team consists of 5 cards.</li>
-        <li>Only 1 card is active on the field at a time.</li>
-        <li>The remaining 4 cards stay on the bench.</li>
-        <li>You choose the placement order from first to last.</li>
-        <li>When the active card is defeated, the next card in the bench order replaces it.</li>
-      </ul></article>
-      <article><h3>🌐 Global Turn</h3><p>Based on current observations, a Global Turn is an overall battle cycle involving both fielded cards completing their turns, including applicable off-field ability effects from benched cards.</p><p class="note">Status: Observed / needs further testing.</p></article>
-      <article><h3>🪑 Off-Field Effects</h3><p>An Off-Field Effect is an effect within a card's ability that can still work while the card remains on the bench.</p><p>The ability itself is not necessarily entirely "Off-Field"; some of its effects may require the card to be on the field.</p></article>
-      <article><h3>🌈 Border Order</h3><ol>
-        <li>Classic — most common</li><li>Scarlet</li><li>Holographic</li><li>Astral</li><li>Anomaly — rarest</li>
-      </ol></article>
-    </div>
-  </section>
-
-  <section id="about" class="page">
-    <div class="hero"><h2>About This Database</h2></div>
-    <article class="about"><p>This is a fan-made, community-maintained database for the Roblox game <strong>Anime Card: Anomaly</strong>.</p><p>The goal is to document cards, rarities, stats, odds, abilities, and battle mechanics as accurately as possible.</p><p>Card count numbers such as <code>#177/263</code> are intentionally not stored as card data.</p></article>
-  </section>
+  <section id="mechanics" class="page"><div class="hero"><h2>Battle Mechanics</h2></div><div class="info-grid"><article><h3>🎴 Team Formation</h3><ul><li>A team consists of 5 cards.</li><li>Only 1 card is active on the field at a time.</li><li>The remaining 4 cards stay on the bench.</li><li>You choose the placement order from first to last.</li><li>When the active card is defeated, the next card in the bench order replaces it.</li></ul></article><article><h3>🌐 Global Turn</h3><p>Based on current observations, a Global Turn is an overall battle cycle involving both fielded cards completing their turns, including applicable off-field ability effects from benched cards.</p><p class="note">Status: Observed / needs further testing.</p></article><article><h3>🪑 Off-Field Effects</h3><p>An Off-Field Effect is an effect within a card's ability that can still work while the card remains on the bench.</p><p>The ability itself is not necessarily entirely "Off-Field"; some of its effects may require the card to be on the field.</p></article><article><h3>🌈 Border Order</h3><ol><li>Classic — most common</li><li>Scarlet</li><li>Holographic</li><li>Astral</li><li>Anomaly — rarest</li></ol></article></div></section>
+  <section id="about" class="page"><div class="hero"><h2>About This Database</h2></div><article class="about"><p>This is a fan-made, community-maintained database for the Roblox game <strong>Anime Card: Anomaly</strong>.</p><p>The goal is to document cards, rarities, stats, odds, abilities, and battle mechanics as accurately as possible.</p><p>Card count numbers such as <code>#177/263</code> are intentionally not stored as card data.</p></article></section>
 </main>
-
-<div id="modal" class="modal hidden">
-  <div class="modal-box">
-    <button id="closeModal" class="close" aria-label="Close">×</button>
-    <div id="modalContent"></div>
-  </div>
-</div>
-
+<div id="modal" class="modal hidden"><div class="modal-box"><button id="closeModal" class="close" aria-label="Close">×</button><div id="modalContent"></div></div></div>
 <footer>Fan-made database • Not affiliated with Roblox or the game developers</footer>
 <script src="app.js"></script>
+<script src="additional-backgrounds.js"></script>
 </body>
 </html>
